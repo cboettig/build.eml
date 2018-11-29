@@ -1,0 +1,16 @@
+#' repository 
+#'
+#' repository 
+#'
+#'
+#' @param inheritParams node_template 
+#' @param originator A person or organization asociated with this resource.
+#'
+#' @return a repository list object
+#'
+#' @export
+
+ repository <- function(originator = NULL){ 
+Filter(Negate(is.null),
+ list(
+originator = originator))}
