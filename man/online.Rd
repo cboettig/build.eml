@@ -8,13 +8,13 @@ online(onlineDescription = NULL, url = NULL, connection = NULL,
   connectionDefinition = NULL)
 }
 \arguments{
-\item{onlineDescription}{onlineDescriptionSee \code{\link[=onlineDescription]{onlineDescription()}}}
+\item{onlineDescription}{onlineDescription See \code{\link[=onlineDescription]{onlineDescription()}}}
 
-\item{url}{urlSee \code{\link[=url]{url()}}}
+\item{url}{url See \code{\link[=url]{url()}}}
 
-\item{connection}{connectionSee \code{\link[=connection]{connection()}}}
+\item{connection}{connection See \code{\link[=connection]{connection()}}}
 
-\item{connectionDefinition}{The definition of a connection that will be used in another location in the EML documentSee \code{\link[=connectionDefinition]{connectionDefinition()}}}
+\item{connectionDefinition}{The definition of a connection that will be used in another location in the EML document See \code{\link[=connectionDefinition]{connectionDefinition()}}}
 }
 \value{
 a online list object

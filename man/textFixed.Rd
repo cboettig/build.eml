@@ -8,11 +8,11 @@ textFixed(fieldWidth = NULL, lineNumber = NULL,
   fieldStartColumn = NULL)
 }
 \arguments{
-\item{fieldWidth}{Field width in characters for fixed field length.See \code{\link[=fieldWidth]{fieldWidth()}}}
+\item{fieldWidth}{Field width in characters for fixed field length. See \code{\link[=fieldWidth]{fieldWidth()}}}
 
-\item{lineNumber}{The line on which the data field is found, when the data record is written over more than one physical line in the file.See \code{\link[=lineNumber]{lineNumber()}}}
+\item{lineNumber}{The line on which the data field is found, when the data record is written over more than one physical line in the file. See \code{\link[=lineNumber]{lineNumber()}}}
 
-\item{fieldStartColumn}{The starting column number for a fixed format attribute.See \code{\link[=fieldStartColumn]{fieldStartColumn()}}}
+\item{fieldStartColumn}{The starting column number for a fixed format attribute. See \code{\link[=fieldStartColumn]{fieldStartColumn()}}}
 }
 \value{
 a textFixed list object

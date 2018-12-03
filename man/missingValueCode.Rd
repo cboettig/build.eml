@@ -7,9 +7,9 @@
 missingValueCode(code = NULL, codeExplanation = NULL)
 }
 \arguments{
-\item{code}{The missing value code itself.See \code{\link[=code]{code()}}}
+\item{code}{The missing value code itself. See \code{\link[=code]{code()}}}
 
-\item{codeExplanation}{An explanation of what the missing value code means.See \code{\link[=codeExplanation]{codeExplanation()}}}
+\item{codeExplanation}{An explanation of what the missing value code means. See \code{\link[=codeExplanation]{codeExplanation()}}}
 }
 \value{
 a missingValueCode list object

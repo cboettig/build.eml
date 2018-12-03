@@ -10,27 +10,27 @@ implementation(distribution = NULL, size = NULL, language = NULL,
   programmingLanguage = NULL, checksum = NULL, dependency = NULL)
 }
 \arguments{
-\item{distribution}{Information on how the resource is distributed online and offlineSee \code{\link[=distribution]{distribution()}}}
+\item{distribution}{Information on how the resource is distributed online and offline See \code{\link[=distribution]{distribution()}}}
 
-\item{size}{Physical size of an implementation.See \code{\link[=size]{size()}}}
+\item{size}{Physical size of an implementation. See \code{\link[=size]{size()}}}
 
-\item{language}{The International Language of the software implementation.See \code{\link[=language]{language()}}}
+\item{language}{The International Language of the software implementation. See \code{\link[=language]{language()}}}
 
-\item{operatingSystem}{The operating system(s) an implementation runs on.See \code{\link[=operatingSystem]{operatingSystem()}}}
+\item{operatingSystem}{The operating system(s) an implementation runs on. See \code{\link[=operatingSystem]{operatingSystem()}}}
 
-\item{machineProcessor}{The machine processor(s) required for executing the implementation.See \code{\link[=machineProcessor]{machineProcessor()}}}
+\item{machineProcessor}{The machine processor(s) required for executing the implementation. See \code{\link[=machineProcessor]{machineProcessor()}}}
 
-\item{virtualMachine}{The virtual machine that the implementation requires.See \code{\link[=virtualMachine]{virtualMachine()}}}
+\item{virtualMachine}{The virtual machine that the implementation requires. See \code{\link[=virtualMachine]{virtualMachine()}}}
 
-\item{diskUsage}{The minimum amount of Disk Space required to install this implementation.See \code{\link[=diskUsage]{diskUsage()}}}
+\item{diskUsage}{The minimum amount of Disk Space required to install this implementation. See \code{\link[=diskUsage]{diskUsage()}}}
 
-\item{runtimeMemoryUsage}{The minimum amount of memory required to run an implementation.See \code{\link[=runtimeMemoryUsage]{runtimeMemoryUsage()}}}
+\item{runtimeMemoryUsage}{The minimum amount of memory required to run an implementation. See \code{\link[=runtimeMemoryUsage]{runtimeMemoryUsage()}}}
 
-\item{programmingLanguage}{The computer programming language the software package was programmed in.See \code{\link[=programmingLanguage]{programmingLanguage()}}}
+\item{programmingLanguage}{The computer programming language the software package was programmed in. See \code{\link[=programmingLanguage]{programmingLanguage()}}}
 
-\item{checksum}{The generated checksum value of a software package that is a self-contained module.See \code{\link[=checksum]{checksum()}}}
+\item{checksum}{The generated checksum value of a software package that is a self-contained module. See \code{\link[=checksum]{checksum()}}}
 
-\item{dependency}{This fields documents any dependencies that this implementation might have.See \code{\link[=dependency]{dependency()}}}
+\item{dependency}{This fields documents any dependencies that this implementation might have. See \code{\link[=dependency]{dependency()}}}
 }
 \value{
 a implementation list object

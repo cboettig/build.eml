@@ -10,7 +10,7 @@ title(value = NULL, lang = NULL)
 \item{value}{The text value (e.g. when given text is devined for
 multiple languages.)}
 
-\item{lang}{language code for element contentSee \code{\link[=lang]{lang()}}}
+\item{lang}{language code for element content}
 }
 \value{
 a title list object

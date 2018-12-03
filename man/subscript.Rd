@@ -8,11 +8,11 @@ subscript(value = NULL, subscript = NULL, superscript = NULL,
   lang = NULL)
 }
 \arguments{
-\item{value}{Language translation for the sub/superscriptSee \code{\link[=value]{value()}}}
+\item{value}{Language translation for the sub/superscript See \code{\link[=value]{value()}}}
 
-\item{subscript}{A subscript in a text paragraph.See \code{\link[=subscript]{subscript()}}}
+\item{subscript}{A subscript in a text paragraph. See \code{\link[=subscript]{subscript()}}}
 
-\item{superscript}{A superscript in a text paragraph.See \code{\link[=superscript]{superscript()}}}
+\item{superscript}{A superscript in a text paragraph. See \code{\link[=superscript]{superscript()}}}
 
 \item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 }

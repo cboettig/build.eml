@@ -4,9 +4,9 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param constraintName A meaningfull name of the constraint.See [constraintName()]
-#' @param constraintDescription Descibes the purpose of the constraint.See [constraintDescription()]
-#' @param key The set of attributes to which this constraint applies.See [key()]
+#' @param constraintName A meaningfull name of the constraint. See [constraintName()]
+#' @param constraintDescription Descibes the purpose of the constraint. See [constraintDescription()]
+#' @param key The set of attributes to which this constraint applies. See [key()]
 #'
 #' @return a uniqueKey list object
 #'

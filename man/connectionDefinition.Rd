@@ -9,13 +9,13 @@ connectionDefinition(schemeName = NULL, description = NULL,
   system = NULL, scope = NULL)
 }
 \arguments{
-\item{schemeName}{The name of the scheme used to identify this connection.See \code{\link[=schemeName]{schemeName()}}}
+\item{schemeName}{The name of the scheme used to identify this connection. See \code{\link[=schemeName]{schemeName()}}}
 
-\item{description}{The description of the scheme used to identify this connection.See \code{\link[=description]{description()}}}
+\item{description}{The description of the scheme used to identify this connection. See \code{\link[=description]{description()}}}
 
-\item{parameterDefinition}{The definition of a parameter that is needed to properly use this connection scheme.See \code{\link[=parameterDefinition]{parameterDefinition()}}}
+\item{parameterDefinition}{The definition of a parameter that is needed to properly use this connection scheme. See \code{\link[=parameterDefinition]{parameterDefinition()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

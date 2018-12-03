@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param keywordType The type of each keyword.See [keywordType()]
+#' @param keywordType The type of each keyword.
 #'
 #' @return a keyword list object
 #'

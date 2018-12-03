@@ -10,23 +10,23 @@ physical(objectName = NULL, size = NULL, authentication = NULL,
   references = NULL, id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{objectName}{The name of the data object.See \code{\link[=objectName]{objectName()}}}
+\item{objectName}{The name of the data object. See \code{\link[=objectName]{objectName()}}}
 
-\item{size}{Describes the physical size of the data object.See \code{\link[=size]{size()}}}
+\item{size}{Describes the physical size of the data object. See \code{\link[=size]{size()}}}
 
-\item{authentication}{A value, typically a checksum, used to authenticate that the bitstream delivered to the user is identical to the original.See \code{\link[=authentication]{authentication()}}}
+\item{authentication}{A value, typically a checksum, used to authenticate that the bitstream delivered to the user is identical to the original. See \code{\link[=authentication]{authentication()}}}
 
-\item{compressionMethod}{Name of a compression method appliedSee \code{\link[=compressionMethod]{compressionMethod()}}}
+\item{compressionMethod}{Name of a compression method applied See \code{\link[=compressionMethod]{compressionMethod()}}}
 
-\item{encodingMethod}{Name of a encoding method appliedSee \code{\link[=encodingMethod]{encodingMethod()}}}
+\item{encodingMethod}{Name of a encoding method applied See \code{\link[=encodingMethod]{encodingMethod()}}}
 
-\item{characterEncoding}{Contains the name of the character encoding used for the data.See \code{\link[=characterEncoding]{characterEncoding()}}}
+\item{characterEncoding}{Contains the name of the character encoding used for the data. See \code{\link[=characterEncoding]{characterEncoding()}}}
 
-\item{dataFormat}{Describes the internal physical format of a data object.See \code{\link[=dataFormat]{dataFormat()}}}
+\item{dataFormat}{Describes the internal physical format of a data object. See \code{\link[=dataFormat]{dataFormat()}}}
 
-\item{distribution}{Information on how the resource is distributed online and offlineSee \code{\link[=distribution]{distribution()}}}
+\item{distribution}{Information on how the resource is distributed online and offline See \code{\link[=distribution]{distribution()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

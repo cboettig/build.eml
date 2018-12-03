@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param gRingLatitude The latitude of a point of the g-ring.See [gRingLatitude()]
+#' @param gRingLatitude The latitude of a point of the g-ring. See [gRingLatitude()]
 #'
 #' @return a gRingPoint list object
 #'

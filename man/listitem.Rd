@@ -7,11 +7,11 @@
 listitem(para = NULL, itemizedlist = NULL, orderedlist = NULL)
 }
 \arguments{
-\item{para}{A simple paragraph of text.See \code{\link[=para]{para()}}}
+\item{para}{A simple paragraph of text. See \code{\link[=para]{para()}}}
 
-\item{itemizedlist}{A list of items in a text paragraph.See \code{\link[=itemizedlist]{itemizedlist()}}}
+\item{itemizedlist}{A list of items in a text paragraph. See \code{\link[=itemizedlist]{itemizedlist()}}}
 
-\item{orderedlist}{An ordered list of items in a text paragraph.See \code{\link[=orderedlist]{orderedlist()}}}
+\item{orderedlist}{An ordered list of items in a text paragraph. See \code{\link[=orderedlist]{orderedlist()}}}
 }
 \value{
 a listitem list object

@@ -8,9 +8,9 @@ datasetGPolygon(datasetGPolygonOuterGRing = NULL,
   datasetGPolygonExclusionGRing = NULL)
 }
 \arguments{
-\item{datasetGPolygonOuterGRing}{The outer containment loop of a datasetGPolygon.See \code{\link[=datasetGPolygonOuterGRing]{datasetGPolygonOuterGRing()}}}
+\item{datasetGPolygonOuterGRing}{The outer containment loop of a datasetGPolygon. See \code{\link[=datasetGPolygonOuterGRing]{datasetGPolygonOuterGRing()}}}
 
-\item{datasetGPolygonExclusionGRing}{Data Set G-Polygon Exclusion G-Ring, the closed nonintersecting boundary of a void area (or hole in an interior area).See \code{\link[=datasetGPolygonExclusionGRing]{datasetGPolygonExclusionGRing()}}}
+\item{datasetGPolygonExclusionGRing}{Data Set G-Polygon Exclusion G-Ring, the closed nonintersecting boundary of a void area (or hole in an interior area). See \code{\link[=datasetGPolygonExclusionGRing]{datasetGPolygonExclusionGRing()}}}
 }
 \value{
 a datasetGPolygon list object

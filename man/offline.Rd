@@ -9,17 +9,17 @@ offline(mediumName = NULL, mediumDensity = NULL,
   mediumFormat = NULL, mediumNote = NULL)
 }
 \arguments{
-\item{mediumName}{Name of the medium that for this resource distributionSee \code{\link[=mediumName]{mediumName()}}}
+\item{mediumName}{Name of the medium that for this resource distribution See \code{\link[=mediumName]{mediumName()}}}
 
-\item{mediumDensity}{the density of the digital medium if this is relevant.See \code{\link[=mediumDensity]{mediumDensity()}}}
+\item{mediumDensity}{the density of the digital medium if this is relevant. See \code{\link[=mediumDensity]{mediumDensity()}}}
 
-\item{mediumDensityUnits}{a numerical density's unitsSee \code{\link[=mediumDensityUnits]{mediumDensityUnits()}}}
+\item{mediumDensityUnits}{a numerical density's units See \code{\link[=mediumDensityUnits]{mediumDensityUnits()}}}
 
-\item{mediumVolume}{total volume of the storage mediumSee \code{\link[=mediumVolume]{mediumVolume()}}}
+\item{mediumVolume}{total volume of the storage medium See \code{\link[=mediumVolume]{mediumVolume()}}}
 
-\item{mediumFormat}{format of the medium on which the resource is shipped.See \code{\link[=mediumFormat]{mediumFormat()}}}
+\item{mediumFormat}{format of the medium on which the resource is shipped. See \code{\link[=mediumFormat]{mediumFormat()}}}
 
-\item{mediumNote}{note about the mediaSee \code{\link[=mediumNote]{mediumNote()}}}
+\item{mediumNote}{note about the media See \code{\link[=mediumNote]{mediumNote()}}}
 }
 \value{
 a offline list object

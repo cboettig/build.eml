@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param accuracyReport A qualitative statement about the accuracy of the data.See [accuracyReport()]
-#' @param quantitativeAccuracyReport A quantitative assessment of the data quality.See [quantitativeAccuracyReport()]
+#' @param accuracyReport A qualitative statement about the accuracy of the data. See [accuracyReport()]
+#' @param quantitativeAccuracyReport A quantitative assessment of the data quality. See [quantitativeAccuracyReport()]
 #'
 #' @return a verticalAccuracy list object
 #'

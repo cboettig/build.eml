@@ -8,11 +8,11 @@ parameterDefinition(name = NULL, definition = NULL,
   defaultValue = NULL)
 }
 \arguments{
-\item{name}{The Name of a parameter that is needed to properly use this connection scheme.See \code{\link[=name]{name()}}}
+\item{name}{The Name of a parameter that is needed to properly use this connection scheme. See \code{\link[=name]{name()}}}
 
-\item{definition}{The definition of a parameter that is needed to properly use this connection scheme.See \code{\link[=definition]{definition()}}}
+\item{definition}{The definition of a parameter that is needed to properly use this connection scheme. See \code{\link[=definition]{definition()}}}
 
-\item{defaultValue}{The default value for a parameter that is needed to properly use this connection scheme.See \code{\link[=defaultValue]{defaultValue()}}}
+\item{defaultValue}{The default value for a parameter that is needed to properly use this connection scheme. See \code{\link[=defaultValue]{defaultValue()}}}
 }
 \value{
 a parameterDefinition list object

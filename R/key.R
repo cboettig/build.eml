@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param attributeReference The identifier of an attribute found in the identified entitySee [attributeReference()]
+#' @param attributeReference The identifier of an attribute found in the identified entity See [attributeReference()]
 #'
 #' @return a key list object
 #'

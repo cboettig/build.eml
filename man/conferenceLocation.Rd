@@ -9,17 +9,17 @@ conferenceLocation(deliveryPoint = NULL, city = NULL,
   references = NULL, id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{deliveryPoint}{The location for postal deliveries.See \code{\link[=deliveryPoint]{deliveryPoint()}}}
+\item{deliveryPoint}{The location for postal deliveries. See \code{\link[=deliveryPoint]{deliveryPoint()}}}
 
-\item{city}{The name of the city for the contact.See \code{\link[=city]{city()}}}
+\item{city}{The name of the city for the contact. See \code{\link[=city]{city()}}}
 
-\item{administrativeArea}{The political area of a country.See \code{\link[=administrativeArea]{administrativeArea()}}}
+\item{administrativeArea}{The political area of a country. See \code{\link[=administrativeArea]{administrativeArea()}}}
 
-\item{postalCode}{The postal code used for routing to an address.See \code{\link[=postalCode]{postalCode()}}}
+\item{postalCode}{The postal code used for routing to an address. See \code{\link[=postalCode]{postalCode()}}}
 
-\item{country}{The name of the country for the contact's address.See \code{\link[=country]{country()}}}
+\item{country}{The name of the country for the contact's address. See \code{\link[=country]{country()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

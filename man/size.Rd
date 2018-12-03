@@ -7,7 +7,7 @@
 size(unit = NULL)
 }
 \arguments{
-\item{unit}{Unit of measurement for the entity size, by default byteSee \code{\link[=unit]{unit()}}}
+\item{unit}{Unit of measurement for the entity size, by default byte}
 }
 \value{
 a size list object

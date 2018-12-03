@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param geogCoordSys The coodinate system used to express the geographic coordinates.See [geogCoordSys()]
-#' @param projCoordSys The coodinate system used to express planar coordinates.See [projCoordSys()]
+#' @param geogCoordSys The coodinate system used to express the geographic coordinates. See [geogCoordSys()]
+#' @param projCoordSys The coodinate system used to express planar coordinates. See [projCoordSys()]
 #'
 #' @return a horizCoordSysDef list object
 #'

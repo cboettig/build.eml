@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param gRingPoint A single geographic locationSee [gRingPoint()]
+#' @param gRingPoint A single geographic location See [gRingPoint()]
 #'
 #' @return a datasetGPolygonExclusionGRing list object
 #'

@@ -12,7 +12,7 @@ multiple languages.)}
 
 \item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 
-\item{keywordType}{The type of each keyword.See \code{\link[=keywordType]{keywordType()}}}
+\item{keywordType}{The type of each keyword.}
 }
 \value{
 a keyword list object

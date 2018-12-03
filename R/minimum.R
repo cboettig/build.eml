@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param exclusive Exclusive bounds flagSee [exclusive()]
+#' @param exclusive Exclusive bounds flag
 #'
 #' @return a minimum list object
 #'

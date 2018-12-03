@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param unit Unit of measurement for the entity size, by default byteSee [unit()]
+#' @param unit Unit of measurement for the entity size, by default byte
 #'
 #' @return a size list object
 #'

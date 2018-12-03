@@ -7,7 +7,7 @@
 key(attributeReference = NULL)
 }
 \arguments{
-\item{attributeReference}{The identifier of an attribute found in the identified entitySee \code{\link[=attributeReference]{attributeReference()}}}
+\item{attributeReference}{The identifier of an attribute found in the identified entity See \code{\link[=attributeReference]{attributeReference()}}}
 }
 \value{
 a key list object

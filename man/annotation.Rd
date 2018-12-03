@@ -8,13 +8,13 @@ annotation(propertyURI = NULL, propertyLabel = NULL, valueURI = NULL,
   valueLabel = NULL)
 }
 \arguments{
-\item{propertyURI}{The persistent URI used to identify a property from a vocabulary.See \code{\link[=propertyURI]{propertyURI()}}}
+\item{propertyURI}{The persistent URI used to identify a property from a vocabulary. See \code{\link[=propertyURI]{propertyURI()}}}
 
-\item{propertyLabel}{A human readable representation of the controlled property.See \code{\link[=propertyLabel]{propertyLabel()}}}
+\item{propertyLabel}{A human readable representation of the controlled property. See \code{\link[=propertyLabel]{propertyLabel()}}}
 
-\item{valueURI}{The persistent URI used to identify a value from a vocabulary.See \code{\link[=valueURI]{valueURI()}}}
+\item{valueURI}{The persistent URI used to identify a value from a vocabulary. See \code{\link[=valueURI]{valueURI()}}}
 
-\item{valueLabel}{A human readable representation of the controlled value.See \code{\link[=valueLabel]{valueLabel()}}}
+\item{valueLabel}{A human readable representation of the controlled value. See \code{\link[=valueLabel]{valueLabel()}}}
 }
 \value{
 a annotation list object

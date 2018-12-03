@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param principal The user or group (principal) for which the access control applies.See [principal()]
-#' @param permission The type of permission being granted or denied.See [permission()]
+#' @param principal The user or group (principal) for which the access control applies. See [principal()]
+#' @param permission The type of permission being granted or denied. See [permission()]
 #'
 #' @return a allow list object
 #'

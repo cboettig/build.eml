@@ -8,9 +8,9 @@ horizontalAccuracy(accuracyReport = NULL,
   quantitativeAccuracyReport = NULL)
 }
 \arguments{
-\item{accuracyReport}{A qualitative statement about the accuracy of the data.See \code{\link[=accuracyReport]{accuracyReport()}}}
+\item{accuracyReport}{A qualitative statement about the accuracy of the data. See \code{\link[=accuracyReport]{accuracyReport()}}}
 
-\item{quantitativeAccuracyReport}{A quantitative assessment of the data quality.See \code{\link[=quantitativeAccuracyReport]{quantitativeAccuracyReport()}}}
+\item{quantitativeAccuracyReport}{A quantitative assessment of the data quality. See \code{\link[=quantitativeAccuracyReport]{quantitativeAccuracyReport()}}}
 }
 \value{
 a horizontalAccuracy list object

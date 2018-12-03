@@ -11,27 +11,27 @@ attribute(attributeName = NULL, attributeLabel = NULL,
   references = NULL, id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{attributeName}{The name of the attributeSee \code{\link[=attributeName]{attributeName()}}}
+\item{attributeName}{The name of the attribute See \code{\link[=attributeName]{attributeName()}}}
 
-\item{attributeLabel}{A label for displaying an attribute name.See \code{\link[=attributeLabel]{attributeLabel()}}}
+\item{attributeLabel}{A label for displaying an attribute name. See \code{\link[=attributeLabel]{attributeLabel()}}}
 
-\item{attributeDefinition}{Precise definition of the attributeSee \code{\link[=attributeDefinition]{attributeDefinition()}}}
+\item{attributeDefinition}{Precise definition of the attribute See \code{\link[=attributeDefinition]{attributeDefinition()}}}
 
-\item{storageType}{Storage type hint for this fieldSee \code{\link[=storageType]{storageType()}}}
+\item{storageType}{Storage type hint for this field See \code{\link[=storageType]{storageType()}}}
 
-\item{measurementScale}{The measurement scale for the attribute.See \code{\link[=measurementScale]{measurementScale()}}}
+\item{measurementScale}{The measurement scale for the attribute. See \code{\link[=measurementScale]{measurementScale()}}}
 
-\item{missingValueCode}{Character for missing value in the data of the fieldSee \code{\link[=missingValueCode]{missingValueCode()}}}
+\item{missingValueCode}{Character for missing value in the data of the field See \code{\link[=missingValueCode]{missingValueCode()}}}
 
-\item{accuracy}{The accuracy of the attribute. This information should describe any accuracy information that is known about the collection of this data attribute.See \code{\link[=accuracy]{accuracy()}}}
+\item{accuracy}{The accuracy of the attribute. This information should describe any accuracy information that is known about the collection of this data attribute. See \code{\link[=accuracy]{accuracy()}}}
 
-\item{coverage}{An explanation of the coverage of the attribute.See \code{\link[=coverage]{coverage()}}}
+\item{coverage}{An explanation of the coverage of the attribute. See \code{\link[=coverage]{coverage()}}}
 
-\item{methods}{An explanation of the methods involved in the collection of this attribute.See \code{\link[=methods]{methods()}}}
+\item{methods}{An explanation of the methods involved in the collection of this attribute. See \code{\link[=methods]{methods()}}}
 
-\item{annotation}{A precisely-defined semantic statement for this attribute.See \code{\link[=annotation]{annotation()}}}
+\item{annotation}{A precisely-defined semantic statement for this attribute. See \code{\link[=annotation]{annotation()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

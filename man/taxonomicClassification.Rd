@@ -8,13 +8,13 @@ taxonomicClassification(taxonRankName = NULL, taxonRankValue = NULL,
   commonName = NULL, taxonomicClassification = NULL)
 }
 \arguments{
-\item{taxonRankName}{The name of the taxonomic rank for which the Taxon rank value is provided.See \code{\link[=taxonRankName]{taxonRankName()}}}
+\item{taxonRankName}{The name of the taxonomic rank for which the Taxon rank value is provided. See \code{\link[=taxonRankName]{taxonRankName()}}}
 
-\item{taxonRankValue}{The name representing the taxonomic rank of the taxon being described.See \code{\link[=taxonRankValue]{taxonRankValue()}}}
+\item{taxonRankValue}{The name representing the taxonomic rank of the taxon being described. See \code{\link[=taxonRankValue]{taxonRankValue()}}}
 
-\item{commonName}{Specification of applicable common names.See \code{\link[=commonName]{commonName()}}}
+\item{commonName}{Specification of applicable common names. See \code{\link[=commonName]{commonName()}}}
 
-\item{taxonomicClassification}{Information about the range of taxa addressed in the data set or collection.See \code{\link[=taxonomicClassification]{taxonomicClassification()}}}
+\item{taxonomicClassification}{Information about the range of taxa addressed in the data set or collection. See \code{\link[=taxonomicClassification]{taxonomicClassification()}}}
 }
 \value{
 a taxonomicClassification list object

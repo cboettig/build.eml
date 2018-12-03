@@ -8,11 +8,11 @@ georeferenceInfo(cornerPoint = NULL, controlPoint = NULL,
   bilinearFit = NULL)
 }
 \arguments{
-\item{cornerPoint}{Location of a corner on a rectified grid within the coordinate system.See \code{\link[=cornerPoint]{cornerPoint()}}}
+\item{cornerPoint}{Location of a corner on a rectified grid within the coordinate system. See \code{\link[=cornerPoint]{cornerPoint()}}}
 
-\item{controlPoint}{A point defined in both grid cell and georeferenced coordinates that is used to position the raster grid within the coordinate system defined in the spatialReference modoule.See \code{\link[=controlPoint]{controlPoint()}}}
+\item{controlPoint}{A point defined in both grid cell and georeferenced coordinates that is used to position the raster grid within the coordinate system defined in the spatialReference modoule. See \code{\link[=controlPoint]{controlPoint()}}}
 
-\item{bilinearFit}{Terms of a bilinear model to fit the grid to the coordinate system.See \code{\link[=bilinearFit]{bilinearFit()}}}
+\item{bilinearFit}{Terms of a bilinear model to fit the grid to the coordinate system. See \code{\link[=bilinearFit]{bilinearFit()}}}
 }
 \value{
 a georeferenceInfo list object

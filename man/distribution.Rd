@@ -9,15 +9,15 @@ distribution(online = NULL, offline = NULL, inline = NULL,
   scope = NULL)
 }
 \arguments{
-\item{online}{onlineSee \code{\link[=online]{online()}}}
+\item{online}{online See \code{\link[=online]{online()}}}
 
-\item{offline}{offlineSee \code{\link[=offline]{offline()}}}
+\item{offline}{offline See \code{\link[=offline]{offline()}}}
 
-\item{inline}{inlineSee \code{\link[=inline]{inline()}}}
+\item{inline}{inline See \code{\link[=inline]{inline()}}}
 
-\item{access}{accessSee \code{\link[=access]{access()}}}
+\item{access}{access See \code{\link[=access]{access()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

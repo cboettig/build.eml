@@ -7,9 +7,9 @@
 complex(textFixed = NULL, textDelimited = NULL)
 }
 \arguments{
-\item{textFixed}{Describes the physical format of data sequences that use a fixed number of characters in a specified position in the stream to locate attribute values.See \code{\link[=textFixed]{textFixed()}}}
+\item{textFixed}{Describes the physical format of data sequences that use a fixed number of characters in a specified position in the stream to locate attribute values. See \code{\link[=textFixed]{textFixed()}}}
 
-\item{textDelimited}{Describes the physical format of data sequences that use delimiters in the stream to locate attribute values.See \code{\link[=textDelimited]{textDelimited()}}}
+\item{textDelimited}{Describes the physical format of data sequences that use delimiters in the stream to locate attribute values. See \code{\link[=textDelimited]{textDelimited()}}}
 }
 \value{
 a complex list object

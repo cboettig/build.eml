@@ -4,10 +4,10 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param onlineDescription onlineDescriptionSee [onlineDescription()]
-#' @param url urlSee [url()]
-#' @param connection connectionSee [connection()]
-#' @param connectionDefinition The definition of a connection that will be used in another location in the EML documentSee [connectionDefinition()]
+#' @param onlineDescription onlineDescription See [onlineDescription()]
+#' @param url url See [url()]
+#' @param connection connection See [connection()]
+#' @param connectionDefinition The definition of a connection that will be used in another location in the EML document See [connectionDefinition()]
 #'
 #' @return a online list object
 #'

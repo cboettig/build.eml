@@ -8,11 +8,11 @@ externallyDefinedFormat(formatName = NULL, formatVersion = NULL,
   citation = NULL)
 }
 \arguments{
-\item{formatName}{Name of the format of the data objectSee \code{\link[=formatName]{formatName()}}}
+\item{formatName}{Name of the format of the data object See \code{\link[=formatName]{formatName()}}}
 
-\item{formatVersion}{Version of the format of the data objectSee \code{\link[=formatVersion]{formatVersion()}}}
+\item{formatVersion}{Version of the format of the data object See \code{\link[=formatVersion]{formatVersion()}}}
 
-\item{citation}{Citation providing more details about the physical format.See \code{\link[=citation]{citation()}}}
+\item{citation}{Citation providing more details about the physical format. See \code{\link[=citation]{citation()}}}
 }
 \value{
 a externallyDefinedFormat list object

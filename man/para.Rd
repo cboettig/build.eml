@@ -9,21 +9,21 @@ para(value = NULL, itemizedlist = NULL, orderedlist = NULL,
   literalLayout = NULL, ulink = NULL, lang = NULL)
 }
 \arguments{
-\item{value}{Language translation for the paragraphSee \code{\link[=value]{value()}}}
+\item{value}{Language translation for the paragraph See \code{\link[=value]{value()}}}
 
-\item{itemizedlist}{A list of items in a text paragraph.See \code{\link[=itemizedlist]{itemizedlist()}}}
+\item{itemizedlist}{A list of items in a text paragraph. See \code{\link[=itemizedlist]{itemizedlist()}}}
 
-\item{orderedlist}{An ordered list of items in a text paragraph.See \code{\link[=orderedlist]{orderedlist()}}}
+\item{orderedlist}{An ordered list of items in a text paragraph. See \code{\link[=orderedlist]{orderedlist()}}}
 
-\item{emphasis}{A span of emphasized text in a paragraph.See \code{\link[=emphasis]{emphasis()}}}
+\item{emphasis}{A span of emphasized text in a paragraph. See \code{\link[=emphasis]{emphasis()}}}
 
-\item{subscript}{A subscript in a text paragraph.See \code{\link[=subscript]{subscript()}}}
+\item{subscript}{A subscript in a text paragraph. See \code{\link[=subscript]{subscript()}}}
 
-\item{superscript}{A superscript in a text paragraph.See \code{\link[=superscript]{superscript()}}}
+\item{superscript}{A superscript in a text paragraph. See \code{\link[=superscript]{superscript()}}}
 
-\item{literalLayout}{The equivalent to <pre> in html.See \code{\link[=literalLayout]{literalLayout()}}}
+\item{literalLayout}{The equivalent to <pre> in html. See \code{\link[=literalLayout]{literalLayout()}}}
 
-\item{ulink}{a link that addresses its target by means of a URLSee \code{\link[=ulink]{ulink()}}}
+\item{ulink}{a link that addresses its target by means of a URL See \code{\link[=ulink]{ulink()}}}
 
 \item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 }

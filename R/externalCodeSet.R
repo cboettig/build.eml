@@ -4,9 +4,9 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param codesetName The name of an externally defined code setSee [codesetName()]
-#' @param citation A citation for the code set referenceSee [citation()]
-#' @param codesetURL A URL for the code set referenceSee [codesetURL()]
+#' @param codesetName The name of an externally defined code set See [codesetName()]
+#' @param citation A citation for the code set reference See [citation()]
+#' @param codesetURL A URL for the code set reference See [codesetURL()]
 #'
 #' @return a externalCodeSet list object
 #'

@@ -8,15 +8,15 @@ joinCondition(key = NULL, entityReference = NULL,
   relationshipType = NULL, cardinality = NULL, referencedKey = NULL)
 }
 \arguments{
-\item{key}{The set of attributes to which this constraint applies.See \code{\link[=key]{key()}}}
+\item{key}{The set of attributes to which this constraint applies. See \code{\link[=key]{key()}}}
 
-\item{entityReference}{The id of the parent-entity in a foreign key constraint.See \code{\link[=entityReference]{entityReference()}}}
+\item{entityReference}{The id of the parent-entity in a foreign key constraint. See \code{\link[=entityReference]{entityReference()}}}
 
-\item{relationshipType}{Relationship type: Identifying or non-identifyingSee \code{\link[=relationshipType]{relationshipType()}}}
+\item{relationshipType}{Relationship type: Identifying or non-identifying See \code{\link[=relationshipType]{relationshipType()}}}
 
-\item{cardinality}{Cardinality of the relationship between a parent entity and a child entity.See \code{\link[=cardinality]{cardinality()}}}
+\item{cardinality}{Cardinality of the relationship between a parent entity and a child entity. See \code{\link[=cardinality]{cardinality()}}}
 
-\item{referencedKey}{The set of attributes to which a foreign key constraint refers.See \code{\link[=referencedKey]{referencedKey()}}}
+\item{referencedKey}{The set of attributes to which a foreign key constraint refers. See \code{\link[=referencedKey]{referencedKey()}}}
 }
 \value{
 a joinCondition list object

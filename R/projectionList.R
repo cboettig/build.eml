@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param horizCoordSysDef The definition of a coordinate systemSee [horizCoordSysDef()]
+#' @param horizCoordSysDef The definition of a coordinate system See [horizCoordSysDef()]
 #'
 #' @return a projectionList list object
 #'

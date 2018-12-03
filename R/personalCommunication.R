@@ -4,10 +4,10 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param publisher Organization that actually publishes the communicationSee [publisher()]
-#' @param publicationPlace The location at which the work was published.See [publicationPlace()]
-#' @param communicationType The type of personal communication.See [communicationType()]
-#' @param recipient Recipient of the communicationSee [recipient()]
+#' @param publisher Organization that actually publishes the communication See [publisher()]
+#' @param publicationPlace The location at which the work was published. See [publicationPlace()]
+#' @param communicationType The type of personal communication. See [communicationType()]
+#' @param recipient Recipient of the communication See [recipient()]
 #'
 #' @return a personalCommunication list object
 #'

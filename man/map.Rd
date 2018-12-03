@@ -8,13 +8,13 @@ map(publisher = NULL, edition = NULL, geographicCoverage = NULL,
   scale = NULL)
 }
 \arguments{
-\item{publisher}{Organization that actually publishes the mapSee \code{\link[=publisher]{publisher()}}}
+\item{publisher}{Organization that actually publishes the map See \code{\link[=publisher]{publisher()}}}
 
-\item{edition}{The edition of the map being described.See \code{\link[=edition]{edition()}}}
+\item{edition}{The edition of the map being described. See \code{\link[=edition]{edition()}}}
 
-\item{geographicCoverage}{Description of the geographic area which the map coversSee \code{\link[=geographicCoverage]{geographicCoverage()}}}
+\item{geographicCoverage}{Description of the geographic area which the map covers See \code{\link[=geographicCoverage]{geographicCoverage()}}}
 
-\item{scale}{The Map's scaleSee \code{\link[=scale]{scale()}}}
+\item{scale}{The Map's scale See \code{\link[=scale]{scale()}}}
 }
 \value{
 a map list object

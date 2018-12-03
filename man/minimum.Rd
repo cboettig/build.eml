@@ -7,7 +7,7 @@
 minimum(exclusive = NULL)
 }
 \arguments{
-\item{exclusive}{Exclusive bounds flagSee \code{\link[=exclusive]{exclusive()}}}
+\item{exclusive}{Exclusive bounds flag}
 }
 \value{
 a minimum list object

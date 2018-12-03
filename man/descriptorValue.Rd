@@ -7,7 +7,7 @@
 descriptorValue(name_or_id = NULL)
 }
 \arguments{
-\item{name_or_id}{The name part of a name/value pair of a descriptor; or ID portion of a classification, if applicable.See \code{\link[=name_or_id]{name_or_id()}}}
+\item{name_or_id}{The name part of a name/value pair of a descriptor; or ID portion of a classification, if applicable.}
 }
 \value{
 a descriptorValue list object

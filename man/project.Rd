@@ -10,23 +10,23 @@ project(title = NULL, personnel = NULL, abstract = NULL,
   id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{title}{Title of the project.See \code{\link[=title]{title()}}}
+\item{title}{Title of the project. See \code{\link[=title]{title()}}}
 
-\item{personnel}{Contact and role information for people involved in the research project.See \code{\link[=personnel]{personnel()}}}
+\item{personnel}{Contact and role information for people involved in the research project. See \code{\link[=personnel]{personnel()}}}
 
-\item{abstract}{Project Abstract.See \code{\link[=abstract]{abstract()}}}
+\item{abstract}{Project Abstract. See \code{\link[=abstract]{abstract()}}}
 
-\item{funding}{Funding information.See \code{\link[=funding]{funding()}}}
+\item{funding}{Funding information. See \code{\link[=funding]{funding()}}}
 
-\item{award}{Award information.See \code{\link[=award]{award()}}}
+\item{award}{Award information. See \code{\link[=award]{award()}}}
 
-\item{studyAreaDescription}{Description of the physical area associated with the research project, potentially including coverage, climate, geology, disturbances, etc.See \code{\link[=studyAreaDescription]{studyAreaDescription()}}}
+\item{studyAreaDescription}{Description of the physical area associated with the research project, potentially including coverage, climate, geology, disturbances, etc. See \code{\link[=studyAreaDescription]{studyAreaDescription()}}}
 
-\item{designDescription}{Description of the design of the research projectSee \code{\link[=designDescription]{designDescription()}}}
+\item{designDescription}{Description of the design of the research project See \code{\link[=designDescription]{designDescription()}}}
 
-\item{relatedProject}{This field is a recursive link to another project.See \code{\link[=relatedProject]{relatedProject()}}}
+\item{relatedProject}{This field is a recursive link to another project. See \code{\link[=relatedProject]{relatedProject()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

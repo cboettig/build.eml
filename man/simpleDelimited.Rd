@@ -8,13 +8,13 @@ simpleDelimited(fieldDelimiter = NULL, collapseDelimiters = NULL,
   quoteCharacter = NULL, literalCharacter = NULL)
 }
 \arguments{
-\item{fieldDelimiter}{Character used to delimit the end of an attributeSee \code{\link[=fieldDelimiter]{fieldDelimiter()}}}
+\item{fieldDelimiter}{Character used to delimit the end of an attribute See \code{\link[=fieldDelimiter]{fieldDelimiter()}}}
 
-\item{collapseDelimiters}{Specification of how to handle consecutive delimiters while parsingSee \code{\link[=collapseDelimiters]{collapseDelimiters()}}}
+\item{collapseDelimiters}{Specification of how to handle consecutive delimiters while parsing See \code{\link[=collapseDelimiters]{collapseDelimiters()}}}
 
-\item{quoteCharacter}{Character used to quote values for delimiter escapingSee \code{\link[=quoteCharacter]{quoteCharacter()}}}
+\item{quoteCharacter}{Character used to quote values for delimiter escaping See \code{\link[=quoteCharacter]{quoteCharacter()}}}
 
-\item{literalCharacter}{Character used to escape other special charactersSee \code{\link[=literalCharacter]{literalCharacter()}}}
+\item{literalCharacter}{Character used to escape other special characters See \code{\link[=literalCharacter]{literalCharacter()}}}
 }
 \value{
 a simpleDelimited list object

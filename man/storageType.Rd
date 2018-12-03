@@ -7,7 +7,7 @@
 storageType(typeSystem = NULL)
 }
 \arguments{
-\item{typeSystem}{The system used to define the storage types. This should be an identifier of a well known and published typing system.See \code{\link[=typeSystem]{typeSystem()}}}
+\item{typeSystem}{The system used to define the storage types. This should be an identifier of a well known and published typing system.}
 }
 \value{
 a storageType list object

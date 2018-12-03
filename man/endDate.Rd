@@ -8,11 +8,11 @@ endDate(calendarDate = NULL, time = NULL,
   alternativeTimeScale = NULL)
 }
 \arguments{
-\item{calendarDate}{The calendar date for an event.See \code{\link[=calendarDate]{calendarDate()}}}
+\item{calendarDate}{The calendar date for an event. See \code{\link[=calendarDate]{calendarDate()}}}
 
-\item{time}{The time of day for an event.See \code{\link[=time]{time()}}}
+\item{time}{The time of day for an event. See \code{\link[=time]{time()}}}
 
-\item{alternativeTimeScale}{A name, code, or date describing an event or period in an alternative time scale, such as one of the geologic time scales.See \code{\link[=alternativeTimeScale]{alternativeTimeScale()}}}
+\item{alternativeTimeScale}{A name, code, or date describing an event or period in an alternative time scale, such as one of the geologic time scales. See \code{\link[=alternativeTimeScale]{alternativeTimeScale()}}}
 }
 \value{
 a endDate list object

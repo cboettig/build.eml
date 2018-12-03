@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param lang language code for element contentSee [lang()]
+#' @param lang language code for element content
 #'
 #' @return a title list object
 #'

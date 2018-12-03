@@ -8,13 +8,13 @@ entityCodeList(entityReference = NULL, valueAttributeReference = NULL,
   definitionAttributeReference = NULL, orderAttributeReference = NULL)
 }
 \arguments{
-\item{entityReference}{A reference to the id of the entity in which the code list has been definedSee \code{\link[=entityReference]{entityReference()}}}
+\item{entityReference}{A reference to the id of the entity in which the code list has been defined See \code{\link[=entityReference]{entityReference()}}}
 
-\item{valueAttributeReference}{A reference to the id of the attribute that contains the list of codesSee \code{\link[=valueAttributeReference]{valueAttributeReference()}}}
+\item{valueAttributeReference}{A reference to the id of the attribute that contains the list of codes See \code{\link[=valueAttributeReference]{valueAttributeReference()}}}
 
-\item{definitionAttributeReference}{A reference to the id of the attribute that contains the definition of codesSee \code{\link[=definitionAttributeReference]{definitionAttributeReference()}}}
+\item{definitionAttributeReference}{A reference to the id of the attribute that contains the definition of codes See \code{\link[=definitionAttributeReference]{definitionAttributeReference()}}}
 
-\item{orderAttributeReference}{A reference to the id of the attribute that contains the order of codesSee \code{\link[=orderAttributeReference]{orderAttributeReference()}}}
+\item{orderAttributeReference}{A reference to the id of the attribute that contains the order of codes See \code{\link[=orderAttributeReference]{orderAttributeReference()}}}
 }
 \value{
 a entityCodeList list object

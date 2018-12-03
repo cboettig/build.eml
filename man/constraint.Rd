@@ -9,17 +9,17 @@ constraint(primaryKey = NULL, uniqueKey = NULL,
   notNullConstraint = NULL, id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{primaryKey}{The primary key in the entitySee \code{\link[=primaryKey]{primaryKey()}}}
+\item{primaryKey}{The primary key in the entity See \code{\link[=primaryKey]{primaryKey()}}}
 
-\item{uniqueKey}{A unique key in the entitySee \code{\link[=uniqueKey]{uniqueKey()}}}
+\item{uniqueKey}{A unique key in the entity See \code{\link[=uniqueKey]{uniqueKey()}}}
 
-\item{checkConstraint}{A constraint which checks a conditional clause within an entity.See \code{\link[=checkConstraint]{checkConstraint()}}}
+\item{checkConstraint}{A constraint which checks a conditional clause within an entity. See \code{\link[=checkConstraint]{checkConstraint()}}}
 
-\item{foreignKey}{A foreign key relationship among entitiesSee \code{\link[=foreignKey]{foreignKey()}}}
+\item{foreignKey}{A foreign key relationship among entities See \code{\link[=foreignKey]{foreignKey()}}}
 
-\item{joinCondition}{A non primary/foreign key joinSee \code{\link[=joinCondition]{joinCondition()}}}
+\item{joinCondition}{A non primary/foreign key join See \code{\link[=joinCondition]{joinCondition()}}}
 
-\item{notNullConstraint}{A constraint that indicates that no null values should be present for an attribute.See \code{\link[=notNullConstraint]{notNullConstraint()}}}
+\item{notNullConstraint}{A constraint that indicates that no null values should be present for an attribute. See \code{\link[=notNullConstraint]{notNullConstraint()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param LanguageValue The actual value for the language or a code for the language.See [LanguageValue()]
-#' @param LanguageCodeStandard The International Language Code being used in the field languageValue.See [LanguageCodeStandard()]
+#' @param LanguageValue The actual value for the language or a code for the language. See [LanguageValue()]
+#' @param LanguageCodeStandard The International Language Code being used in the field languageValue. See [LanguageCodeStandard()]
 #'
 #' @return a language list object
 #'

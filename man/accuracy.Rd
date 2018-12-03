@@ -8,9 +8,9 @@ accuracy(attributeAccuracyReport = NULL,
   quantitativeAttributeAccuracyAssessment = NULL)
 }
 \arguments{
-\item{attributeAccuracyReport}{An explanatory report of the accuracy of the attribute.See \code{\link[=attributeAccuracyReport]{attributeAccuracyReport()}}}
+\item{attributeAccuracyReport}{An explanatory report of the accuracy of the attribute. See \code{\link[=attributeAccuracyReport]{attributeAccuracyReport()}}}
 
-\item{quantitativeAttributeAccuracyAssessment}{A value assigned to summarize the accuracy of the attribute.See \code{\link[=quantitativeAttributeAccuracyAssessment]{quantitativeAttributeAccuracyAssessment()}}}
+\item{quantitativeAttributeAccuracyAssessment}{A value assigned to summarize the accuracy of the attribute. See \code{\link[=quantitativeAttributeAccuracyAssessment]{quantitativeAttributeAccuracyAssessment()}}}
 }
 \value{
 a accuracy list object

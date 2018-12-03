@@ -9,13 +9,13 @@ taxonomicCoverage(taxonomicSystem = NULL,
   references = NULL, id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{taxonomicSystem}{Documentation of taxonomic sources, procedures, and treatments.See \code{\link[=taxonomicSystem]{taxonomicSystem()}}}
+\item{taxonomicSystem}{Documentation of taxonomic sources, procedures, and treatments. See \code{\link[=taxonomicSystem]{taxonomicSystem()}}}
 
-\item{generalTaxonomicCoverage}{A description of the range of taxa addressed in the data set or collection.See \code{\link[=generalTaxonomicCoverage]{generalTaxonomicCoverage()}}}
+\item{generalTaxonomicCoverage}{A description of the range of taxa addressed in the data set or collection. See \code{\link[=generalTaxonomicCoverage]{generalTaxonomicCoverage()}}}
 
-\item{taxonomicClassification}{Information about the range of taxa addressed in the data set or collection.See \code{\link[=taxonomicClassification]{taxonomicClassification()}}}
+\item{taxonomicClassification}{Information about the range of taxa addressed in the data set or collection. See \code{\link[=taxonomicClassification]{taxonomicClassification()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

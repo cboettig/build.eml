@@ -9,13 +9,13 @@ spatialReference(horizCoordSysName = NULL, horizCoordSysDef = NULL,
   scope = NULL)
 }
 \arguments{
-\item{horizCoordSysName}{The name of a predefined coordinate systemSee \code{\link[=horizCoordSysName]{horizCoordSysName()}}}
+\item{horizCoordSysName}{The name of a predefined coordinate system See \code{\link[=horizCoordSysName]{horizCoordSysName()}}}
 
-\item{horizCoordSysDef}{The definition of a coordinate systemSee \code{\link[=horizCoordSysDef]{horizCoordSysDef()}}}
+\item{horizCoordSysDef}{The definition of a coordinate system See \code{\link[=horizCoordSysDef]{horizCoordSysDef()}}}
 
-\item{vertCoordSys}{The reference frame or system from which vertical distances (altitudes or depths) are measured.See \code{\link[=vertCoordSys]{vertCoordSys()}}}
+\item{vertCoordSys}{The reference frame or system from which vertical distances (altitudes or depths) are measured. See \code{\link[=vertCoordSys]{vertCoordSys()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

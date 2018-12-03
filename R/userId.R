@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param directory The directory system within which the directoryId can be retrieved.See [directory()]
+#' @param directory The directory system within which the directoryId can be retrieved.
 #'
 #' @return a userId list object
 #'

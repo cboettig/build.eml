@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param method The method used to calculate an authentication checksum.See [method()]
+#' @param method The method used to calculate an authentication checksum.
 #'
 #' @return a authentication list object
 #'

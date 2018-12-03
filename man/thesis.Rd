@@ -7,11 +7,11 @@
 thesis(degree = NULL, institution = NULL, totalPages = NULL)
 }
 \arguments{
-\item{degree}{The name or degree level for which the thesis was completed.See \code{\link[=degree]{degree()}}}
+\item{degree}{The name or degree level for which the thesis was completed. See \code{\link[=degree]{degree()}}}
 
-\item{institution}{The name of the degree-awarding institutionSee \code{\link[=institution]{institution()}}}
+\item{institution}{The name of the degree-awarding institution See \code{\link[=institution]{institution()}}}
 
-\item{totalPages}{The total number of pages in the thesis.See \code{\link[=totalPages]{totalPages()}}}
+\item{totalPages}{The total number of pages in the thesis. See \code{\link[=totalPages]{totalPages()}}}
 }
 \value{
 a thesis list object

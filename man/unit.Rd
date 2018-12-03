@@ -7,11 +7,11 @@
 unit(standardUnit = NULL, customUnit = NULL, name = NULL)
 }
 \arguments{
-\item{standardUnit}{The name of a standard unit used to make this measurementSee \code{\link[=standardUnit]{standardUnit()}}}
+\item{standardUnit}{The name of a standard unit used to make this measurement See \code{\link[=standardUnit]{standardUnit()}}}
 
-\item{customUnit}{The name of a custom unit used to make this measurement.See \code{\link[=customUnit]{customUnit()}}}
+\item{customUnit}{The name of a custom unit used to make this measurement. See \code{\link[=customUnit]{customUnit()}}}
 
-\item{name}{The name of the unit of measure.See \code{\link[=name]{name()}}}
+\item{name}{The name of the unit of measure.}
 }
 \value{
 a unit list object

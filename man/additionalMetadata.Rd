@@ -7,9 +7,9 @@
 additionalMetadata(describes = NULL, metadata = NULL, id = NULL)
 }
 \arguments{
-\item{describes}{A pointer to the id attribute for the sub-portion of the resource that is described by this additional metadata.See \code{\link[=describes]{describes()}}}
+\item{describes}{A pointer to the id attribute for the sub-portion of the resource that is described by this additional metadata. See \code{\link[=describes]{describes()}}}
 
-\item{metadata}{This element contains the additional metadata that is to be included in the document. The content of this field can be any well-formed XML fragment.See \code{\link[=metadata]{metadata()}}}
+\item{metadata}{This element contains the additional metadata that is to be included in the document. The content of this field can be any well-formed XML fragment. See \code{\link[=metadata]{metadata()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

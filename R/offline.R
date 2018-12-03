@@ -4,12 +4,12 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param mediumName Name of the medium that for this resource distributionSee [mediumName()]
-#' @param mediumDensity the density of the digital medium if this is relevant.See [mediumDensity()]
-#' @param mediumDensityUnits a numerical density's unitsSee [mediumDensityUnits()]
-#' @param mediumVolume total volume of the storage mediumSee [mediumVolume()]
-#' @param mediumFormat format of the medium on which the resource is shipped.See [mediumFormat()]
-#' @param mediumNote note about the mediaSee [mediumNote()]
+#' @param mediumName Name of the medium that for this resource distribution See [mediumName()]
+#' @param mediumDensity the density of the digital medium if this is relevant. See [mediumDensity()]
+#' @param mediumDensityUnits a numerical density's units See [mediumDensityUnits()]
+#' @param mediumVolume total volume of the storage medium See [mediumVolume()]
+#' @param mediumFormat format of the medium on which the resource is shipped. See [mediumFormat()]
+#' @param mediumNote note about the media See [mediumNote()]
 #'
 #' @return a offline list object
 #'

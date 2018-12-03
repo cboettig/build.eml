@@ -7,7 +7,7 @@
 orderedlist(listitem = NULL)
 }
 \arguments{
-\item{listitem}{An item in a list of items.See \code{\link[=listitem]{listitem()}}}
+\item{listitem}{An item in a list of items. See \code{\link[=listitem]{listitem()}}}
 }
 \value{
 a orderedlist list object

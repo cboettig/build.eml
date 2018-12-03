@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param altitudeSysDef the reference frame or system from which altitudes (elevations) are measured.See [altitudeSysDef()]
-#' @param depthSysDef The reference frame or system from which depths are measured.See [depthSysDef()]
+#' @param altitudeSysDef the reference frame or system from which altitudes (elevations) are measured. See [altitudeSysDef()]
+#' @param depthSysDef The reference frame or system from which depths are measured. See [depthSysDef()]
 #'
 #' @return a vertCoordSys list object
 #'

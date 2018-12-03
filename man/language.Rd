@@ -13,9 +13,9 @@ multiple languages.)}
 
 \item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 
-\item{LanguageValue}{The actual value for the language or a code for the language.See \code{\link[=LanguageValue]{LanguageValue()}}}
+\item{LanguageValue}{The actual value for the language or a code for the language. See \code{\link[=LanguageValue]{LanguageValue()}}}
 
-\item{LanguageCodeStandard}{The International Language Code being used in the field languageValue.See \code{\link[=LanguageCodeStandard]{LanguageCodeStandard()}}}
+\item{LanguageCodeStandard}{The International Language Code being used in the field languageValue. See \code{\link[=LanguageCodeStandard]{LanguageCodeStandard()}}}
 }
 \value{
 a language list object

@@ -7,9 +7,9 @@
 bounds(minimum = NULL, maximum = NULL)
 }
 \arguments{
-\item{minimum}{Minimum numeric bound of attributeSee \code{\link[=minimum]{minimum()}}}
+\item{minimum}{Minimum numeric bound of attribute See \code{\link[=minimum]{minimum()}}}
 
-\item{maximum}{Maximum numeric bound of attributeSee \code{\link[=maximum]{maximum()}}}
+\item{maximum}{Maximum numeric bound of attribute See \code{\link[=maximum]{maximum()}}}
 }
 \value{
 a bounds list object

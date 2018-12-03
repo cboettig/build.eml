@@ -8,11 +8,11 @@ boundingAltitudes(altitudeMinimum = NULL, altitudeMaximum = NULL,
   altitudeUnits = NULL)
 }
 \arguments{
-\item{altitudeMinimum}{The minimum altitude extent of coverage.See \code{\link[=altitudeMinimum]{altitudeMinimum()}}}
+\item{altitudeMinimum}{The minimum altitude extent of coverage. See \code{\link[=altitudeMinimum]{altitudeMinimum()}}}
 
-\item{altitudeMaximum}{The maximum altitude extent of coverage.See \code{\link[=altitudeMaximum]{altitudeMaximum()}}}
+\item{altitudeMaximum}{The maximum altitude extent of coverage. See \code{\link[=altitudeMaximum]{altitudeMaximum()}}}
 
-\item{altitudeUnits}{The unit of altitudeSee \code{\link[=altitudeUnits]{altitudeUnits()}}}
+\item{altitudeUnits}{The unit of altitude See \code{\link[=altitudeUnits]{altitudeUnits()}}}
 }
 \value{
 a boundingAltitudes list object

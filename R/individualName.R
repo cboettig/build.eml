@@ -4,9 +4,9 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param salutation The salutation used to address an individualSee [salutation()]
-#' @param givenName The given name of the individual.See [givenName()]
-#' @param surName The last name of the individual.See [surName()]
+#' @param salutation The salutation used to address an individual See [salutation()]
+#' @param givenName The given name of the individual. See [givenName()]
+#' @param surName The last name of the individual. See [surName()]
 #'
 #' @return a individualName list object
 #'

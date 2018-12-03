@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param quantitativeAccuracyValue The value resulting from the accuracy test.See [quantitativeAccuracyValue()]
-#' @param quantitativeAccuracyMethod The method used to calculate the accuracy value.See [quantitativeAccuracyMethod()]
+#' @param quantitativeAccuracyValue The value resulting from the accuracy test. See [quantitativeAccuracyValue()]
+#' @param quantitativeAccuracyMethod The method used to calculate the accuracy value. See [quantitativeAccuracyMethod()]
 #'
 #' @return a quantitativeAccuracyReport list object
 #'

@@ -8,9 +8,9 @@ quantitativeAttributeAccuracyAssessment(attributeAccuracyValue = NULL,
   attributeAccuracyExplanation = NULL)
 }
 \arguments{
-\item{attributeAccuracyValue}{A value assigned to estimate the accuracy of the attribute.See \code{\link[=attributeAccuracyValue]{attributeAccuracyValue()}}}
+\item{attributeAccuracyValue}{A value assigned to estimate the accuracy of the attribute. See \code{\link[=attributeAccuracyValue]{attributeAccuracyValue()}}}
 
-\item{attributeAccuracyExplanation}{The test which yields the Attribute Accuracy Value.See \code{\link[=attributeAccuracyExplanation]{attributeAccuracyExplanation()}}}
+\item{attributeAccuracyExplanation}{The test which yields the Attribute Accuracy Value. See \code{\link[=attributeAccuracyExplanation]{attributeAccuracyExplanation()}}}
 }
 \value{
 a quantitativeAttributeAccuracyAssessment list object

@@ -7,9 +7,9 @@
 manuscript(institution = NULL, totalPages = NULL)
 }
 \arguments{
-\item{institution}{The address and contact information needed to request a manuscript.See \code{\link[=institution]{institution()}}}
+\item{institution}{The address and contact information needed to request a manuscript. See \code{\link[=institution]{institution()}}}
 
-\item{totalPages}{The total number of pages in the manuscript.See \code{\link[=totalPages]{totalPages()}}}
+\item{totalPages}{The total number of pages in the manuscript. See \code{\link[=totalPages]{totalPages()}}}
 }
 \value{
 a manuscript list object

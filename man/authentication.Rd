@@ -7,7 +7,7 @@
 authentication(method = NULL)
 }
 \arguments{
-\item{method}{The method used to calculate an authentication checksum.See \code{\link[=method]{method()}}}
+\item{method}{The method used to calculate an authentication checksum.}
 }
 \value{
 a authentication list object

@@ -8,11 +8,11 @@ connection(connectionDefinition = NULL, parameter = NULL,
   references = NULL, id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{connectionDefinition}{Connection DefinitionSee \code{\link[=connectionDefinition]{connectionDefinition()}}}
+\item{connectionDefinition}{Connection Definition See \code{\link[=connectionDefinition]{connectionDefinition()}}}
 
-\item{parameter}{A parameter to be used to make this connection.See \code{\link[=parameter]{parameter()}}}
+\item{parameter}{A parameter to be used to make this connection. See \code{\link[=parameter]{parameter()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

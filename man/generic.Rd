@@ -11,33 +11,33 @@ generic(publisher = NULL, publicationPlace = NULL,
   reviewedItem = NULL, ISBN = NULL, ISSN = NULL)
 }
 \arguments{
-\item{publisher}{Organization which actually publishes the referenceSee \code{\link[=publisher]{publisher()}}}
+\item{publisher}{Organization which actually publishes the reference See \code{\link[=publisher]{publisher()}}}
 
-\item{publicationPlace}{The location at which the work was published.See \code{\link[=publicationPlace]{publicationPlace()}}}
+\item{publicationPlace}{The location at which the work was published. See \code{\link[=publicationPlace]{publicationPlace()}}}
 
-\item{referenceType}{The type of reference.See \code{\link[=referenceType]{referenceType()}}}
+\item{referenceType}{The type of reference. See \code{\link[=referenceType]{referenceType()}}}
 
-\item{volume}{The volume of the reference that is part of a series.See \code{\link[=volume]{volume()}}}
+\item{volume}{The volume of the reference that is part of a series. See \code{\link[=volume]{volume()}}}
 
-\item{numberOfVolumes}{Number of volumes in a collectionSee \code{\link[=numberOfVolumes]{numberOfVolumes()}}}
+\item{numberOfVolumes}{Number of volumes in a collection See \code{\link[=numberOfVolumes]{numberOfVolumes()}}}
 
-\item{totalPages}{The total number of pages in the references.See \code{\link[=totalPages]{totalPages()}}}
+\item{totalPages}{The total number of pages in the references. See \code{\link[=totalPages]{totalPages()}}}
 
-\item{totalFigures}{The total number of figures in the reference.See \code{\link[=totalFigures]{totalFigures()}}}
+\item{totalFigures}{The total number of figures in the reference. See \code{\link[=totalFigures]{totalFigures()}}}
 
-\item{totalTables}{The total number of tables in a reference.See \code{\link[=totalTables]{totalTables()}}}
+\item{totalTables}{The total number of tables in a reference. See \code{\link[=totalTables]{totalTables()}}}
 
-\item{edition}{The edition of the generic reference being described.See \code{\link[=edition]{edition()}}}
+\item{edition}{The edition of the generic reference being described. See \code{\link[=edition]{edition()}}}
 
-\item{originalPublication}{References current publication to its original.See \code{\link[=originalPublication]{originalPublication()}}}
+\item{originalPublication}{References current publication to its original. See \code{\link[=originalPublication]{originalPublication()}}}
 
-\item{reprintEdition}{Reference for current edition that was originally published under a different title.See \code{\link[=reprintEdition]{reprintEdition()}}}
+\item{reprintEdition}{Reference for current edition that was originally published under a different title. See \code{\link[=reprintEdition]{reprintEdition()}}}
 
-\item{reviewedItem}{Reference types that are reviews of other references.See \code{\link[=reviewedItem]{reviewedItem()}}}
+\item{reviewedItem}{Reference types that are reviews of other references. See \code{\link[=reviewedItem]{reviewedItem()}}}
 
-\item{ISBN}{The unique Internation Standard Book NumberSee \code{\link[=ISBN]{ISBN()}}}
+\item{ISBN}{The unique Internation Standard Book Number See \code{\link[=ISBN]{ISBN()}}}
 
-\item{ISSN}{The unique Internation Standard Serial NumberSee \code{\link[=ISSN]{ISSN()}}}
+\item{ISSN}{The unique Internation Standard Serial Number See \code{\link[=ISSN]{ISSN()}}}
 }
 \value{
 a generic list object

@@ -4,9 +4,9 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param title The optional title of the section.See [title()]
-#' @param para A simple paragraph of text.See [para()]
-#' @param section A section of related text.See [section()]
+#' @param title The optional title of the section. See [title()]
+#' @param para A simple paragraph of text. See [para()]
+#' @param section A section of related text. See [section()]
 #'
 #' @return a section list object
 #'

@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param description Textual description of research design.See [description()]
-#' @param citation Citation that describes the research design.See [citation()]
+#' @param description Textual description of research design. See [description()]
+#' @param citation Citation that describes the research design. See [citation()]
 #'
 #' @return a designDescription list object
 #'

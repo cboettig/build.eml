@@ -4,10 +4,10 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param propertyURI The persistent URI used to identify a property from a vocabulary.See [propertyURI()]
-#' @param propertyLabel A human readable representation of the controlled property.See [propertyLabel()]
-#' @param valueURI The persistent URI used to identify a value from a vocabulary.See [valueURI()]
-#' @param valueLabel A human readable representation of the controlled value.See [valueLabel()]
+#' @param propertyURI The persistent URI used to identify a property from a vocabulary. See [propertyURI()]
+#' @param propertyLabel A human readable representation of the controlled property. See [propertyLabel()]
+#' @param valueURI The persistent URI used to identify a value from a vocabulary. See [valueURI()]
+#' @param valueLabel A human readable representation of the controlled value. See [valueLabel()]
 #'
 #' @return a annotation list object
 #'

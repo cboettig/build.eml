@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param phonetype The type of the phone to which this number appliesSee [phonetype()]
+#' @param phonetype The type of the phone to which this number applies
 #'
 #' @return a phone list object
 #'

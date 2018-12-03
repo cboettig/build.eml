@@ -8,15 +8,15 @@ measurementScale(nominal = NULL, ordinal = NULL, interval = NULL,
   ratio = NULL, dateTime = NULL)
 }
 \arguments{
-\item{nominal}{Characteristics used to define nominal (categorical) scale attributesSee \code{\link[=nominal]{nominal()}}}
+\item{nominal}{Characteristics used to define nominal (categorical) scale attributes See \code{\link[=nominal]{nominal()}}}
 
-\item{ordinal}{Characteristics used to define ordinal (ordered) scale attributesSee \code{\link[=ordinal]{ordinal()}}}
+\item{ordinal}{Characteristics used to define ordinal (ordered) scale attributes See \code{\link[=ordinal]{ordinal()}}}
 
-\item{interval}{Characteristics used to define interval scale attributesSee \code{\link[=interval]{interval()}}}
+\item{interval}{Characteristics used to define interval scale attributes See \code{\link[=interval]{interval()}}}
 
-\item{ratio}{Characteristics used to define ratio scale attributesSee \code{\link[=ratio]{ratio()}}}
+\item{ratio}{Characteristics used to define ratio scale attributes See \code{\link[=ratio]{ratio()}}}
 
-\item{dateTime}{Characteristics used to define date and time attributesSee \code{\link[=dateTime]{dateTime()}}}
+\item{dateTime}{Characteristics used to define date and time attributes See \code{\link[=dateTime]{dateTime()}}}
 }
 \value{
 a measurementScale list object

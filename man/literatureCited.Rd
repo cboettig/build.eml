@@ -7,9 +7,9 @@
 literatureCited(citation = NULL, bibtex = NULL)
 }
 \arguments{
-\item{citation}{A citation within a list of citations.See \code{\link[=citation]{citation()}}}
+\item{citation}{A citation within a list of citations. See \code{\link[=citation]{citation()}}}
 
-\item{bibtex}{List of citations in Bibtex format.See \code{\link[=bibtex]{bibtex()}}}
+\item{bibtex}{List of citations in Bibtex format. See \code{\link[=bibtex]{bibtex()}}}
 }
 \value{
 a literatureCited list object

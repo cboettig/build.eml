@@ -14,35 +14,35 @@ spatialVector(alternateIdentifier = NULL, entityName = NULL,
   system = NULL, scope = NULL)
 }
 \arguments{
-\item{alternateIdentifier}{A secondary identifier for this entitySee \code{\link[=alternateIdentifier]{alternateIdentifier()}}}
+\item{alternateIdentifier}{A secondary identifier for this entity See \code{\link[=alternateIdentifier]{alternateIdentifier()}}}
 
-\item{entityName}{The name of the entity nameSee \code{\link[=entityName]{entityName()}}}
+\item{entityName}{The name of the entity name See \code{\link[=entityName]{entityName()}}}
 
-\item{entityDescription}{General description of the entity and its contentsSee \code{\link[=entityDescription]{entityDescription()}}}
+\item{entityDescription}{General description of the entity and its contents See \code{\link[=entityDescription]{entityDescription()}}}
 
-\item{physical}{Description of the physical format of the entitySee \code{\link[=physical]{physical()}}}
+\item{physical}{Description of the physical format of the entity See \code{\link[=physical]{physical()}}}
 
-\item{coverage}{Information on the geographic, spatial and temporal coverages used in this entity.See \code{\link[=coverage]{coverage()}}}
+\item{coverage}{Information on the geographic, spatial and temporal coverages used in this entity. See \code{\link[=coverage]{coverage()}}}
 
-\item{additionalInfo}{Any extra information pertitent to the entity.See \code{\link[=additionalInfo]{additionalInfo()}}}
+\item{additionalInfo}{Any extra information pertitent to the entity. See \code{\link[=additionalInfo]{additionalInfo()}}}
 
-\item{annotation}{A precisely-defined semantic statement about this entity.See \code{\link[=annotation]{annotation()}}}
+\item{annotation}{A precisely-defined semantic statement about this entity. See \code{\link[=annotation]{annotation()}}}
 
-\item{attributeList}{The list of attributes associated with this entity.See \code{\link[=attributeList]{attributeList()}}}
+\item{attributeList}{The list of attributes associated with this entity. See \code{\link[=attributeList]{attributeList()}}}
 
-\item{constraint}{Description of any relational constraints on this entity.See \code{\link[=constraint]{constraint()}}}
+\item{constraint}{Description of any relational constraints on this entity. See \code{\link[=constraint]{constraint()}}}
 
-\item{geometry}{Type of geometric feature(s) represented in the entity.See \code{\link[=geometry]{geometry()}}}
+\item{geometry}{Type of geometric feature(s) represented in the entity. See \code{\link[=geometry]{geometry()}}}
 
-\item{geometricObjectCount}{Total number of the geometric objects occurring in the dataset.See \code{\link[=geometricObjectCount]{geometricObjectCount()}}}
+\item{geometricObjectCount}{Total number of the geometric objects occurring in the dataset. See \code{\link[=geometricObjectCount]{geometricObjectCount()}}}
 
-\item{topologyLevel}{Code which identifies the degree of complexity.See \code{\link[=topologyLevel]{topologyLevel()}}}
+\item{topologyLevel}{Code which identifies the degree of complexity. See \code{\link[=topologyLevel]{topologyLevel()}}}
 
-\item{horizontalAccuracy}{Horizontal positional accuracy of the dataSee \code{\link[=horizontalAccuracy]{horizontalAccuracy()}}}
+\item{horizontalAccuracy}{Horizontal positional accuracy of the data See \code{\link[=horizontalAccuracy]{horizontalAccuracy()}}}
 
-\item{verticalAccuracy}{Vertical positional accuracy of the dataSee \code{\link[=verticalAccuracy]{verticalAccuracy()}}}
+\item{verticalAccuracy}{Vertical positional accuracy of the data See \code{\link[=verticalAccuracy]{verticalAccuracy()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

@@ -7,9 +7,9 @@
 dateTimeDomain(bounds = NULL, references = NULL, id = NULL)
 }
 \arguments{
-\item{bounds}{Elements for specifying allowed date range.See \code{\link[=bounds]{bounds()}}}
+\item{bounds}{Elements for specifying allowed date range. See \code{\link[=bounds]{bounds()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

@@ -4,9 +4,9 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param para A simple paragraph of text.See [para()]
-#' @param itemizedlist A list of items in a text paragraph.See [itemizedlist()]
-#' @param orderedlist An ordered list of items in a text paragraph.See [orderedlist()]
+#' @param para A simple paragraph of text. See [para()]
+#' @param itemizedlist A list of items in a text paragraph. See [itemizedlist()]
+#' @param orderedlist An ordered list of items in a text paragraph. See [orderedlist()]
 #'
 #' @return a listitem list object
 #'

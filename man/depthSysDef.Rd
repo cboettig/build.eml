@@ -8,13 +8,13 @@ depthSysDef(depthDatumName = NULL, depthResolution = NULL,
   depthDistanceUnits = NULL, depthEncodingMethod = NULL)
 }
 \arguments{
-\item{depthDatumName}{The identification given to surface of reference from which depths are measured.See \code{\link[=depthDatumName]{depthDatumName()}}}
+\item{depthDatumName}{The identification given to surface of reference from which depths are measured. See \code{\link[=depthDatumName]{depthDatumName()}}}
 
-\item{depthResolution}{The minimum distance possible between two adjacent depth values, expressed in Depth Distance Units of measure.See \code{\link[=depthResolution]{depthResolution()}}}
+\item{depthResolution}{The minimum distance possible between two adjacent depth values, expressed in Depth Distance Units of measure. See \code{\link[=depthResolution]{depthResolution()}}}
 
-\item{depthDistanceUnits}{The units in which depths are recorded.See \code{\link[=depthDistanceUnits]{depthDistanceUnits()}}}
+\item{depthDistanceUnits}{The units in which depths are recorded. See \code{\link[=depthDistanceUnits]{depthDistanceUnits()}}}
 
-\item{depthEncodingMethod}{The means used to encode depths.See \code{\link[=depthEncodingMethod]{depthEncodingMethod()}}}
+\item{depthEncodingMethod}{The means used to encode depths. See \code{\link[=depthEncodingMethod]{depthEncodingMethod()}}}
 }
 \value{
 a depthSysDef list object

@@ -4,9 +4,9 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param degree The name or degree level for which the thesis was completed.See [degree()]
-#' @param institution The name of the degree-awarding institutionSee [institution()]
-#' @param totalPages The total number of pages in the thesis.See [totalPages()]
+#' @param degree The name or degree level for which the thesis was completed. See [degree()]
+#' @param institution The name of the degree-awarding institution See [institution()]
+#' @param totalPages The total number of pages in the thesis. See [totalPages()]
 #'
 #' @return a thesis list object
 #'

@@ -10,13 +10,13 @@ coverage(geographicCoverage = NULL, temporalCoverage = NULL,
   boundingCoordinates = NULL, datasetGPolygon = NULL)
 }
 \arguments{
-\item{geographicCoverage}{Geographic coverage information.See \code{\link[=geographicCoverage]{geographicCoverage()}}}
+\item{geographicCoverage}{Geographic coverage information. See \code{\link[=geographicCoverage]{geographicCoverage()}}}
 
-\item{temporalCoverage}{Temporal coverage information.See \code{\link[=temporalCoverage]{temporalCoverage()}}}
+\item{temporalCoverage}{Temporal coverage information. See \code{\link[=temporalCoverage]{temporalCoverage()}}}
 
-\item{taxonomicCoverage}{Taxonomic coverage information.See \code{\link[=taxonomicCoverage]{taxonomicCoverage()}}}
+\item{taxonomicCoverage}{Taxonomic coverage information. See \code{\link[=taxonomicCoverage]{taxonomicCoverage()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that
@@ -39,11 +39,11 @@ within this single document instance. In this particular use
 of scope, it is FIXED to be "system" because the packageId
 is required and always has the scope of the required "system".}
 
-\item{geographicDescription}{Short text description of the geographic areal domain of the data set.See \code{\link[=geographicDescription]{geographicDescription()}}}
+\item{geographicDescription}{Short text description of the geographic areal domain of the data set. See \code{\link[=geographicDescription]{geographicDescription()}}}
 
-\item{boundingCoordinates}{The four margins (N, S, E, W) of a bounding box on the earth's surface, or when considered in lat-lon pairs, the corners of the box. To define a single point, use the same value in each lat or lon pair. These elements are meant to convey general information and are not for accurate mapping. More specific information may be included by using the elements in the spatialReference schema.See \code{\link[=boundingCoordinates]{boundingCoordinates()}}}
+\item{boundingCoordinates}{The four margins (N, S, E, W) of a bounding box on the earth's surface, or when considered in lat-lon pairs, the corners of the box. To define a single point, use the same value in each lat or lon pair. These elements are meant to convey general information and are not for accurate mapping. More specific information may be included by using the elements in the spatialReference schema. See \code{\link[=boundingCoordinates]{boundingCoordinates()}}}
 
-\item{datasetGPolygon}{This construct creates a spatial ring with a hollow center.See \code{\link[=datasetGPolygon]{datasetGPolygon()}}}
+\item{datasetGPolygon}{This construct creates a spatial ring with a hollow center. See \code{\link[=datasetGPolygon]{datasetGPolygon()}}}
 }
 \value{
 a coverage list object

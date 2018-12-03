@@ -8,13 +8,13 @@ audioVisual(publisher = NULL, publicationPlace = NULL,
   performer = NULL, ISBN = NULL)
 }
 \arguments{
-\item{publisher}{Organization which actually distributes the video, film, the broadcaster etc...See \code{\link[=publisher]{publisher()}}}
+\item{publisher}{Organization which actually distributes the video, film, the broadcaster etc... See \code{\link[=publisher]{publisher()}}}
 
-\item{publicationPlace}{The location at which the work was published.See \code{\link[=publicationPlace]{publicationPlace()}}}
+\item{publicationPlace}{The location at which the work was published. See \code{\link[=publicationPlace]{publicationPlace()}}}
 
-\item{performer}{The performers in the audio visual productionSee \code{\link[=performer]{performer()}}}
+\item{performer}{The performers in the audio visual production See \code{\link[=performer]{performer()}}}
 
-\item{ISBN}{The unique Internation Standard Book NumberSee \code{\link[=ISBN]{ISBN()}}}
+\item{ISBN}{The unique Internation Standard Book Number See \code{\link[=ISBN]{ISBN()}}}
 }
 \value{
 a audioVisual list object

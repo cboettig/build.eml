@@ -11,31 +11,31 @@ chapter(publisher = NULL, publicationPlace = NULL, edition = NULL,
   pageRange = NULL)
 }
 \arguments{
-\item{publisher}{Organization that actually publishes the bookSee \code{\link[=publisher]{publisher()}}}
+\item{publisher}{Organization that actually publishes the book See \code{\link[=publisher]{publisher()}}}
 
-\item{publicationPlace}{The location at which the work was published.See \code{\link[=publicationPlace]{publicationPlace()}}}
+\item{publicationPlace}{The location at which the work was published. See \code{\link[=publicationPlace]{publicationPlace()}}}
 
-\item{edition}{The edition of the book being described.See \code{\link[=edition]{edition()}}}
+\item{edition}{The edition of the book being described. See \code{\link[=edition]{edition()}}}
 
-\item{volume}{The volume of the book that is part of a series.See \code{\link[=volume]{volume()}}}
+\item{volume}{The volume of the book that is part of a series. See \code{\link[=volume]{volume()}}}
 
-\item{numberOfVolumes}{Number of volumes in a collectionSee \code{\link[=numberOfVolumes]{numberOfVolumes()}}}
+\item{numberOfVolumes}{Number of volumes in a collection See \code{\link[=numberOfVolumes]{numberOfVolumes()}}}
 
-\item{totalPages}{The total number of pages in the book.See \code{\link[=totalPages]{totalPages()}}}
+\item{totalPages}{The total number of pages in the book. See \code{\link[=totalPages]{totalPages()}}}
 
-\item{totalFigures}{The total number of figures in the book.See \code{\link[=totalFigures]{totalFigures()}}}
+\item{totalFigures}{The total number of figures in the book. See \code{\link[=totalFigures]{totalFigures()}}}
 
-\item{totalTables}{The total number of tables in a book.See \code{\link[=totalTables]{totalTables()}}}
+\item{totalTables}{The total number of tables in a book. See \code{\link[=totalTables]{totalTables()}}}
 
-\item{ISBN}{The unique Internation Standard Book NumberSee \code{\link[=ISBN]{ISBN()}}}
+\item{ISBN}{The unique Internation Standard Book Number See \code{\link[=ISBN]{ISBN()}}}
 
-\item{chapterNumber}{The chapter number of interest within a bookSee \code{\link[=chapterNumber]{chapterNumber()}}}
+\item{chapterNumber}{The chapter number of interest within a book See \code{\link[=chapterNumber]{chapterNumber()}}}
 
-\item{editor}{The name of the editor of the book.See \code{\link[=editor]{editor()}}}
+\item{editor}{The name of the editor of the book. See \code{\link[=editor]{editor()}}}
 
-\item{bookTitle}{The title of the book.See \code{\link[=bookTitle]{bookTitle()}}}
+\item{bookTitle}{The title of the book. See \code{\link[=bookTitle]{bookTitle()}}}
 
-\item{pageRange}{The beginning and ending page numbers of a chapter.See \code{\link[=pageRange]{pageRange()}}}
+\item{pageRange}{The beginning and ending page numbers of a chapter. See \code{\link[=pageRange]{pageRange()}}}
 }
 \value{
 a chapter list object

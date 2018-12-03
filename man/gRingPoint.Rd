@@ -7,7 +7,7 @@
 gRingPoint(gRingLatitude = NULL, gRingLongitude = NULL)
 }
 \arguments{
-\item{gRingLatitude}{The latitude of a point of the g-ring.See \code{\link[=gRingLatitude]{gRingLatitude()}}}
+\item{gRingLatitude}{The latitude of a point of the g-ring. See \code{\link[=gRingLatitude]{gRingLatitude()}}}
 }
 \value{
 a gRingPoint list object

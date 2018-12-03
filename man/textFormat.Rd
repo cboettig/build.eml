@@ -11,23 +11,23 @@ textFormat(numHeaderLines = NULL, numFooterLines = NULL,
   complex = NULL)
 }
 \arguments{
-\item{numHeaderLines}{Number of header lines preceding data.See \code{\link[=numHeaderLines]{numHeaderLines()}}}
+\item{numHeaderLines}{Number of header lines preceding data. See \code{\link[=numHeaderLines]{numHeaderLines()}}}
 
-\item{numFooterLines}{Number of footer lines following data.See \code{\link[=numFooterLines]{numFooterLines()}}}
+\item{numFooterLines}{Number of footer lines following data. See \code{\link[=numFooterLines]{numFooterLines()}}}
 
-\item{recordDelimiter}{Character used to delimit records.See \code{\link[=recordDelimiter]{recordDelimiter()}}}
+\item{recordDelimiter}{Character used to delimit records. See \code{\link[=recordDelimiter]{recordDelimiter()}}}
 
-\item{physicalLineDelimiter}{Character used to delimit physical lines.See \code{\link[=physicalLineDelimiter]{physicalLineDelimiter()}}}
+\item{physicalLineDelimiter}{Character used to delimit physical lines. See \code{\link[=physicalLineDelimiter]{physicalLineDelimiter()}}}
 
-\item{numPhysicalLinesPerRecord}{The number of physical lines in the file spanned by a single logical data record.See \code{\link[=numPhysicalLinesPerRecord]{numPhysicalLinesPerRecord()}}}
+\item{numPhysicalLinesPerRecord}{The number of physical lines in the file spanned by a single logical data record. See \code{\link[=numPhysicalLinesPerRecord]{numPhysicalLinesPerRecord()}}}
 
-\item{maxRecordLength}{The maximum number of characters in any record in the physical file.See \code{\link[=maxRecordLength]{maxRecordLength()}}}
+\item{maxRecordLength}{The maximum number of characters in any record in the physical file. See \code{\link[=maxRecordLength]{maxRecordLength()}}}
 
-\item{attributeOrientation}{Orientation of attributes.See \code{\link[=attributeOrientation]{attributeOrientation()}}}
+\item{attributeOrientation}{Orientation of attributes. See \code{\link[=attributeOrientation]{attributeOrientation()}}}
 
-\item{simpleDelimited}{A simple delimited format.See \code{\link[=simpleDelimited]{simpleDelimited()}}}
+\item{simpleDelimited}{A simple delimited format. See \code{\link[=simpleDelimited]{simpleDelimited()}}}
 
-\item{complex}{A complex text format.See \code{\link[=complex]{complex()}}}
+\item{complex}{A complex text format. See \code{\link[=complex]{complex()}}}
 }
 \value{
 a textFormat list object

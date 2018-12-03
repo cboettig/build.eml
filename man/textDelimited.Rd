@@ -8,15 +8,15 @@ textDelimited(fieldDelimiter = NULL, collapseDelimiters = NULL,
   lineNumber = NULL, quoteCharacter = NULL, literalCharacter = NULL)
 }
 \arguments{
-\item{fieldDelimiter}{Character used to delimit the end of a particular attributeSee \code{\link[=fieldDelimiter]{fieldDelimiter()}}}
+\item{fieldDelimiter}{Character used to delimit the end of a particular attribute See \code{\link[=fieldDelimiter]{fieldDelimiter()}}}
 
-\item{collapseDelimiters}{Specification of how to handle consecutive delimiters while parsingSee \code{\link[=collapseDelimiters]{collapseDelimiters()}}}
+\item{collapseDelimiters}{Specification of how to handle consecutive delimiters while parsing See \code{\link[=collapseDelimiters]{collapseDelimiters()}}}
 
-\item{lineNumber}{The line on which the data field is found, when the data record is written over more than one physical line in the file.See \code{\link[=lineNumber]{lineNumber()}}}
+\item{lineNumber}{The line on which the data field is found, when the data record is written over more than one physical line in the file. See \code{\link[=lineNumber]{lineNumber()}}}
 
-\item{quoteCharacter}{Character used to quote values for delimiter escapingSee \code{\link[=quoteCharacter]{quoteCharacter()}}}
+\item{quoteCharacter}{Character used to quote values for delimiter escaping See \code{\link[=quoteCharacter]{quoteCharacter()}}}
 
-\item{literalCharacter}{Character used to escape other special charactersSee \code{\link[=literalCharacter]{literalCharacter()}}}
+\item{literalCharacter}{Character used to escape other special characters See \code{\link[=literalCharacter]{literalCharacter()}}}
 }
 \value{
 a textDelimited list object

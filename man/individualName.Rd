@@ -7,11 +7,11 @@
 individualName(salutation = NULL, givenName = NULL, surName = NULL)
 }
 \arguments{
-\item{salutation}{The salutation used to address an individualSee \code{\link[=salutation]{salutation()}}}
+\item{salutation}{The salutation used to address an individual See \code{\link[=salutation]{salutation()}}}
 
-\item{givenName}{The given name of the individual.See \code{\link[=givenName]{givenName()}}}
+\item{givenName}{The given name of the individual. See \code{\link[=givenName]{givenName()}}}
 
-\item{surName}{The last name of the individual.See \code{\link[=surName]{surName()}}}
+\item{surName}{The last name of the individual. See \code{\link[=surName]{surName()}}}
 }
 \value{
 a individualName list object

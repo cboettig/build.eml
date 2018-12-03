@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param name The name of the spheroid.See [name()]
-#' @param semiAxisMajor The larger of two orthogonal axes that define the ellipseSee [semiAxisMajor()]
+#' @param name The name of the spheroid.
+#' @param semiAxisMajor The larger of two orthogonal axes that define the ellipse
 #'
 #' @return a spheroid list object
 #'

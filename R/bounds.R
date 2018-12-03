@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param minimum Minimum numeric bound of attributeSee [minimum()]
-#' @param maximum Maximum numeric bound of attributeSee [maximum()]
+#' @param minimum Minimum numeric bound of attribute See [minimum()]
+#' @param maximum Maximum numeric bound of attribute See [maximum()]
 #'
 #' @return a bounds list object
 #'

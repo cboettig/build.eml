@@ -7,7 +7,7 @@
 phone(phonetype = NULL)
 }
 \arguments{
-\item{phonetype}{The type of the phone to which this number appliesSee \code{\link[=phonetype]{phonetype()}}}
+\item{phonetype}{The type of the phone to which this number applies}
 }
 \value{
 a phone list object

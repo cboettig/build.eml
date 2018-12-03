@@ -9,13 +9,13 @@ alternativeTimeScale(timeScaleName = NULL, timeScaleAgeEstimate = NULL,
   timeScaleCitation = NULL)
 }
 \arguments{
-\item{timeScaleName}{Name of a recognized alternative time scale.See \code{\link[=timeScaleName]{timeScaleName()}}}
+\item{timeScaleName}{Name of a recognized alternative time scale. See \code{\link[=timeScaleName]{timeScaleName()}}}
 
-\item{timeScaleAgeUncertainty}{The error estimate for the alternative time scale.See \code{\link[=timeScaleAgeUncertainty]{timeScaleAgeUncertainty()}}}
+\item{timeScaleAgeUncertainty}{The error estimate for the alternative time scale. See \code{\link[=timeScaleAgeUncertainty]{timeScaleAgeUncertainty()}}}
 
-\item{timeScaleAgeExplanation}{The name and/or description of the method used to calculate the time scale age estimate.See \code{\link[=timeScaleAgeExplanation]{timeScaleAgeExplanation()}}}
+\item{timeScaleAgeExplanation}{The name and/or description of the method used to calculate the time scale age estimate. See \code{\link[=timeScaleAgeExplanation]{timeScaleAgeExplanation()}}}
 
-\item{timeScaleCitation}{Citation for works providing detailed information about any element of the time scale age.See \code{\link[=timeScaleCitation]{timeScaleCitation()}}}
+\item{timeScaleCitation}{Citation for works providing detailed information about any element of the time scale age. See \code{\link[=timeScaleCitation]{timeScaleCitation()}}}
 }
 \value{
 a alternativeTimeScale list object

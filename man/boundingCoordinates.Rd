@@ -9,15 +9,15 @@ boundingCoordinates(westBoundingCoordinate = NULL,
   southBoundingCoordinate = NULL, boundingAltitudes = NULL)
 }
 \arguments{
-\item{westBoundingCoordinate}{Western-most limit of a bounding box, expressed in degrees of longitude.See \code{\link[=westBoundingCoordinate]{westBoundingCoordinate()}}}
+\item{westBoundingCoordinate}{Western-most limit of a bounding box, expressed in degrees of longitude. See \code{\link[=westBoundingCoordinate]{westBoundingCoordinate()}}}
 
-\item{eastBoundingCoordinate}{Eastern-most limit of a bounding box, expressed in degrees of longitude.See \code{\link[=eastBoundingCoordinate]{eastBoundingCoordinate()}}}
+\item{eastBoundingCoordinate}{Eastern-most limit of a bounding box, expressed in degrees of longitude. See \code{\link[=eastBoundingCoordinate]{eastBoundingCoordinate()}}}
 
-\item{northBoundingCoordinate}{Northern-most lilmit of a bounding box expressed in latitude.See \code{\link[=northBoundingCoordinate]{northBoundingCoordinate()}}}
+\item{northBoundingCoordinate}{Northern-most lilmit of a bounding box expressed in latitude. See \code{\link[=northBoundingCoordinate]{northBoundingCoordinate()}}}
 
-\item{southBoundingCoordinate}{Southern-most limit of the bounding box expressed in latitude.See \code{\link[=southBoundingCoordinate]{southBoundingCoordinate()}}}
+\item{southBoundingCoordinate}{Southern-most limit of the bounding box expressed in latitude. See \code{\link[=southBoundingCoordinate]{southBoundingCoordinate()}}}
 
-\item{boundingAltitudes}{The vertical limits of a data set expressed by altitude.See \code{\link[=boundingAltitudes]{boundingAltitudes()}}}
+\item{boundingAltitudes}{The vertical limits of a data set expressed by altitude. See \code{\link[=boundingAltitudes]{boundingAltitudes()}}}
 }
 \value{
 a boundingCoordinates list object

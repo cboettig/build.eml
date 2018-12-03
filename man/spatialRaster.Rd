@@ -17,57 +17,57 @@ spatialRaster(alternateIdentifier = NULL, entityName = NULL,
   references = NULL, id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{alternateIdentifier}{A secondary identifier for this entitySee \code{\link[=alternateIdentifier]{alternateIdentifier()}}}
+\item{alternateIdentifier}{A secondary identifier for this entity See \code{\link[=alternateIdentifier]{alternateIdentifier()}}}
 
-\item{entityName}{The name of the entity nameSee \code{\link[=entityName]{entityName()}}}
+\item{entityName}{The name of the entity name See \code{\link[=entityName]{entityName()}}}
 
-\item{entityDescription}{General description of the entity and its contentsSee \code{\link[=entityDescription]{entityDescription()}}}
+\item{entityDescription}{General description of the entity and its contents See \code{\link[=entityDescription]{entityDescription()}}}
 
-\item{physical}{Description of the physical format of the entitySee \code{\link[=physical]{physical()}}}
+\item{physical}{Description of the physical format of the entity See \code{\link[=physical]{physical()}}}
 
-\item{coverage}{Information on the geographic, spatial and temporal coverages used in this entity.See \code{\link[=coverage]{coverage()}}}
+\item{coverage}{Information on the geographic, spatial and temporal coverages used in this entity. See \code{\link[=coverage]{coverage()}}}
 
-\item{additionalInfo}{Any extra information pertitent to the entity.See \code{\link[=additionalInfo]{additionalInfo()}}}
+\item{additionalInfo}{Any extra information pertitent to the entity. See \code{\link[=additionalInfo]{additionalInfo()}}}
 
-\item{annotation}{A precisely-defined semantic statement about this entity.See \code{\link[=annotation]{annotation()}}}
+\item{annotation}{A precisely-defined semantic statement about this entity. See \code{\link[=annotation]{annotation()}}}
 
-\item{attributeList}{The list of attributes associated with this entity.See \code{\link[=attributeList]{attributeList()}}}
+\item{attributeList}{The list of attributes associated with this entity. See \code{\link[=attributeList]{attributeList()}}}
 
-\item{constraint}{Description of any relational constraints on this entity.See \code{\link[=constraint]{constraint()}}}
+\item{constraint}{Description of any relational constraints on this entity. See \code{\link[=constraint]{constraint()}}}
 
-\item{spatialReference}{The means by which positional information in this entity is related to points on the earth's surface.See \code{\link[=spatialReference]{spatialReference()}}}
+\item{spatialReference}{The means by which positional information in this entity is related to points on the earth's surface. See \code{\link[=spatialReference]{spatialReference()}}}
 
-\item{georeferenceInfo}{Information on how to position the grid within the coordinate system defined in the spatial reference module.See \code{\link[=georeferenceInfo]{georeferenceInfo()}}}
+\item{georeferenceInfo}{Information on how to position the grid within the coordinate system defined in the spatial reference module. See \code{\link[=georeferenceInfo]{georeferenceInfo()}}}
 
-\item{horizontalAccuracy}{The accuracy of horizontal locational measurements within the data.See \code{\link[=horizontalAccuracy]{horizontalAccuracy()}}}
+\item{horizontalAccuracy}{The accuracy of horizontal locational measurements within the data. See \code{\link[=horizontalAccuracy]{horizontalAccuracy()}}}
 
-\item{verticalAccuracy}{The accuracy of vertical locational measurements within the data.See \code{\link[=verticalAccuracy]{verticalAccuracy()}}}
+\item{verticalAccuracy}{The accuracy of vertical locational measurements within the data. See \code{\link[=verticalAccuracy]{verticalAccuracy()}}}
 
-\item{cellSizeXDirection}{The width of the cell in the x direction.See \code{\link[=cellSizeXDirection]{cellSizeXDirection()}}}
+\item{cellSizeXDirection}{The width of the cell in the x direction. See \code{\link[=cellSizeXDirection]{cellSizeXDirection()}}}
 
-\item{cellSizeYDirection}{The width of the cell in the x direction.See \code{\link[=cellSizeYDirection]{cellSizeYDirection()}}}
+\item{cellSizeYDirection}{The width of the cell in the x direction. See \code{\link[=cellSizeYDirection]{cellSizeYDirection()}}}
 
-\item{numberOfBands}{The number of bands in the image.See \code{\link[=numberOfBands]{numberOfBands()}}}
+\item{numberOfBands}{The number of bands in the image. See \code{\link[=numberOfBands]{numberOfBands()}}}
 
-\item{rasterOrigin}{The corner location of the pixel having the minimum x and y valuesSee \code{\link[=rasterOrigin]{rasterOrigin()}}}
+\item{rasterOrigin}{The corner location of the pixel having the minimum x and y values See \code{\link[=rasterOrigin]{rasterOrigin()}}}
 
-\item{rows}{Maximum number of raster objects along the ordinate (y) axisSee \code{\link[=rows]{rows()}}}
+\item{rows}{Maximum number of raster objects along the ordinate (y) axis See \code{\link[=rows]{rows()}}}
 
-\item{columns}{Maximum number of raster objects along the abscissa (x) axisSee \code{\link[=columns]{columns()}}}
+\item{columns}{Maximum number of raster objects along the abscissa (x) axis See \code{\link[=columns]{columns()}}}
 
-\item{verticals}{Maximum number of raster objects along the vertical (z) axisSee \code{\link[=verticals]{verticals()}}}
+\item{verticals}{Maximum number of raster objects along the vertical (z) axis See \code{\link[=verticals]{verticals()}}}
 
-\item{cellGeometry}{Geometric representation of the cell's content.See \code{\link[=cellGeometry]{cellGeometry()}}}
+\item{cellGeometry}{Geometric representation of the cell's content. See \code{\link[=cellGeometry]{cellGeometry()}}}
 
-\item{toneGradation}{Number of colors present in the image.See \code{\link[=toneGradation]{toneGradation()}}}
+\item{toneGradation}{Number of colors present in the image. See \code{\link[=toneGradation]{toneGradation()}}}
 
-\item{scaleFactor}{The value used for scaling the source raster.See \code{\link[=scaleFactor]{scaleFactor()}}}
+\item{scaleFactor}{The value used for scaling the source raster. See \code{\link[=scaleFactor]{scaleFactor()}}}
 
-\item{offset}{The offset value used for scaling the source raster.See \code{\link[=offset]{offset()}}}
+\item{offset}{The offset value used for scaling the source raster. See \code{\link[=offset]{offset()}}}
 
-\item{imageDescription}{Detailed information for data derived from image sensors.See \code{\link[=imageDescription]{imageDescription()}}}
+\item{imageDescription}{Detailed information for data derived from image sensors. See \code{\link[=imageDescription]{imageDescription()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

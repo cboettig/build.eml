@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param name The name of the Prime MeridianSee [name()]
-#' @param longitude The longitude of the Prime MeridianSee [longitude()]
+#' @param name The name of the Prime Meridian
+#' @param longitude The longitude of the Prime Meridian
 #'
 #' @return a primeMeridian list object
 #'

@@ -7,7 +7,7 @@
 citetitle(lang = NULL)
 }
 \arguments{
-\item{lang}{language code for element contentSee \code{\link[=lang]{lang()}}}
+\item{lang}{language code for element content}
 }
 \value{
 a citetitle list object

@@ -4,11 +4,11 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param online onlineSee [online()]
-#' @param offline offlineSee [offline()]
-#' @param inline inlineSee [inline()]
-#' @param access accessSee [access()]
-#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
+#' @param online online See [online()]
+#' @param offline offline See [offline()]
+#' @param inline inline See [inline()]
+#' @param access access See [access()]
+#' @param references The id of another element in this EML document to be used to here in this context. See [references()]
 #'
 #' @return a distribution list object
 #'

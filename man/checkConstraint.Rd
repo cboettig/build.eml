@@ -8,13 +8,13 @@ checkConstraint(constraintName = NULL, constraintDescription = NULL,
   checkCondition = NULL, language = NULL)
 }
 \arguments{
-\item{constraintName}{A meaningfull name of the constraint.See \code{\link[=constraintName]{constraintName()}}}
+\item{constraintName}{A meaningfull name of the constraint. See \code{\link[=constraintName]{constraintName()}}}
 
-\item{constraintDescription}{Descibes the purpose of the constraint.See \code{\link[=constraintDescription]{constraintDescription()}}}
+\item{constraintDescription}{Descibes the purpose of the constraint. See \code{\link[=constraintDescription]{constraintDescription()}}}
 
-\item{checkCondition}{An SQL statement or other language implementation of the condition for a check constraint.See \code{\link[=checkCondition]{checkCondition()}}}
+\item{checkCondition}{An SQL statement or other language implementation of the condition for a check constraint. See \code{\link[=checkCondition]{checkCondition()}}}
 
-\item{language}{The language that the is used to express or implement the check constraint.See \code{\link[=language]{language()}}}
+\item{language}{The language that the is used to express or implement the check constraint.}
 }
 \value{
 a checkConstraint list object

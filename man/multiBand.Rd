@@ -7,9 +7,9 @@
 multiBand(nbands = NULL, layout = NULL)
 }
 \arguments{
-\item{nbands}{The number of spectral bands in the image.See \code{\link[=nbands]{nbands()}}}
+\item{nbands}{The number of spectral bands in the image. See \code{\link[=nbands]{nbands()}}}
 
-\item{layout}{The organization of the bands in the image file.See \code{\link[=layout]{layout()}}}
+\item{layout}{The organization of the bands in the image file. See \code{\link[=layout]{layout()}}}
 }
 \value{
 a multiBand list object

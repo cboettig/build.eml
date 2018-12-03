@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param originator A person or organization asociated with this resource.See [originator()]
+#' @param originator A person or organization asociated with this resource. See [originator()]
 #'
 #' @return a repository list object
 #'

@@ -7,9 +7,9 @@
 allow(principal = NULL, permission = NULL)
 }
 \arguments{
-\item{principal}{The user or group (principal) for which the access control applies.See \code{\link[=principal]{principal()}}}
+\item{principal}{The user or group (principal) for which the access control applies. See \code{\link[=principal]{principal()}}}
 
-\item{permission}{The type of permission being granted or denied.See \code{\link[=permission]{permission()}}}
+\item{permission}{The type of permission being granted or denied. See \code{\link[=permission]{permission()}}}
 }
 \value{
 a allow list object

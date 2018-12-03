@@ -8,11 +8,11 @@ maintenance(description = NULL, maintenanceUpdateFrequency = NULL,
   changeHistory = NULL)
 }
 \arguments{
-\item{description}{A text description of the maintenance of this data resource.See \code{\link[=description]{description()}}}
+\item{description}{A text description of the maintenance of this data resource. See \code{\link[=description]{description()}}}
 
-\item{maintenanceUpdateFrequency}{Frequency with which changes and additions are made to the dataset after the initial dataset is completed.See \code{\link[=maintenanceUpdateFrequency]{maintenanceUpdateFrequency()}}}
+\item{maintenanceUpdateFrequency}{Frequency with which changes and additions are made to the dataset after the initial dataset is completed. See \code{\link[=maintenanceUpdateFrequency]{maintenanceUpdateFrequency()}}}
 
-\item{changeHistory}{A description of changes made to the data since its release.See \code{\link[=changeHistory]{changeHistory()}}}
+\item{changeHistory}{A description of changes made to the data since its release. See \code{\link[=changeHistory]{changeHistory()}}}
 }
 \value{
 a maintenance list object

@@ -7,7 +7,7 @@
 projectionList(horizCoordSysDef = NULL)
 }
 \arguments{
-\item{horizCoordSysDef}{The definition of a coordinate systemSee \code{\link[=horizCoordSysDef]{horizCoordSysDef()}}}
+\item{horizCoordSysDef}{The definition of a coordinate system See \code{\link[=horizCoordSysDef]{horizCoordSysDef()}}}
 }
 \value{
 a projectionList list object

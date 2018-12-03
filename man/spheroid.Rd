@@ -7,9 +7,9 @@
 spheroid(name = NULL, semiAxisMajor = NULL, denomFlatRatio = NULL)
 }
 \arguments{
-\item{name}{The name of the spheroid.See \code{\link[=name]{name()}}}
+\item{name}{The name of the spheroid.}
 
-\item{semiAxisMajor}{The larger of two orthogonal axes that define the ellipseSee \code{\link[=semiAxisMajor]{semiAxisMajor()}}}
+\item{semiAxisMajor}{The larger of two orthogonal axes that define the ellipse}
 }
 \value{
 a spheroid list object

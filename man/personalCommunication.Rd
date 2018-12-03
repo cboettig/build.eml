@@ -8,13 +8,13 @@ personalCommunication(publisher = NULL, publicationPlace = NULL,
   communicationType = NULL, recipient = NULL)
 }
 \arguments{
-\item{publisher}{Organization that actually publishes the communicationSee \code{\link[=publisher]{publisher()}}}
+\item{publisher}{Organization that actually publishes the communication See \code{\link[=publisher]{publisher()}}}
 
-\item{publicationPlace}{The location at which the work was published.See \code{\link[=publicationPlace]{publicationPlace()}}}
+\item{publicationPlace}{The location at which the work was published. See \code{\link[=publicationPlace]{publicationPlace()}}}
 
-\item{communicationType}{The type of personal communication.See \code{\link[=communicationType]{communicationType()}}}
+\item{communicationType}{The type of personal communication. See \code{\link[=communicationType]{communicationType()}}}
 
-\item{recipient}{Recipient of the communicationSee \code{\link[=recipient]{recipient()}}}
+\item{recipient}{Recipient of the communication See \code{\link[=recipient]{recipient()}}}
 }
 \value{
 a personalCommunication list object

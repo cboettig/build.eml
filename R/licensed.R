@@ -4,9 +4,9 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param licenseName The official name of the licenseSee [licenseName()]
-#' @param url The persistent URL for the licenseSee [url()]
-#' @param identifier License IdentifierSee [identifier()]
+#' @param licenseName The official name of the license See [licenseName()]
+#' @param url The persistent URL for the license See [url()]
+#' @param identifier License Identifier See [identifier()]
 #'
 #' @return a licensed list object
 #'

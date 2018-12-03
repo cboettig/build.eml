@@ -10,7 +10,7 @@ taxonomicSystem(classificationSystem = NULL,
   vouchers = NULL)
 }
 \arguments{
-\item{classificationSystem}{Information about the classification system or authority used.See \code{\link[=classificationSystem]{classificationSystem()}}}
+\item{classificationSystem}{Information about the classification system or authority used. See \code{\link[=classificationSystem]{classificationSystem()}}}
 }
 \value{
 a taxonomicSystem list object

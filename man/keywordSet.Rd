@@ -7,9 +7,9 @@
 keywordSet(keyword = NULL, keywordThesaurus = NULL)
 }
 \arguments{
-\item{keyword}{A single keyword that describes the resource.See \code{\link[=keyword]{keyword()}}}
+\item{keyword}{A single keyword that describes the resource. See \code{\link[=keyword]{keyword()}}}
 
-\item{keywordThesaurus}{The name of a thesaurus from which the keyword is derived.See \code{\link[=keywordThesaurus]{keywordThesaurus()}}}
+\item{keywordThesaurus}{The name of a thesaurus from which the keyword is derived. See \code{\link[=keywordThesaurus]{keywordThesaurus()}}}
 }
 \value{
 a keywordSet list object

@@ -8,15 +8,15 @@ bandDescription(sequenceIdentifier = NULL, highWavelength = NULL,
   lowWaveLength = NULL, waveLengthUnits = NULL, peakResponse = NULL)
 }
 \arguments{
-\item{sequenceIdentifier}{Number that uniquely identifies instances of bands of wavelengths on which a sensor operates.See \code{\link[=sequenceIdentifier]{sequenceIdentifier()}}}
+\item{sequenceIdentifier}{Number that uniquely identifies instances of bands of wavelengths on which a sensor operates. See \code{\link[=sequenceIdentifier]{sequenceIdentifier()}}}
 
-\item{highWavelength}{Highest wavelength that the sensor is capable of collecting within a designated band in metres.See \code{\link[=highWavelength]{highWavelength()}}}
+\item{highWavelength}{Highest wavelength that the sensor is capable of collecting within a designated band in metres. See \code{\link[=highWavelength]{highWavelength()}}}
 
-\item{lowWaveLength}{Lowest wavelength that the sensor is capable of collecting within a designated band in metres.See \code{\link[=lowWaveLength]{lowWaveLength()}}}
+\item{lowWaveLength}{Lowest wavelength that the sensor is capable of collecting within a designated band in metres. See \code{\link[=lowWaveLength]{lowWaveLength()}}}
 
-\item{waveLengthUnits}{Units in which the sensor wavelegths are expressed.See \code{\link[=waveLengthUnits]{waveLengthUnits()}}}
+\item{waveLengthUnits}{Units in which the sensor wavelegths are expressed. See \code{\link[=waveLengthUnits]{waveLengthUnits()}}}
 
-\item{peakResponse}{Wavelength at which the response is the highest.See \code{\link[=peakResponse]{peakResponse()}}}
+\item{peakResponse}{Wavelength at which the response is the highest. See \code{\link[=peakResponse]{peakResponse()}}}
 }
 \value{
 a bandDescription list object

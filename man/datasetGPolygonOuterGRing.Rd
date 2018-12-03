@@ -7,7 +7,7 @@
 datasetGPolygonOuterGRing(gRingPoint = NULL, gRing = NULL)
 }
 \arguments{
-\item{gRingPoint}{A single geographic locationSee \code{\link[=gRingPoint]{gRingPoint()}}}
+\item{gRingPoint}{A single geographic location See \code{\link[=gRingPoint]{gRingPoint()}}}
 }
 \value{
 a datasetGPolygonOuterGRing list object

@@ -4,9 +4,9 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param parameter A parameter required by the projection method.See [parameter()]
-#' @param unit The unit of measure coordinates are expressed in.See [unit()]
-#' @param name The name of the projection method.See [name()]
+#' @param parameter A parameter required by the projection method. See [parameter()]
+#' @param unit The unit of measure coordinates are expressed in. See [unit()]
+#' @param name The name of the projection method.
 #'
 #' @return a projection list object
 #'

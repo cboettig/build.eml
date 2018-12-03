@@ -7,7 +7,7 @@
 dependency(action = NULL, software = NULL)
 }
 \arguments{
-\item{action}{Describes what action needs to be undertaken (if any) for a software dependency at either the software package or implementation level.See \code{\link[=action]{action()}}}
+\item{action}{Describes what action needs to be undertaken (if any) for a software dependency at either the software package or implementation level. See \code{\link[=action]{action()}}}
 }
 \value{
 a dependency list object

@@ -7,9 +7,9 @@
 vertCoordSys(altitudeSysDef = NULL, depthSysDef = NULL)
 }
 \arguments{
-\item{altitudeSysDef}{the reference frame or system from which altitudes (elevations) are measured.See \code{\link[=altitudeSysDef]{altitudeSysDef()}}}
+\item{altitudeSysDef}{the reference frame or system from which altitudes (elevations) are measured. See \code{\link[=altitudeSysDef]{altitudeSysDef()}}}
 
-\item{depthSysDef}{The reference frame or system from which depths are measured.See \code{\link[=depthSysDef]{depthSysDef()}}}
+\item{depthSysDef}{The reference frame or system from which depths are measured. See \code{\link[=depthSysDef]{depthSysDef()}}}
 }
 \value{
 a vertCoordSys list object

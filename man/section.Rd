@@ -7,11 +7,11 @@
 section(title = NULL, para = NULL, section = NULL, lang = NULL)
 }
 \arguments{
-\item{title}{The optional title of the section.See \code{\link[=title]{title()}}}
+\item{title}{The optional title of the section. See \code{\link[=title]{title()}}}
 
-\item{para}{A simple paragraph of text.See \code{\link[=para]{para()}}}
+\item{para}{A simple paragraph of text. See \code{\link[=para]{para()}}}
 
-\item{section}{A section of related text.See \code{\link[=section]{section()}}}
+\item{section}{A section of related text. See \code{\link[=section]{section()}}}
 
 \item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 }

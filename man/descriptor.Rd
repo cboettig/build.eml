@@ -8,13 +8,13 @@ descriptor(descriptorValue = NULL, citation = NULL, name = NULL,
   citableClassificationSystem = NULL)
 }
 \arguments{
-\item{descriptorValue}{Description of some aspect of the study area.See \code{\link[=descriptorValue]{descriptorValue()}}}
+\item{descriptorValue}{Description of some aspect of the study area. See \code{\link[=descriptorValue]{descriptorValue()}}}
 
-\item{citation}{A citation for this descriptor.See \code{\link[=citation]{citation()}}}
+\item{citation}{A citation for this descriptor. See \code{\link[=citation]{citation()}}}
 
-\item{name}{The name of the descriptor system.See \code{\link[=name]{name()}}}
+\item{name}{The name of the descriptor system.}
 
-\item{citableClassificationSystem}{This boolean attribute defines whether this descriptor comes from a citable classification system or not.See \code{\link[=citableClassificationSystem]{citableClassificationSystem()}}}
+\item{citableClassificationSystem}{This boolean attribute defines whether this descriptor comes from a citable classification system or not.}
 }
 \value{
 a descriptor list object

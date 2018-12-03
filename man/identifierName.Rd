@@ -10,23 +10,23 @@ identifierName(individualName = NULL, organizationName = NULL,
   references = NULL, id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{individualName}{The full name of the person being describedSee \code{\link[=individualName]{individualName()}}}
+\item{individualName}{The full name of the person being described See \code{\link[=individualName]{individualName()}}}
 
-\item{organizationName}{The full name of the organization being describedSee \code{\link[=organizationName]{organizationName()}}}
+\item{organizationName}{The full name of the organization being described See \code{\link[=organizationName]{organizationName()}}}
 
-\item{positionName}{The name of the title or position associated with the resource.See \code{\link[=positionName]{positionName()}}}
+\item{positionName}{The name of the title or position associated with the resource. See \code{\link[=positionName]{positionName()}}}
 
-\item{address}{The full address information for a given responsible party entry.See \code{\link[=address]{address()}}}
+\item{address}{The full address information for a given responsible party entry. See \code{\link[=address]{address()}}}
 
-\item{phone}{Information about the contact's telephoneSee \code{\link[=phone]{phone()}}}
+\item{phone}{Information about the contact's telephone See \code{\link[=phone]{phone()}}}
 
-\item{electronicMailAddress}{The email address of the contact.See \code{\link[=electronicMailAddress]{electronicMailAddress()}}}
+\item{electronicMailAddress}{The email address of the contact. See \code{\link[=electronicMailAddress]{electronicMailAddress()}}}
 
-\item{onlineUrl}{A link to associated online information, usually a web site.See \code{\link[=onlineUrl]{onlineUrl()}}}
+\item{onlineUrl}{A link to associated online information, usually a web site. See \code{\link[=onlineUrl]{onlineUrl()}}}
 
-\item{userId}{An identifier that links this party to a directory of individualsSee \code{\link[=userId]{userId()}}}
+\item{userId}{An identifier that links this party to a directory of individuals See \code{\link[=userId]{userId()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

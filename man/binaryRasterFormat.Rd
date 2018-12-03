@@ -9,21 +9,21 @@ binaryRasterFormat(rowColumnOrientation = NULL, multiBand = NULL,
   bandrowbytes = NULL, totalrowbytes = NULL, bandgapbytes = NULL)
 }
 \arguments{
-\item{rowColumnOrientation}{Orientation for reading rows and columns.See \code{\link[=rowColumnOrientation]{rowColumnOrientation()}}}
+\item{rowColumnOrientation}{Orientation for reading rows and columns. See \code{\link[=rowColumnOrientation]{rowColumnOrientation()}}}
 
-\item{multiBand}{Multiple band image information.See \code{\link[=multiBand]{multiBand()}}}
+\item{multiBand}{Multiple band image information. See \code{\link[=multiBand]{multiBand()}}}
 
-\item{nbits}{The number of bits per pixel per band.See \code{\link[=nbits]{nbits()}}}
+\item{nbits}{The number of bits per pixel per band. See \code{\link[=nbits]{nbits()}}}
 
-\item{byteorder}{The byte order in which values are stored.See \code{\link[=byteorder]{byteorder()}}}
+\item{byteorder}{The byte order in which values are stored. See \code{\link[=byteorder]{byteorder()}}}
 
-\item{skipbytes}{The number of bytes of data in the image file to skip in order to reach the start of the image data.See \code{\link[=skipbytes]{skipbytes()}}}
+\item{skipbytes}{The number of bytes of data in the image file to skip in order to reach the start of the image data. See \code{\link[=skipbytes]{skipbytes()}}}
 
-\item{bandrowbytes}{The number of bytes per band per row.See \code{\link[=bandrowbytes]{bandrowbytes()}}}
+\item{bandrowbytes}{The number of bytes per band per row. See \code{\link[=bandrowbytes]{bandrowbytes()}}}
 
-\item{totalrowbytes}{The total number of bytes of data per row.See \code{\link[=totalrowbytes]{totalrowbytes()}}}
+\item{totalrowbytes}{The total number of bytes of data per row. See \code{\link[=totalrowbytes]{totalrowbytes()}}}
 
-\item{bandgapbytes}{The number of bytes between bands in a BSQ format image.See \code{\link[=bandgapbytes]{bandgapbytes()}}}
+\item{bandgapbytes}{The number of bytes between bands in a BSQ format image. See \code{\link[=bandgapbytes]{bandgapbytes()}}}
 }
 \value{
 a binaryRasterFormat list object

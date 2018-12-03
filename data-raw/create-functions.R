@@ -28,11 +28,17 @@ function_constructor <- function(type) {
 
   docs_df <- docs_df %>% group_by(names) %>% top_n(1, wt = summary)
 
+
+  link <- function(is_attr, name){
+   out<- paste0(" See [", docs_df$names, "()]")
+   out[is_attr]  <- ""
+   out
+  }
   params <- ""
   if(length(docs_df$names > 0))
   params <- paste0("#' @param ", docs_df$names, " ",
                    safe_txt(docs_df$summary, "(def not found)"),
-                   "See [", docs_df$names, "()]",
+                   link(docs_df$attribute, docs_df$names),
                    collapse = "\n")
 
   docs <-

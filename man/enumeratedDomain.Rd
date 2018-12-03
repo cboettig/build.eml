@@ -8,13 +8,13 @@ enumeratedDomain(codeDefinition = NULL, externalCodeSet = NULL,
   entityCodeList = NULL, enforced = NULL)
 }
 \arguments{
-\item{codeDefinition}{A codes and its definitionSee \code{\link[=codeDefinition]{codeDefinition()}}}
+\item{codeDefinition}{A codes and its definition See \code{\link[=codeDefinition]{codeDefinition()}}}
 
-\item{externalCodeSet}{A reference to an externally defined set of codes used in this attributeSee \code{\link[=externalCodeSet]{externalCodeSet()}}}
+\item{externalCodeSet}{A reference to an externally defined set of codes used in this attribute See \code{\link[=externalCodeSet]{externalCodeSet()}}}
 
-\item{entityCodeList}{A code list that is defined in a data tableSee \code{\link[=entityCodeList]{entityCodeList()}}}
+\item{entityCodeList}{A code list that is defined in a data table See \code{\link[=entityCodeList]{entityCodeList()}}}
 
-\item{enforced}{Indicates whether the enumerated domain values enforced.See \code{\link[=enforced]{enforced()}}}
+\item{enforced}{Indicates whether the enumerated domain values enforced.}
 }
 \value{
 a enumeratedDomain list object

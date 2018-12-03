@@ -9,19 +9,19 @@ eml(access = NULL, dataset = NULL, citation = NULL,
   packageId = NULL, system = NULL, scope = NULL, lang = NULL)
 }
 \arguments{
-\item{access}{Access control rules for the entire resource, which can be overridden by access rules in distribution treesSee \code{\link[=access]{access()}}}
+\item{access}{Access control rules for the entire resource, which can be overridden by access rules in distribution trees See \code{\link[=access]{access()}}}
 
-\item{dataset}{A resource that describes a data set, which can include one or more data entities such as data tables.See \code{\link[=dataset]{dataset()}}}
+\item{dataset}{A resource that describes a data set, which can include one or more data entities such as data tables. See \code{\link[=dataset]{dataset()}}}
 
-\item{citation}{A resource that describes a literature citation that one might find in a bibliography.See \code{\link[=citation]{citation()}}}
+\item{citation}{A resource that describes a literature citation that one might find in a bibliography. See \code{\link[=citation]{citation()}}}
 
-\item{software}{A resource that describes a software package, which can include commercial and non-commercial software as well as data processing programs.See \code{\link[=software]{software()}}}
+\item{software}{A resource that describes a software package, which can include commercial and non-commercial software as well as data processing programs. See \code{\link[=software]{software()}}}
 
-\item{protocol}{A resource that describes a scientific protocol, which can include one or more descriptions of methods and procedures.See \code{\link[=protocol]{protocol()}}}
+\item{protocol}{A resource that describes a scientific protocol, which can include one or more descriptions of methods and procedures. See \code{\link[=protocol]{protocol()}}}
 
-\item{additionalMetadata}{A flexible field for including any other relevant metadata that pertains to the resource being described.See \code{\link[=additionalMetadata]{additionalMetadata()}}}
+\item{additionalMetadata}{A flexible field for including any other relevant metadata that pertains to the resource being described. See \code{\link[=additionalMetadata]{additionalMetadata()}}}
 
-\item{packageId}{A unique identifier for this entire EML metadata document that can be used to reference it elsewhere.See \code{\link[=packageId]{packageId()}}}
+\item{packageId}{A unique identifier for this entire EML metadata document that can be used to reference it elsewhere.}
 
 \item{system}{The data management system within which an identifier
 is in scope and therefore unique. This is typically a URL

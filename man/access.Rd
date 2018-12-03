@@ -8,11 +8,11 @@ access(allow = NULL, deny = NULL, references = NULL, id = NULL,
   system = NULL, scope = NULL, order = NULL, authSystem = NULL)
 }
 \arguments{
-\item{allow}{A rule that grants a permission type.See \code{\link[=allow]{allow()}}}
+\item{allow}{A rule that grants a permission type. See \code{\link[=allow]{allow()}}}
 
-\item{deny}{A rule that revokes a permission type.See \code{\link[=deny]{deny()}}}
+\item{deny}{A rule that revokes a permission type. See \code{\link[=deny]{deny()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that
@@ -35,9 +35,9 @@ within this single document instance. In this particular use
 of scope, it is FIXED to be "system" because the packageId
 is required and always has the scope of the required "system".}
 
-\item{order}{The order in which the allow and deny rules should be applied.See \code{\link[=order]{order()}}}
+\item{order}{The order in which the allow and deny rules should be applied.}
 
-\item{authSystem}{The authentication system is used to verify the user or group to whom access is allowed or denied.See \code{\link[=authSystem]{authSystem()}}}
+\item{authSystem}{The authentication system is used to verify the user or group to whom access is allowed or denied.}
 }
 \value{
 a access list object

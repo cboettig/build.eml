@@ -19,71 +19,71 @@ classificationSystemCitation(alternateIdentifier = NULL,
   system = NULL, scope = NULL)
 }
 \arguments{
-\item{alternateIdentifier}{A secondary identifier for this entitySee \code{\link[=alternateIdentifier]{alternateIdentifier()}}}
+\item{alternateIdentifier}{A secondary identifier for this entity See \code{\link[=alternateIdentifier]{alternateIdentifier()}}}
 
-\item{shortName}{A short name that describes the resource, sometimes a filename.See \code{\link[=shortName]{shortName()}}}
+\item{shortName}{A short name that describes the resource, sometimes a filename. See \code{\link[=shortName]{shortName()}}}
 
-\item{title}{A brief description of the resource, providing enough detail to differentiate it from other similar resources.See \code{\link[=title]{title()}}}
+\item{title}{A brief description of the resource, providing enough detail to differentiate it from other similar resources. See \code{\link[=title]{title()}}}
 
-\item{creator}{The people or organizations who created this resource.See \code{\link[=creator]{creator()}}}
+\item{creator}{The people or organizations who created this resource. See \code{\link[=creator]{creator()}}}
 
-\item{metadataProvider}{The people or organizations who created provided documentation and other metadata for this resource.See \code{\link[=metadataProvider]{metadataProvider()}}}
+\item{metadataProvider}{The people or organizations who created provided documentation and other metadata for this resource. See \code{\link[=metadataProvider]{metadataProvider()}}}
 
-\item{associatedParty}{Other people or organizations who should be associated with this resource.See \code{\link[=associatedParty]{associatedParty()}}}
+\item{associatedParty}{Other people or organizations who should be associated with this resource. See \code{\link[=associatedParty]{associatedParty()}}}
 
-\item{pubDate}{The publication date of the resource.See \code{\link[=pubDate]{pubDate()}}}
+\item{pubDate}{The publication date of the resource. See \code{\link[=pubDate]{pubDate()}}}
 
-\item{language}{The language in which the resource is written.See \code{\link[=language]{language()}}}
+\item{language}{The language in which the resource is written. See \code{\link[=language]{language()}}}
 
-\item{series}{The series from which the resource came.See \code{\link[=series]{series()}}}
+\item{series}{The series from which the resource came. See \code{\link[=series]{series()}}}
 
-\item{abstract}{A brief overview of the resource.See \code{\link[=abstract]{abstract()}}}
+\item{abstract}{A brief overview of the resource. See \code{\link[=abstract]{abstract()}}}
 
-\item{keywordSet}{Keyword information that describes the resource.See \code{\link[=keywordSet]{keywordSet()}}}
+\item{keywordSet}{Keyword information that describes the resource. See \code{\link[=keywordSet]{keywordSet()}}}
 
-\item{additionalInfo}{Any extra information pertitent to the resource.See \code{\link[=additionalInfo]{additionalInfo()}}}
+\item{additionalInfo}{Any extra information pertitent to the resource. See \code{\link[=additionalInfo]{additionalInfo()}}}
 
-\item{intellectualRights}{Intellectual property rights regarding usage and licensing of this resource.See \code{\link[=intellectualRights]{intellectualRights()}}}
+\item{intellectualRights}{Intellectual property rights regarding usage and licensing of this resource. See \code{\link[=intellectualRights]{intellectualRights()}}}
 
-\item{licensed}{Information identifying a well-known license for the metadata and dataSee \code{\link[=licensed]{licensed()}}}
+\item{licensed}{Information identifying a well-known license for the metadata and data See \code{\link[=licensed]{licensed()}}}
 
-\item{distribution}{Information on how the resource is distributed online and offlineSee \code{\link[=distribution]{distribution()}}}
+\item{distribution}{Information on how the resource is distributed online and offline See \code{\link[=distribution]{distribution()}}}
 
-\item{coverage}{Extent of the coverage of the resource.See \code{\link[=coverage]{coverage()}}}
+\item{coverage}{Extent of the coverage of the resource. See \code{\link[=coverage]{coverage()}}}
 
-\item{annotation}{A precisely-defined semantic statement about this resource.See \code{\link[=annotation]{annotation()}}}
+\item{annotation}{A precisely-defined semantic statement about this resource. See \code{\link[=annotation]{annotation()}}}
 
-\item{contact}{An optional contact individual for this citationSee \code{\link[=contact]{contact()}}}
+\item{contact}{An optional contact individual for this citation See \code{\link[=contact]{contact()}}}
 
-\item{article}{Information for full citation of a journal article or other periodical article.See \code{\link[=article]{article()}}}
+\item{article}{Information for full citation of a journal article or other periodical article. See \code{\link[=article]{article()}}}
 
-\item{book}{Information for full citation of a bookSee \code{\link[=book]{book()}}}
+\item{book}{Information for full citation of a book See \code{\link[=book]{book()}}}
 
-\item{chapter}{Information for citation of a chapter in a bookSee \code{\link[=chapter]{chapter()}}}
+\item{chapter}{Information for citation of a chapter in a book See \code{\link[=chapter]{chapter()}}}
 
-\item{editedBook}{Information for full citation of an edited bookSee \code{\link[=editedBook]{editedBook()}}}
+\item{editedBook}{Information for full citation of an edited book See \code{\link[=editedBook]{editedBook()}}}
 
-\item{manuscript}{Information about an unpublished manuscriptSee \code{\link[=manuscript]{manuscript()}}}
+\item{manuscript}{Information about an unpublished manuscript See \code{\link[=manuscript]{manuscript()}}}
 
-\item{report}{Information about a report published by an institution.See \code{\link[=report]{report()}}}
+\item{report}{Information about a report published by an institution. See \code{\link[=report]{report()}}}
 
-\item{thesis}{Information about a thesis that has been written as part of a degree requirement and is frequently published in small numbers by the degree awarding institution.See \code{\link[=thesis]{thesis()}}}
+\item{thesis}{Information about a thesis that has been written as part of a degree requirement and is frequently published in small numbers by the degree awarding institution. See \code{\link[=thesis]{thesis()}}}
 
-\item{conferenceProceedings}{The published notes, papers, presentations etc... of a conference.See \code{\link[=conferenceProceedings]{conferenceProceedings()}}}
+\item{conferenceProceedings}{The published notes, papers, presentations etc... of a conference. See \code{\link[=conferenceProceedings]{conferenceProceedings()}}}
 
-\item{personalCommunication}{A personal communication that has been saved online or as hard-copy.See \code{\link[=personalCommunication]{personalCommunication()}}}
+\item{personalCommunication}{A personal communication that has been saved online or as hard-copy. See \code{\link[=personalCommunication]{personalCommunication()}}}
 
-\item{map}{This element describes the map that is being cited or cataloged.See \code{\link[=map]{map()}}}
+\item{map}{This element describes the map that is being cited or cataloged. See \code{\link[=map]{map()}}}
 
-\item{generic}{This reference type was created for references that do not fit in to the other existing reference typesSee \code{\link[=generic]{generic()}}}
+\item{generic}{This reference type was created for references that do not fit in to the other existing reference types See \code{\link[=generic]{generic()}}}
 
-\item{audioVisual}{This reference type is meant to cover all forms of audio and visual media.See \code{\link[=audioVisual]{audioVisual()}}}
+\item{audioVisual}{This reference type is meant to cover all forms of audio and visual media. See \code{\link[=audioVisual]{audioVisual()}}}
 
-\item{presentation}{An unpublished presentation from a conference, workshop, workgroup, symposium etc.See \code{\link[=presentation]{presentation()}}}
+\item{presentation}{An unpublished presentation from a conference, workshop, workgroup, symposium etc. See \code{\link[=presentation]{presentation()}}}
 
-\item{bibtex}{Citation in Bibtex format.See \code{\link[=bibtex]{bibtex()}}}
+\item{bibtex}{Citation in Bibtex format. See \code{\link[=bibtex]{bibtex()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
+\item{references}{The id of another element in this EML document to be used to here in this context. See \code{\link[=references]{references()}}}
 
 \item{id}{A unique identifier for this additional metadata that can
 be used to reference it elsewhere. This is a formal field in that

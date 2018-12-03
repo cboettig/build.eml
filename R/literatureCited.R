@@ -4,8 +4,8 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param citation A citation within a list of citations.See [citation()]
-#' @param bibtex List of citations in Bibtex format.See [bibtex()]
+#' @param citation A citation within a list of citations. See [citation()]
+#' @param bibtex List of citations in Bibtex format. See [bibtex()]
 #'
 #' @return a literatureCited list object
 #'

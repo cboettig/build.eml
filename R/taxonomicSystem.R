@@ -4,7 +4,7 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param classificationSystem Information about the classification system or authority used.See [classificationSystem()]
+#' @param classificationSystem Information about the classification system or authority used. See [classificationSystem()]
 #'
 #' @return a taxonomicSystem list object
 #'

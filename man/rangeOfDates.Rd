@@ -7,9 +7,9 @@
 rangeOfDates(beginDate = NULL, endDate = NULL)
 }
 \arguments{
-\item{beginDate}{A single time stamp signifying the beginning of some time periodSee \code{\link[=beginDate]{beginDate()}}}
+\item{beginDate}{A single time stamp signifying the beginning of some time period See \code{\link[=beginDate]{beginDate()}}}
 
-\item{endDate}{A single time stamp signifying the end of some time periodSee \code{\link[=endDate]{endDate()}}}
+\item{endDate}{A single time stamp signifying the end of some time period See \code{\link[=endDate]{endDate()}}}
 }
 \value{
 a rangeOfDates list object

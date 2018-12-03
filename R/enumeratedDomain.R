@@ -4,10 +4,10 @@
 #'
 #'
 #' @inheritParams common_attributes 
-#' @param codeDefinition A codes and its definitionSee [codeDefinition()]
-#' @param externalCodeSet A reference to an externally defined set of codes used in this attributeSee [externalCodeSet()]
-#' @param entityCodeList A code list that is defined in a data tableSee [entityCodeList()]
-#' @param enforced Indicates whether the enumerated domain values enforced.See [enforced()]
+#' @param codeDefinition A codes and its definition See [codeDefinition()]
+#' @param externalCodeSet A reference to an externally defined set of codes used in this attribute See [externalCodeSet()]
+#' @param entityCodeList A code list that is defined in a data table See [entityCodeList()]
+#' @param enforced Indicates whether the enumerated domain values enforced.
 #'
 #' @return a enumeratedDomain list object
 #'
