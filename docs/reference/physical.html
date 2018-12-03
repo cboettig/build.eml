@@ -64,7 +64,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">build.eml</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.99.0</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
       </span>
     </div>
 
@@ -121,43 +121,66 @@
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>objectName</th>
-      <td><p>The name of the data object.</p></td>
+      <td><p>The name of the data object.See <code>objectName()</code></p></td>
     </tr>
     <tr>
       <th>size</th>
-      <td><p>Describes the physical size of the data object.</p></td>
+      <td><p>Describes the physical size of the data object.See <code><a href='size.html'>size()</a></code></p></td>
     </tr>
     <tr>
       <th>authentication</th>
-      <td><p>A value, typically a checksum, used to authenticate that the bitstream delivered to the user is identical to the original.</p></td>
+      <td><p>A value, typically a checksum, used to authenticate that the bitstream delivered to the user is identical to the original.See <code><a href='authentication.html'>authentication()</a></code></p></td>
     </tr>
     <tr>
       <th>compressionMethod</th>
-      <td><p>Name of a compression method applied</p></td>
+      <td><p>Name of a compression method appliedSee <code>compressionMethod()</code></p></td>
     </tr>
     <tr>
       <th>encodingMethod</th>
-      <td><p>Name of a encoding method applied</p></td>
+      <td><p>Name of a encoding method appliedSee <code>encodingMethod()</code></p></td>
     </tr>
     <tr>
       <th>characterEncoding</th>
-      <td><p>Contains the name of the character encoding used for the data.</p></td>
+      <td><p>Contains the name of the character encoding used for the data.See <code>characterEncoding()</code></p></td>
     </tr>
     <tr>
       <th>dataFormat</th>
-      <td><p>Describes the internal physical format of a data object.</p></td>
+      <td><p>Describes the internal physical format of a data object.See <code><a href='dataFormat.html'>dataFormat()</a></code></p></td>
     </tr>
     <tr>
       <th>distribution</th>
-      <td><p>Information on how the resource is distributed online and offline</p></td>
+      <td><p>Information on how the resource is distributed online and offlineSee <code><a href='distribution.html'>distribution()</a></code></p></td>
     </tr>
     <tr>
       <th>references</th>
-      <td><p>The id of another element in this EML document to be used to here in this context.</p></td>
+      <td><p>The id of another element in this EML document to be used to here in this context.See <code><a href='references.html'>references()</a></code></p></td>
     </tr>
     <tr>
-      <th>inheritParams</th>
-      <td><p>node_template</p></td>
+      <th>id</th>
+      <td><p>A unique identifier for this additional metadata that can
+be used to reference it elsewhere. This is a formal field in that
+it is an error to provide a value for the id attribute that is not
+unique within the document's set of id attributes. This is designed
+to allow other portions of the metadata to reference this section formally.</p></td>
+    </tr>
+    <tr>
+      <th>system</th>
+      <td><p>The data management system within which an identifier
+is in scope and therefore unique. This is typically a URL
+(Uniform Resource Locator) that indicates a data management system.
+All identifiers that share a system must be unique. In other words,
+if the same identifier is used in two locations with identical
+systems, then by definition the objects at which they point are
+in fact the same object.</p></td>
+    </tr>
+    <tr>
+      <th>scope</th>
+      <td><p>The scope of the identifier. Scope is generally set
+to either "system", meaning that it is scoped according to the
+"system" attribute, or "document" if it is only to be in scope
+within this single document instance. In this particular use
+of scope, it is FIXED to be "system" because the packageId
+is required and always has the scope of the required "system".</p></td>
     </tr>
     </table>
     

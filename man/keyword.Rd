@@ -7,13 +7,12 @@
 keyword(value = NULL, lang = NULL, keywordType = NULL)
 }
 \arguments{
-\item{value}{(def not found)}
+\item{value}{The text value (e.g. when given text is devined for
+multiple languages.)}
 
-\item{lang}{(def not found)}
+\item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 
-\item{keywordType}{The type of each keyword.}
-
-\item{inheritParams}{node_template}
+\item{keywordType}{The type of each keyword.See \code{\link[=keywordType]{keywordType()}}}
 }
 \value{
 a keyword list object

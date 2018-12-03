@@ -3,11 +3,11 @@
 #' changeHistory 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param changeScope An expression describing the scope to which the documented change was applied.
-#' @param oldValue The previous value of the data prior to the change.
-#' @param changeDate The date the changes were applied.
-#' @param comment Explanation or justification for the change made to the data.
+#' @inheritParams common_attributes 
+#' @param changeScope An expression describing the scope to which the documented change was applied.See [changeScope()]
+#' @param oldValue The previous value of the data prior to the change.See [oldValue()]
+#' @param changeDate The date the changes were applied.See [changeDate()]
+#' @param comment Explanation or justification for the change made to the data.See [comment()]
 #'
 #' @return a changeHistory list object
 #'

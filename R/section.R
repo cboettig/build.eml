@@ -3,11 +3,10 @@
 #' section 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param title The optional title of the section.
-#' @param para A simple paragraph of text.
-#' @param section A section of related text.
-#' @param lang (def not found)
+#' @inheritParams common_attributes 
+#' @param title The optional title of the section.See [title()]
+#' @param para A simple paragraph of text.See [para()]
+#' @param section A section of related text.See [section()]
 #'
 #' @return a section list object
 #'

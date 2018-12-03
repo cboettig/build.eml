@@ -10,19 +10,7 @@ taxonomicSystem(classificationSystem = NULL,
   vouchers = NULL)
 }
 \arguments{
-\item{classificationSystem}{Information about the classification system or authority used.}
-
-\item{identificationReference}{(def not found)}
-
-\item{identifierName}{(def not found)}
-
-\item{taxonomicProcedures}{(def not found)}
-
-\item{taxonomicCompleteness}{(def not found)}
-
-\item{vouchers}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{classificationSystem}{Information about the classification system or authority used.See \code{\link[=classificationSystem]{classificationSystem()}}}
 }
 \value{
 a taxonomicSystem list object

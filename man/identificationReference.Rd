@@ -18,73 +18,92 @@ identificationReference(alternateIdentifier = NULL, shortName = NULL,
   references = NULL, id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{alternateIdentifier}{A secondary identifier for this entity}
+\item{alternateIdentifier}{A secondary identifier for this entitySee \code{\link[=alternateIdentifier]{alternateIdentifier()}}}
 
-\item{shortName}{A short name that describes the resource, sometimes a filename.}
+\item{shortName}{A short name that describes the resource, sometimes a filename.See \code{\link[=shortName]{shortName()}}}
 
-\item{title}{A brief description of the resource, providing enough detail to differentiate it from other similar resources.}
+\item{title}{A brief description of the resource, providing enough detail to differentiate it from other similar resources.See \code{\link[=title]{title()}}}
 
-\item{creator}{The people or organizations who created this resource.}
+\item{creator}{The people or organizations who created this resource.See \code{\link[=creator]{creator()}}}
 
-\item{metadataProvider}{The people or organizations who created provided documentation and other metadata for this resource.}
+\item{metadataProvider}{The people or organizations who created provided documentation and other metadata for this resource.See \code{\link[=metadataProvider]{metadataProvider()}}}
 
-\item{associatedParty}{Other people or organizations who should be associated with this resource.}
+\item{associatedParty}{Other people or organizations who should be associated with this resource.See \code{\link[=associatedParty]{associatedParty()}}}
 
-\item{pubDate}{The publication date of the resource.}
+\item{pubDate}{The publication date of the resource.See \code{\link[=pubDate]{pubDate()}}}
 
-\item{language}{The language in which the resource is written.}
+\item{language}{The language in which the resource is written.See \code{\link[=language]{language()}}}
 
-\item{series}{The series from which the resource came.}
+\item{series}{The series from which the resource came.See \code{\link[=series]{series()}}}
 
-\item{abstract}{A brief overview of the resource.}
+\item{abstract}{A brief overview of the resource.See \code{\link[=abstract]{abstract()}}}
 
-\item{keywordSet}{Keyword information that describes the resource.}
+\item{keywordSet}{Keyword information that describes the resource.See \code{\link[=keywordSet]{keywordSet()}}}
 
-\item{additionalInfo}{Any extra information pertitent to the resource.}
+\item{additionalInfo}{Any extra information pertitent to the resource.See \code{\link[=additionalInfo]{additionalInfo()}}}
 
-\item{intellectualRights}{Intellectual property rights regarding usage and licensing of this resource.}
+\item{intellectualRights}{Intellectual property rights regarding usage and licensing of this resource.See \code{\link[=intellectualRights]{intellectualRights()}}}
 
-\item{licensed}{Information identifying a well-known license for the metadata and data}
+\item{licensed}{Information identifying a well-known license for the metadata and dataSee \code{\link[=licensed]{licensed()}}}
 
-\item{distribution}{Information on how the resource is distributed online and offline}
+\item{distribution}{Information on how the resource is distributed online and offlineSee \code{\link[=distribution]{distribution()}}}
 
-\item{coverage}{Extent of the coverage of the resource.}
+\item{coverage}{Extent of the coverage of the resource.See \code{\link[=coverage]{coverage()}}}
 
-\item{annotation}{A precisely-defined semantic statement about this resource.}
+\item{annotation}{A precisely-defined semantic statement about this resource.See \code{\link[=annotation]{annotation()}}}
 
-\item{contact}{An optional contact individual for this citation}
+\item{contact}{An optional contact individual for this citationSee \code{\link[=contact]{contact()}}}
 
-\item{article}{Information for full citation of a journal article or other periodical article.}
+\item{article}{Information for full citation of a journal article or other periodical article.See \code{\link[=article]{article()}}}
 
-\item{book}{Information for full citation of a book}
+\item{book}{Information for full citation of a bookSee \code{\link[=book]{book()}}}
 
-\item{chapter}{Information for citation of a chapter in a book}
+\item{chapter}{Information for citation of a chapter in a bookSee \code{\link[=chapter]{chapter()}}}
 
-\item{editedBook}{Information for full citation of an edited book}
+\item{editedBook}{Information for full citation of an edited bookSee \code{\link[=editedBook]{editedBook()}}}
 
-\item{manuscript}{Information about an unpublished manuscript}
+\item{manuscript}{Information about an unpublished manuscriptSee \code{\link[=manuscript]{manuscript()}}}
 
-\item{report}{Information about a report published by an institution.}
+\item{report}{Information about a report published by an institution.See \code{\link[=report]{report()}}}
 
-\item{thesis}{Information about a thesis that has been written as part of a degree requirement and is frequently published in small numbers by the degree awarding institution.}
+\item{thesis}{Information about a thesis that has been written as part of a degree requirement and is frequently published in small numbers by the degree awarding institution.See \code{\link[=thesis]{thesis()}}}
 
-\item{conferenceProceedings}{The published notes, papers, presentations etc... of a conference.}
+\item{conferenceProceedings}{The published notes, papers, presentations etc... of a conference.See \code{\link[=conferenceProceedings]{conferenceProceedings()}}}
 
-\item{personalCommunication}{A personal communication that has been saved online or as hard-copy.}
+\item{personalCommunication}{A personal communication that has been saved online or as hard-copy.See \code{\link[=personalCommunication]{personalCommunication()}}}
 
-\item{map}{This element describes the map that is being cited or cataloged.}
+\item{map}{This element describes the map that is being cited or cataloged.See \code{\link[=map]{map()}}}
 
-\item{generic}{This reference type was created for references that do not fit in to the other existing reference types}
+\item{generic}{This reference type was created for references that do not fit in to the other existing reference typesSee \code{\link[=generic]{generic()}}}
 
-\item{audioVisual}{This reference type is meant to cover all forms of audio and visual media.}
+\item{audioVisual}{This reference type is meant to cover all forms of audio and visual media.See \code{\link[=audioVisual]{audioVisual()}}}
 
-\item{presentation}{An unpublished presentation from a conference, workshop, workgroup, symposium etc.}
+\item{presentation}{An unpublished presentation from a conference, workshop, workgroup, symposium etc.See \code{\link[=presentation]{presentation()}}}
 
-\item{bibtex}{Citation in Bibtex format.}
+\item{bibtex}{Citation in Bibtex format.See \code{\link[=bibtex]{bibtex()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.}
+\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
 
-\item{inheritParams}{node_template}
+\item{id}{A unique identifier for this additional metadata that can
+be used to reference it elsewhere. This is a formal field in that
+it is an error to provide a value for the id attribute that is not
+unique within the document's set of id attributes. This is designed
+to allow other portions of the metadata to reference this section formally.}
+
+\item{system}{The data management system within which an identifier
+is in scope and therefore unique. This is typically a URL
+(Uniform Resource Locator) that indicates a data management system.
+All identifiers that share a system must be unique. In other words,
+if the same identifier is used in two locations with identical
+systems, then by definition the objects at which they point are
+in fact the same object.}
+
+\item{scope}{The scope of the identifier. Scope is generally set
+to either "system", meaning that it is scoped according to the
+"system" attribute, or "document" if it is only to be in scope
+within this single document instance. In this particular use
+of scope, it is FIXED to be "system" because the packageId
+is required and always has the scope of the required "system".}
 }
 \value{
 a identificationReference list object

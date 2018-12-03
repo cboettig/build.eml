@@ -7,11 +7,10 @@
 deliveryPoint(value = NULL, lang = NULL)
 }
 \arguments{
-\item{value}{(def not found)}
+\item{value}{The text value (e.g. when given text is devined for
+multiple languages.)}
 
-\item{lang}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 }
 \value{
 a deliveryPoint list object

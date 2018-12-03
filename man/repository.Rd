@@ -7,9 +7,7 @@
 repository(originator = NULL)
 }
 \arguments{
-\item{originator}{A person or organization asociated with this resource.}
-
-\item{inheritParams}{node_template}
+\item{originator}{A person or organization asociated with this resource.See \code{\link[=originator]{originator()}}}
 }
 \value{
 a repository list object

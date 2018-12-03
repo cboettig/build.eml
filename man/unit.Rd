@@ -7,15 +7,11 @@
 unit(standardUnit = NULL, customUnit = NULL, name = NULL)
 }
 \arguments{
-\item{standardUnit}{The name of a standard unit used to make this measurement}
+\item{standardUnit}{The name of a standard unit used to make this measurementSee \code{\link[=standardUnit]{standardUnit()}}}
 
-\item{customUnit}{The name of a custom unit used to make this measurement.}
+\item{customUnit}{The name of a custom unit used to make this measurement.See \code{\link[=customUnit]{customUnit()}}}
 
-\item{name}{The name of the unit of measure .}
-
-\item{inheritParams}{node_template}
-
-\item{name}{The name of the unit of measure.}
+\item{name}{The name of the unit of measure.See \code{\link[=name]{name()}}}
 }
 \value{
 a unit list object

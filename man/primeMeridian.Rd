@@ -7,11 +7,9 @@
 primeMeridian(name = NULL, longitude = NULL)
 }
 \arguments{
-\item{name}{The name of the Prime Meridian}
+\item{name}{The name of the Prime MeridianSee \code{\link[=name]{name()}}}
 
-\item{longitude}{The longitude of the Prime Meridian}
-
-\item{inheritParams}{node_template}
+\item{longitude}{The longitude of the Prime MeridianSee \code{\link[=longitude]{longitude()}}}
 }
 \value{
 a primeMeridian list object

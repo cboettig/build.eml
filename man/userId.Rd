@@ -7,9 +7,7 @@
 userId(directory = NULL)
 }
 \arguments{
-\item{directory}{The directory system within which the directoryId can be retrieved.}
-
-\item{inheritParams}{node_template}
+\item{directory}{The directory system within which the directoryId can be retrieved.See \code{\link[=directory]{directory()}}}
 }
 \value{
 a userId list object

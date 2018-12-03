@@ -7,17 +7,6 @@
 moduleDocs(moduleName = NULL, moduleDescription = NULL,
   recommendedUsage = NULL, standAlone = NULL)
 }
-\arguments{
-\item{moduleName}{(def not found)}
-
-\item{moduleDescription}{(def not found)}
-
-\item{recommendedUsage}{(def not found)}
-
-\item{standAlone}{(def not found)}
-
-\item{inheritParams}{node_template}
-}
 \value{
 a moduleDocs list object
 }

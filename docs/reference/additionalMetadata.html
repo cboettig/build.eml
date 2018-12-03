@@ -64,7 +64,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">build.eml</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.99.0</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
       </span>
     </div>
 
@@ -118,15 +118,19 @@
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>describes</th>
-      <td><p>A pointer to the id attribute for the sub-portion of the resource that is described by this additional metadata.</p></td>
+      <td><p>A pointer to the id attribute for the sub-portion of the resource that is described by this additional metadata.See <code>describes()</code></p></td>
     </tr>
     <tr>
       <th>metadata</th>
-      <td><p>This element contains the additional metadata that is to be included in the document. The content of this field can be any well-formed XML fragment.</p></td>
+      <td><p>This element contains the additional metadata that is to be included in the document. The content of this field can be any well-formed XML fragment.See <code>metadata()</code></p></td>
     </tr>
     <tr>
-      <th>inheritParams</th>
-      <td><p>node_template</p></td>
+      <th>id</th>
+      <td><p>A unique identifier for this additional metadata that can
+be used to reference it elsewhere. This is a formal field in that
+it is an error to provide a value for the id attribute that is not
+unique within the document's set of id attributes. This is designed
+to allow other portions of the metadata to reference this section formally.</p></td>
     </tr>
     </table>
     

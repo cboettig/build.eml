@@ -7,11 +7,7 @@
 gRingPoint(gRingLatitude = NULL, gRingLongitude = NULL)
 }
 \arguments{
-\item{gRingLatitude}{The latitude of a point of the g-ring.}
-
-\item{gRingLongitude}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{gRingLatitude}{The latitude of a point of the g-ring.See \code{\link[=gRingLatitude]{gRingLatitude()}}}
 }
 \value{
 a gRingPoint list object

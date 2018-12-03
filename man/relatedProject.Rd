@@ -10,25 +10,44 @@ relatedProject(title = NULL, personnel = NULL, abstract = NULL,
   id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{title}{Title of the project.}
+\item{title}{Title of the project.See \code{\link[=title]{title()}}}
 
-\item{personnel}{Contact and role information for people involved in the research project.}
+\item{personnel}{Contact and role information for people involved in the research project.See \code{\link[=personnel]{personnel()}}}
 
-\item{abstract}{Project Abstract.}
+\item{abstract}{Project Abstract.See \code{\link[=abstract]{abstract()}}}
 
-\item{funding}{Funding information.}
+\item{funding}{Funding information.See \code{\link[=funding]{funding()}}}
 
-\item{award}{Award information.}
+\item{award}{Award information.See \code{\link[=award]{award()}}}
 
-\item{studyAreaDescription}{Description of the physical area associated with the research project, potentially including coverage, climate, geology, disturbances, etc.}
+\item{studyAreaDescription}{Description of the physical area associated with the research project, potentially including coverage, climate, geology, disturbances, etc.See \code{\link[=studyAreaDescription]{studyAreaDescription()}}}
 
-\item{designDescription}{Description of the design of the research project}
+\item{designDescription}{Description of the design of the research projectSee \code{\link[=designDescription]{designDescription()}}}
 
-\item{relatedProject}{This field is a recursive link to another project.}
+\item{relatedProject}{This field is a recursive link to another project.See \code{\link[=relatedProject]{relatedProject()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.}
+\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
 
-\item{inheritParams}{node_template}
+\item{id}{A unique identifier for this additional metadata that can
+be used to reference it elsewhere. This is a formal field in that
+it is an error to provide a value for the id attribute that is not
+unique within the document's set of id attributes. This is designed
+to allow other portions of the metadata to reference this section formally.}
+
+\item{system}{The data management system within which an identifier
+is in scope and therefore unique. This is typically a URL
+(Uniform Resource Locator) that indicates a data management system.
+All identifiers that share a system must be unique. In other words,
+if the same identifier is used in two locations with identical
+systems, then by definition the objects at which they point are
+in fact the same object.}
+
+\item{scope}{The scope of the identifier. Scope is generally set
+to either "system", meaning that it is scoped according to the
+"system" attribute, or "document" if it is only to be in scope
+within this single document instance. In this particular use
+of scope, it is FIXED to be "system" because the packageId
+is required and always has the scope of the required "system".}
 }
 \value{
 a relatedProject list object

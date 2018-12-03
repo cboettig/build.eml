@@ -7,13 +7,11 @@
 textDomain(definition = NULL, pattern = NULL, source = NULL)
 }
 \arguments{
-\item{definition}{Definition of what this text domain represents}
+\item{definition}{Definition of what this text domain representsSee \code{\link[=definition]{definition()}}}
 
-\item{pattern}{Regular expression pattern constraining the attribute}
+\item{pattern}{Regular expression pattern constraining the attributeSee \code{\link[=pattern]{pattern()}}}
 
-\item{source}{The name of the source for this text domain.}
-
-\item{inheritParams}{node_template}
+\item{source}{The name of the source for this text domain.See \code{\link[=source]{source()}}}
 }
 \value{
 a textDomain list object

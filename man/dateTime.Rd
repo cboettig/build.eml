@@ -8,13 +8,11 @@ dateTime(formatString = NULL, dateTimePrecision = NULL,
   dateTimeDomain = NULL)
 }
 \arguments{
-\item{formatString}{A format string that describes the format for a date-time value from the Gregorian calendar.}
+\item{formatString}{A format string that describes the format for a date-time value from the Gregorian calendar.See \code{\link[=formatString]{formatString()}}}
 
-\item{dateTimePrecision}{An indication of the precision of a date or time value}
+\item{dateTimePrecision}{An indication of the precision of a date or time valueSee \code{\link[=dateTimePrecision]{dateTimePrecision()}}}
 
-\item{dateTimeDomain}{See the summary for the type: DateTimeDomainType}
-
-\item{inheritParams}{node_template}
+\item{dateTimeDomain}{See the summary for the type: DateTimeDomainTypeSee \code{\link[=dateTimeDomain]{dateTimeDomain()}}}
 }
 \value{
 a dateTime list object

@@ -64,7 +64,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">build.eml</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.99.0</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
       </span>
     </div>
 
@@ -120,39 +120,50 @@
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>online</th>
-      <td><p>online</p></td>
+      <td><p>onlineSee <code><a href='online.html'>online()</a></code></p></td>
     </tr>
     <tr>
       <th>offline</th>
-      <td><p>offline</p></td>
+      <td><p>offlineSee <code><a href='offline.html'>offline()</a></code></p></td>
     </tr>
     <tr>
       <th>inline</th>
-      <td><p>inline</p></td>
+      <td><p>inlineSee <code>inline()</code></p></td>
     </tr>
     <tr>
       <th>access</th>
-      <td><p>access</p></td>
+      <td><p>accessSee <code><a href='access.html'>access()</a></code></p></td>
     </tr>
     <tr>
       <th>references</th>
-      <td><p>The id of another element in this EML document to be used to here in this context.</p></td>
+      <td><p>The id of another element in this EML document to be used to here in this context.See <code><a href='references.html'>references()</a></code></p></td>
     </tr>
     <tr>
-      <th>inheritParams</th>
-      <td><p>node_template</p></td>
+      <th>id</th>
+      <td><p>A unique identifier for this additional metadata that can
+be used to reference it elsewhere. This is a formal field in that
+it is an error to provide a value for the id attribute that is not
+unique within the document's set of id attributes. This is designed
+to allow other portions of the metadata to reference this section formally.</p></td>
     </tr>
     <tr>
-      <th>online</th>
-      <td><p>Online distribution information</p></td>
+      <th>system</th>
+      <td><p>The data management system within which an identifier
+is in scope and therefore unique. This is typically a URL
+(Uniform Resource Locator) that indicates a data management system.
+All identifiers that share a system must be unique. In other words,
+if the same identifier is used in two locations with identical
+systems, then by definition the objects at which they point are
+in fact the same object.</p></td>
     </tr>
     <tr>
-      <th>offline</th>
-      <td><p>data are available offline</p></td>
-    </tr>
-    <tr>
-      <th>inline</th>
-      <td><p>data distributed inline in the metadata.</p></td>
+      <th>scope</th>
+      <td><p>The scope of the identifier. Scope is generally set
+to either "system", meaning that it is scoped according to the
+"system" attribute, or "document" if it is only to be in scope
+within this single document instance. In this particular use
+of scope, it is FIXED to be "system" because the packageId
+is required and always has the scope of the required "system".</p></td>
     </tr>
     </table>
     

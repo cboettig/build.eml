@@ -8,15 +8,13 @@ cornerPoint(xCoordinate = NULL, yCoordinate = NULL,
   pointInPixel = NULL, corner = NULL)
 }
 \arguments{
-\item{xCoordinate}{X Location of the georeferencing point in the X diminsion of the coordinate system.}
+\item{xCoordinate}{X Location of the georeferencing point in the X diminsion of the coordinate system.See \code{\link[=xCoordinate]{xCoordinate()}}}
 
-\item{yCoordinate}{Location of the georeferencing point in the Y dimension of the coordinate system.}
+\item{yCoordinate}{Location of the georeferencing point in the Y dimension of the coordinate system.See \code{\link[=yCoordinate]{yCoordinate()}}}
 
-\item{pointInPixel}{Location within the pixel of the georeferencing point.}
+\item{pointInPixel}{Location within the pixel of the georeferencing point.See \code{\link[=pointInPixel]{pointInPixel()}}}
 
-\item{corner}{Identification of the corner in the grid corresponding to the coordinates provided.}
-
-\item{inheritParams}{node_template}
+\item{corner}{Identification of the corner in the grid corresponding to the coordinates provided.See \code{\link[=corner]{corner()}}}
 }
 \value{
 a cornerPoint list object

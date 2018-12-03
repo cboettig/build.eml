@@ -8,13 +8,11 @@ primaryKey(constraintName = NULL, constraintDescription = NULL,
   key = NULL)
 }
 \arguments{
-\item{constraintName}{A meaningfull name of the constraint.}
+\item{constraintName}{A meaningfull name of the constraint.See \code{\link[=constraintName]{constraintName()}}}
 
-\item{constraintDescription}{Descibes the purpose of the constraint.}
+\item{constraintDescription}{Descibes the purpose of the constraint.See \code{\link[=constraintDescription]{constraintDescription()}}}
 
-\item{key}{The set of attributes to which this constraint applies.}
-
-\item{inheritParams}{node_template}
+\item{key}{The set of attributes to which this constraint applies.See \code{\link[=key]{key()}}}
 }
 \value{
 a primaryKey list object

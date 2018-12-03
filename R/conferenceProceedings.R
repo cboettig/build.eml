@@ -3,23 +3,23 @@
 #' conferenceProceedings 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param publisher Organization that actually publishes the book
-#' @param publicationPlace The location at which the work was published.
-#' @param edition The edition of the book being described.
-#' @param volume The volume of the book that is part of a series.
-#' @param numberOfVolumes Number of volumes in a collection
-#' @param totalPages The total number of pages in the book.
-#' @param totalFigures The total number of figures in the book.
-#' @param totalTables The total number of tables in a book.
-#' @param ISBN The unique Internation Standard Book Number
-#' @param chapterNumber The chapter number of interest within a book
-#' @param editor The name of the editor of the book.
-#' @param bookTitle The title of the book.
-#' @param pageRange The beginning and ending page numbers of a chapter.
-#' @param conferenceName The name of the conference whose proceedings have been published.
-#' @param conferenceDate The date the conference was held.
-#' @param conferenceLocation The location where the conference was held.
+#' @inheritParams common_attributes 
+#' @param publisher Organization that actually publishes the bookSee [publisher()]
+#' @param publicationPlace The location at which the work was published.See [publicationPlace()]
+#' @param edition The edition of the book being described.See [edition()]
+#' @param volume The volume of the book that is part of a series.See [volume()]
+#' @param numberOfVolumes Number of volumes in a collectionSee [numberOfVolumes()]
+#' @param totalPages The total number of pages in the book.See [totalPages()]
+#' @param totalFigures The total number of figures in the book.See [totalFigures()]
+#' @param totalTables The total number of tables in a book.See [totalTables()]
+#' @param ISBN The unique Internation Standard Book NumberSee [ISBN()]
+#' @param chapterNumber The chapter number of interest within a bookSee [chapterNumber()]
+#' @param editor The name of the editor of the book.See [editor()]
+#' @param bookTitle The title of the book.See [bookTitle()]
+#' @param pageRange The beginning and ending page numbers of a chapter.See [pageRange()]
+#' @param conferenceName The name of the conference whose proceedings have been published.See [conferenceName()]
+#' @param conferenceDate The date the conference was held.See [conferenceDate()]
+#' @param conferenceLocation The location where the conference was held.See [conferenceLocation()]
 #'
 #' @return a conferenceProceedings list object
 #'

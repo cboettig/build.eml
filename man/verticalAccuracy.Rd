@@ -8,11 +8,9 @@ verticalAccuracy(accuracyReport = NULL,
   quantitativeAccuracyReport = NULL)
 }
 \arguments{
-\item{accuracyReport}{A qualitative statement about the accuracy of the data.}
+\item{accuracyReport}{A qualitative statement about the accuracy of the data.See \code{\link[=accuracyReport]{accuracyReport()}}}
 
-\item{quantitativeAccuracyReport}{A quantitative assessment of the data quality.}
-
-\item{inheritParams}{node_template}
+\item{quantitativeAccuracyReport}{A quantitative assessment of the data quality.See \code{\link[=quantitativeAccuracyReport]{quantitativeAccuracyReport()}}}
 }
 \value{
 a verticalAccuracy list object

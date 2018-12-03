@@ -7,11 +7,9 @@
 studyExtent(coverage = NULL, description = NULL)
 }
 \arguments{
-\item{coverage}{A description of the geographic area sampled (geographic coverage), the sampling frequency (temporal coverage), and living organisms sampled (taxonomic coverage.}
+\item{coverage}{A description of the geographic area sampled (geographic coverage), the sampling frequency (temporal coverage), and living organisms sampled (taxonomic coverage.See \code{\link[=coverage]{coverage()}}}
 
-\item{description}{A textual description of the specific areas sampled (geographic coverage), the sampling frequency (temporal coverage), and groups of living organisms sampled (taxonomic coverage).}
-
-\item{inheritParams}{node_template}
+\item{description}{A textual description of the specific areas sampled (geographic coverage), the sampling frequency (temporal coverage), and groups of living organisms sampled (taxonomic coverage).See \code{\link[=description]{description()}}}
 }
 \value{
 a studyExtent list object

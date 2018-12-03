@@ -20,81 +20,100 @@ dataSource(alternateIdentifier = NULL, shortName = NULL,
   id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{alternateIdentifier}{A secondary identifier for this entity}
+\item{alternateIdentifier}{A secondary identifier for this entitySee \code{\link[=alternateIdentifier]{alternateIdentifier()}}}
 
-\item{shortName}{A short name that describes the resource, sometimes a filename.}
+\item{shortName}{A short name that describes the resource, sometimes a filename.See \code{\link[=shortName]{shortName()}}}
 
-\item{title}{A brief description of the resource, providing enough detail to differentiate it from other similar resources.}
+\item{title}{A brief description of the resource, providing enough detail to differentiate it from other similar resources.See \code{\link[=title]{title()}}}
 
-\item{creator}{The people or organizations who created this resource.}
+\item{creator}{The people or organizations who created this resource.See \code{\link[=creator]{creator()}}}
 
-\item{metadataProvider}{The people or organizations who created provided documentation and other metadata for this resource.}
+\item{metadataProvider}{The people or organizations who created provided documentation and other metadata for this resource.See \code{\link[=metadataProvider]{metadataProvider()}}}
 
-\item{associatedParty}{Other people or organizations who should be associated with this resource.}
+\item{associatedParty}{Other people or organizations who should be associated with this resource.See \code{\link[=associatedParty]{associatedParty()}}}
 
-\item{pubDate}{The publication date of the resource.}
+\item{pubDate}{The publication date of the resource.See \code{\link[=pubDate]{pubDate()}}}
 
-\item{language}{The language in which the resource is written.}
+\item{language}{The language in which the resource is written.See \code{\link[=language]{language()}}}
 
-\item{series}{The series from which the resource came.}
+\item{series}{The series from which the resource came.See \code{\link[=series]{series()}}}
 
-\item{abstract}{A brief overview of the resource.}
+\item{abstract}{A brief overview of the resource.See \code{\link[=abstract]{abstract()}}}
 
-\item{keywordSet}{Keyword information that describes the resource.}
+\item{keywordSet}{Keyword information that describes the resource.See \code{\link[=keywordSet]{keywordSet()}}}
 
-\item{additionalInfo}{Any extra information pertitent to the resource.}
+\item{additionalInfo}{Any extra information pertitent to the resource.See \code{\link[=additionalInfo]{additionalInfo()}}}
 
-\item{intellectualRights}{Intellectual property rights regarding usage and licensing of this resource.}
+\item{intellectualRights}{Intellectual property rights regarding usage and licensing of this resource.See \code{\link[=intellectualRights]{intellectualRights()}}}
 
-\item{licensed}{Information identifying a well-known license for the metadata and data}
+\item{licensed}{Information identifying a well-known license for the metadata and dataSee \code{\link[=licensed]{licensed()}}}
 
-\item{distribution}{Information on how the resource is distributed online and offline}
+\item{distribution}{Information on how the resource is distributed online and offlineSee \code{\link[=distribution]{distribution()}}}
 
-\item{coverage}{Extent of the coverage of the resource.}
+\item{coverage}{Extent of the coverage of the resource.See \code{\link[=coverage]{coverage()}}}
 
-\item{annotation}{A precisely-defined semantic statement about this resource.}
+\item{annotation}{A precisely-defined semantic statement about this resource.See \code{\link[=annotation]{annotation()}}}
 
-\item{purpose}{A synopsis of the purpose of this dataset.}
+\item{purpose}{A synopsis of the purpose of this dataset.See \code{\link[=purpose]{purpose()}}}
 
-\item{introduction}{An overview of the background and context for the dataset.}
+\item{introduction}{An overview of the background and context for the dataset.See \code{\link[=introduction]{introduction()}}}
 
-\item{gettingStarted}{A high level overview of interpretation, structure, and content of the dataset.}
+\item{gettingStarted}{A high level overview of interpretation, structure, and content of the dataset.See \code{\link[=gettingStarted]{gettingStarted()}}}
 
-\item{acknowledgements}{Text that acknowledges funders and other key contributors.}
+\item{acknowledgements}{Text that acknowledges funders and other key contributors.See \code{\link[=acknowledgements]{acknowledgements()}}}
 
-\item{maintenance}{A description of the maintenance of this data resource.}
+\item{maintenance}{A description of the maintenance of this data resource.See \code{\link[=maintenance]{maintenance()}}}
 
-\item{contact}{The contact for this dataset}
+\item{contact}{The contact for this datasetSee \code{\link[=contact]{contact()}}}
 
-\item{publisher}{The publisher of this data set}
+\item{publisher}{The publisher of this data setSee \code{\link[=publisher]{publisher()}}}
 
-\item{pubPlace}{The location that the resource was published.}
+\item{pubPlace}{The location that the resource was published.See \code{\link[=pubPlace]{pubPlace()}}}
 
-\item{methods}{The methods field documents scientific methods used in the collection of this dataset.}
+\item{methods}{The methods field documents scientific methods used in the collection of this dataset.See \code{\link[=methods]{methods()}}}
 
-\item{project}{The project field contains information on the project in which this dataset was collected.}
+\item{project}{The project field contains information on the project in which this dataset was collected.See \code{\link[=project]{project()}}}
 
-\item{dataTable}{The dataTable field documents the dataTable(s) that make up this dataset.}
+\item{dataTable}{The dataTable field documents the dataTable(s) that make up this dataset.See \code{\link[=dataTable]{dataTable()}}}
 
-\item{spatialRaster}{The spatialRaster field describes any spatial raster images included in this dataset.}
+\item{spatialRaster}{The spatialRaster field describes any spatial raster images included in this dataset.See \code{\link[=spatialRaster]{spatialRaster()}}}
 
-\item{spatialVector}{The spatialVector field describes any spatial vectors included in this dataset.}
+\item{spatialVector}{The spatialVector field describes any spatial vectors included in this dataset.See \code{\link[=spatialVector]{spatialVector()}}}
 
-\item{storedProcedure}{The storedProcedure field contains information about any stored procedures included with this dataset.}
+\item{storedProcedure}{The storedProcedure field contains information about any stored procedures included with this dataset.See \code{\link[=storedProcedure]{storedProcedure()}}}
 
-\item{view}{The view field contains information about any views included with this dataset.}
+\item{view}{The view field contains information about any views included with this dataset.See \code{\link[=view]{view()}}}
 
-\item{otherEntity}{The otherEntity field contains information about any entity in the dataset that is not any of the preceding entities.}
+\item{otherEntity}{The otherEntity field contains information about any entity in the dataset that is not any of the preceding entities.See \code{\link[=otherEntity]{otherEntity()}}}
 
-\item{referencePublication}{A citation to an additional publication that serves as an important reference for a dataset.}
+\item{referencePublication}{A citation to an additional publication that serves as an important reference for a dataset.See \code{\link[=referencePublication]{referencePublication()}}}
 
-\item{usageCitation}{A citation to articles or products in which the dataset is used or referenced.}
+\item{usageCitation}{A citation to articles or products in which the dataset is used or referenced.See \code{\link[=usageCitation]{usageCitation()}}}
 
-\item{literatureCited}{A citation to articles or products which were referenced in the dataset or its associated metadata.}
+\item{literatureCited}{A citation to articles or products which were referenced in the dataset or its associated metadata.See \code{\link[=literatureCited]{literatureCited()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.}
+\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
 
-\item{inheritParams}{node_template}
+\item{id}{A unique identifier for this additional metadata that can
+be used to reference it elsewhere. This is a formal field in that
+it is an error to provide a value for the id attribute that is not
+unique within the document's set of id attributes. This is designed
+to allow other portions of the metadata to reference this section formally.}
+
+\item{system}{The data management system within which an identifier
+is in scope and therefore unique. This is typically a URL
+(Uniform Resource Locator) that indicates a data management system.
+All identifiers that share a system must be unique. In other words,
+if the same identifier is used in two locations with identical
+systems, then by definition the objects at which they point are
+in fact the same object.}
+
+\item{scope}{The scope of the identifier. Scope is generally set
+to either "system", meaning that it is scoped according to the
+"system" attribute, or "document" if it is only to be in scope
+within this single document instance. In this particular use
+of scope, it is FIXED to be "system" because the packageId
+is required and always has the scope of the required "system".}
 }
 \value{
 a dataSource list object

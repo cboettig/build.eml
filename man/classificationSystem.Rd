@@ -7,13 +7,6 @@
 classificationSystem(classificationSystemCitation = NULL,
   classificationSystemModifications = NULL)
 }
-\arguments{
-\item{classificationSystemCitation}{(def not found)}
-
-\item{classificationSystemModifications}{(def not found)}
-
-\item{inheritParams}{node_template}
-}
 \value{
 a classificationSystem list object
 }

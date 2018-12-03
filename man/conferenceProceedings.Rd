@@ -12,39 +12,37 @@ conferenceProceedings(publisher = NULL, publicationPlace = NULL,
   conferenceDate = NULL, conferenceLocation = NULL)
 }
 \arguments{
-\item{publisher}{Organization that actually publishes the book}
+\item{publisher}{Organization that actually publishes the bookSee \code{\link[=publisher]{publisher()}}}
 
-\item{publicationPlace}{The location at which the work was published.}
+\item{publicationPlace}{The location at which the work was published.See \code{\link[=publicationPlace]{publicationPlace()}}}
 
-\item{edition}{The edition of the book being described.}
+\item{edition}{The edition of the book being described.See \code{\link[=edition]{edition()}}}
 
-\item{volume}{The volume of the book that is part of a series.}
+\item{volume}{The volume of the book that is part of a series.See \code{\link[=volume]{volume()}}}
 
-\item{numberOfVolumes}{Number of volumes in a collection}
+\item{numberOfVolumes}{Number of volumes in a collectionSee \code{\link[=numberOfVolumes]{numberOfVolumes()}}}
 
-\item{totalPages}{The total number of pages in the book.}
+\item{totalPages}{The total number of pages in the book.See \code{\link[=totalPages]{totalPages()}}}
 
-\item{totalFigures}{The total number of figures in the book.}
+\item{totalFigures}{The total number of figures in the book.See \code{\link[=totalFigures]{totalFigures()}}}
 
-\item{totalTables}{The total number of tables in a book.}
+\item{totalTables}{The total number of tables in a book.See \code{\link[=totalTables]{totalTables()}}}
 
-\item{ISBN}{The unique Internation Standard Book Number}
+\item{ISBN}{The unique Internation Standard Book NumberSee \code{\link[=ISBN]{ISBN()}}}
 
-\item{chapterNumber}{The chapter number of interest within a book}
+\item{chapterNumber}{The chapter number of interest within a bookSee \code{\link[=chapterNumber]{chapterNumber()}}}
 
-\item{editor}{The name of the editor of the book.}
+\item{editor}{The name of the editor of the book.See \code{\link[=editor]{editor()}}}
 
-\item{bookTitle}{The title of the book.}
+\item{bookTitle}{The title of the book.See \code{\link[=bookTitle]{bookTitle()}}}
 
-\item{pageRange}{The beginning and ending page numbers of a chapter.}
+\item{pageRange}{The beginning and ending page numbers of a chapter.See \code{\link[=pageRange]{pageRange()}}}
 
-\item{conferenceName}{The name of the conference whose proceedings have been published.}
+\item{conferenceName}{The name of the conference whose proceedings have been published.See \code{\link[=conferenceName]{conferenceName()}}}
 
-\item{conferenceDate}{The date the conference was held.}
+\item{conferenceDate}{The date the conference was held.See \code{\link[=conferenceDate]{conferenceDate()}}}
 
-\item{conferenceLocation}{The location where the conference was held.}
-
-\item{inheritParams}{node_template}
+\item{conferenceLocation}{The location where the conference was held.See \code{\link[=conferenceLocation]{conferenceLocation()}}}
 }
 \value{
 a conferenceProceedings list object

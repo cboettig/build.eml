@@ -3,8 +3,8 @@
 #' datum 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param name (def not found)
+#' @inheritParams common_attributes 
+
 #'
 #' @return a datum list object
 #'

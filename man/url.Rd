@@ -4,12 +4,7 @@
 \alias{url}
 \title{url}
 \usage{
-url(fun = NULL)
-}
-\arguments{
-\item{fun}{download function}
-
-\item{inheritParams}{node_template}
+url(func = NULL)
 }
 \value{
 a url list object

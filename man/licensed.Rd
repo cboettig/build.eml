@@ -7,13 +7,11 @@
 licensed(licenseName = NULL, url = NULL, identifier = NULL)
 }
 \arguments{
-\item{licenseName}{The official name of the license}
+\item{licenseName}{The official name of the licenseSee \code{\link[=licenseName]{licenseName()}}}
 
-\item{url}{The persistent URL for the license}
+\item{url}{The persistent URL for the licenseSee \code{\link[=url]{url()}}}
 
-\item{identifier}{License Identifier}
-
-\item{inheritParams}{node_template}
+\item{identifier}{License IdentifierSee \code{\link[=identifier]{identifier()}}}
 }
 \value{
 a licensed list object

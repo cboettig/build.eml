@@ -13,7 +13,12 @@ Authors@R: c(
                      email = "brycemecum@gmail.com",
                      comment = c(ORCID = "0000-0002-0381-3766"))
             )
-Description: Create Ecological Metadata Language files
+Description: Create Ecological Metadata Language (EML) files using helpful
+             constructor functions.  This package defines a function for
+             all "complexType" EML elements, along with the corresponding
+             documentation, based on information extracted directly from
+             the EML schema definition.  Start with "?eml" and use the help
+             to investigate all child elements. 
 License: MIT + file LICENSE
 URL: https://github.com/cboettig/build.eml
 BugReports: https://github.com/cboettig/build.eml/issues
@@ -22,4 +27,5 @@ LazyData: true
 Depends: R (>= 2.10)
 VignetteBuilder: knitr
 RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
 

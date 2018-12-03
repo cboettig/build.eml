@@ -3,14 +3,11 @@
 #' online 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param onlineDescription onlineDescription
-#' @param url url
-#' @param connection connection
-#' @param onlineDescription Brief description of the the content of online
-#' @param url A URL or this resource.
-#' @param connection A connection to a data service
-#' @param connectionDefinition The definition of a connection that will be used in another location in the EML document
+#' @inheritParams common_attributes 
+#' @param onlineDescription onlineDescriptionSee [onlineDescription()]
+#' @param url urlSee [url()]
+#' @param connection connectionSee [connection()]
+#' @param connectionDefinition The definition of a connection that will be used in another location in the EML documentSee [connectionDefinition()]
 #'
 #' @return a online list object
 #'

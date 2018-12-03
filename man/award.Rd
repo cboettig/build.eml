@@ -8,17 +8,15 @@ award(funderName = NULL, funderIdentifier = NULL, awardNumber = NULL,
   title = NULL, awardUrl = NULL)
 }
 \arguments{
-\item{funderName}{The name of the funding institution that made this award}
+\item{funderName}{The name of the funding institution that made this awardSee \code{\link[=funderName]{funderName()}}}
 
-\item{funderIdentifier}{The identifier of the funding agency.}
+\item{funderIdentifier}{The identifier of the funding agency.See \code{\link[=funderIdentifier]{funderIdentifier()}}}
 
-\item{awardNumber}{The assigned award number.}
+\item{awardNumber}{The assigned award number.See \code{\link[=awardNumber]{awardNumber()}}}
 
-\item{title}{The title of the award.}
+\item{title}{The title of the award.See \code{\link[=title]{title()}}}
 
-\item{awardUrl}{The URL associated with award.}
-
-\item{inheritParams}{node_template}
+\item{awardUrl}{The URL associated with award.See \code{\link[=awardUrl]{awardUrl()}}}
 }
 \value{
 a award list object

@@ -8,13 +8,11 @@ presentation(conferenceName = NULL, conferenceDate = NULL,
   conferenceLocation = NULL)
 }
 \arguments{
-\item{conferenceName}{The name of the conference at which this presentation was given.}
+\item{conferenceName}{The name of the conference at which this presentation was given.See \code{\link[=conferenceName]{conferenceName()}}}
 
-\item{conferenceDate}{The date the conference was held.}
+\item{conferenceDate}{The date the conference was held.See \code{\link[=conferenceDate]{conferenceDate()}}}
 
-\item{conferenceLocation}{The location where the conference was held.}
-
-\item{inheritParams}{node_template}
+\item{conferenceLocation}{The location where the conference was held.See \code{\link[=conferenceLocation]{conferenceLocation()}}}
 }
 \value{
 a presentation list object

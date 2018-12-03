@@ -8,13 +8,9 @@ horizCoordSysDef(geogCoordSys = NULL, projCoordSys = NULL,
   name = NULL)
 }
 \arguments{
-\item{geogCoordSys}{The coodinate system used to express the geographic coordinates.}
+\item{geogCoordSys}{The coodinate system used to express the geographic coordinates.See \code{\link[=geogCoordSys]{geogCoordSys()}}}
 
-\item{projCoordSys}{The coodinate system used to express planar coordinates.}
-
-\item{name}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{projCoordSys}{The coodinate system used to express planar coordinates.See \code{\link[=projCoordSys]{projCoordSys()}}}
 }
 \value{
 a horizCoordSysDef list object

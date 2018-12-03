@@ -3,8 +3,8 @@
 #' orderedlist 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param listitem An item in a list of items.
+#' @inheritParams common_attributes 
+#' @param listitem An item in a list of items.See [listitem()]
 #'
 #' @return a orderedlist list object
 #'

@@ -3,10 +3,10 @@
 #' licensed 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param licenseName The official name of the license
-#' @param url The persistent URL for the license
-#' @param identifier License Identifier
+#' @inheritParams common_attributes 
+#' @param licenseName The official name of the licenseSee [licenseName()]
+#' @param url The persistent URL for the licenseSee [url()]
+#' @param identifier License IdentifierSee [identifier()]
 #'
 #' @return a licensed list object
 #'

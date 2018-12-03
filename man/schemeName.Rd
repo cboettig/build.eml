@@ -7,7 +7,13 @@
 schemeName(system = NULL)
 }
 \arguments{
-\item{inheritParams}{node_template}
+\item{system}{The data management system within which an identifier
+is in scope and therefore unique. This is typically a URL
+(Uniform Resource Locator) that indicates a data management system.
+All identifiers that share a system must be unique. In other words,
+if the same identifier is used in two locations with identical
+systems, then by definition the objects at which they point are
+in fact the same object.}
 }
 \value{
 a schemeName list object

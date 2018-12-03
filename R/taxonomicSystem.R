@@ -3,13 +3,8 @@
 #' taxonomicSystem 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param classificationSystem Information about the classification system or authority used.
-#' @param identificationReference (def not found)
-#' @param identifierName (def not found)
-#' @param taxonomicProcedures (def not found)
-#' @param taxonomicCompleteness (def not found)
-#' @param vouchers (def not found)
+#' @inheritParams common_attributes 
+#' @param classificationSystem Information about the classification system or authority used.See [classificationSystem()]
 #'
 #' @return a taxonomicSystem list object
 #'

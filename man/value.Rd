@@ -7,11 +7,7 @@
 value(lang = NULL)
 }
 \arguments{
-\item{lang}{(def not found)}
-
-\item{inheritParams}{node_template}
-
-\item{lang}{language code for element content}
+\item{lang}{language code for element contentSee \code{\link[=lang]{lang()}}}
 }
 \value{
 a value list object

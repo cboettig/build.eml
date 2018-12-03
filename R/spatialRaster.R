@@ -3,34 +3,33 @@
 #' spatialRaster 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param alternateIdentifier A secondary identifier for this entity
-#' @param entityName The name of the entity name
-#' @param entityDescription General description of the entity and its contents
-#' @param physical Description of the physical format of the entity
-#' @param coverage Information on the geographic, spatial and temporal coverages used in this entity.
-#' @param methods (def not found)
-#' @param additionalInfo Any extra information pertitent to the entity.
-#' @param annotation A precisely-defined semantic statement about this entity.
-#' @param attributeList The list of attributes associated with this entity.
-#' @param constraint Description of any relational constraints on this entity.
-#' @param spatialReference The means by which positional information in this entity is related to points on the earth's surface.
-#' @param georeferenceInfo Information on how to position the grid within the coordinate system defined in the spatial reference module.
-#' @param horizontalAccuracy The accuracy of horizontal locational measurements within the data.
-#' @param verticalAccuracy The accuracy of vertical locational measurements within the data.
-#' @param cellSizeXDirection The width of the cell in the x direction.
-#' @param cellSizeYDirection The width of the cell in the x direction.
-#' @param numberOfBands The number of bands in the image.
-#' @param rasterOrigin The corner location of the pixel having the minimum x and y values
-#' @param rows Maximum number of raster objects along the ordinate (y) axis
-#' @param columns Maximum number of raster objects along the abscissa (x) axis
-#' @param verticals Maximum number of raster objects along the vertical (z) axis
-#' @param cellGeometry Geometric representation of the cell's content.
-#' @param toneGradation Number of colors present in the image.
-#' @param scaleFactor The value used for scaling the source raster.
-#' @param offset The offset value used for scaling the source raster.
-#' @param imageDescription Detailed information for data derived from image sensors.
-#' @param references The id of another element in this EML document to be used to here in this context.
+#' @inheritParams common_attributes 
+#' @param alternateIdentifier A secondary identifier for this entitySee [alternateIdentifier()]
+#' @param entityName The name of the entity nameSee [entityName()]
+#' @param entityDescription General description of the entity and its contentsSee [entityDescription()]
+#' @param physical Description of the physical format of the entitySee [physical()]
+#' @param coverage Information on the geographic, spatial and temporal coverages used in this entity.See [coverage()]
+#' @param additionalInfo Any extra information pertitent to the entity.See [additionalInfo()]
+#' @param annotation A precisely-defined semantic statement about this entity.See [annotation()]
+#' @param attributeList The list of attributes associated with this entity.See [attributeList()]
+#' @param constraint Description of any relational constraints on this entity.See [constraint()]
+#' @param spatialReference The means by which positional information in this entity is related to points on the earth's surface.See [spatialReference()]
+#' @param georeferenceInfo Information on how to position the grid within the coordinate system defined in the spatial reference module.See [georeferenceInfo()]
+#' @param horizontalAccuracy The accuracy of horizontal locational measurements within the data.See [horizontalAccuracy()]
+#' @param verticalAccuracy The accuracy of vertical locational measurements within the data.See [verticalAccuracy()]
+#' @param cellSizeXDirection The width of the cell in the x direction.See [cellSizeXDirection()]
+#' @param cellSizeYDirection The width of the cell in the x direction.See [cellSizeYDirection()]
+#' @param numberOfBands The number of bands in the image.See [numberOfBands()]
+#' @param rasterOrigin The corner location of the pixel having the minimum x and y valuesSee [rasterOrigin()]
+#' @param rows Maximum number of raster objects along the ordinate (y) axisSee [rows()]
+#' @param columns Maximum number of raster objects along the abscissa (x) axisSee [columns()]
+#' @param verticals Maximum number of raster objects along the vertical (z) axisSee [verticals()]
+#' @param cellGeometry Geometric representation of the cell's content.See [cellGeometry()]
+#' @param toneGradation Number of colors present in the image.See [toneGradation()]
+#' @param scaleFactor The value used for scaling the source raster.See [scaleFactor()]
+#' @param offset The offset value used for scaling the source raster.See [offset()]
+#' @param imageDescription Detailed information for data derived from image sensors.See [imageDescription()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
 #'
 #' @return a spatialRaster list object
 #'

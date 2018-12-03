@@ -14,41 +14,56 @@ spatialVector(alternateIdentifier = NULL, entityName = NULL,
   system = NULL, scope = NULL)
 }
 \arguments{
-\item{alternateIdentifier}{A secondary identifier for this entity}
+\item{alternateIdentifier}{A secondary identifier for this entitySee \code{\link[=alternateIdentifier]{alternateIdentifier()}}}
 
-\item{entityName}{The name of the entity name}
+\item{entityName}{The name of the entity nameSee \code{\link[=entityName]{entityName()}}}
 
-\item{entityDescription}{General description of the entity and its contents}
+\item{entityDescription}{General description of the entity and its contentsSee \code{\link[=entityDescription]{entityDescription()}}}
 
-\item{physical}{Description of the physical format of the entity}
+\item{physical}{Description of the physical format of the entitySee \code{\link[=physical]{physical()}}}
 
-\item{coverage}{Information on the geographic, spatial and temporal coverages used in this entity.}
+\item{coverage}{Information on the geographic, spatial and temporal coverages used in this entity.See \code{\link[=coverage]{coverage()}}}
 
-\item{methods}{(def not found)}
+\item{additionalInfo}{Any extra information pertitent to the entity.See \code{\link[=additionalInfo]{additionalInfo()}}}
 
-\item{additionalInfo}{Any extra information pertitent to the entity.}
+\item{annotation}{A precisely-defined semantic statement about this entity.See \code{\link[=annotation]{annotation()}}}
 
-\item{annotation}{A precisely-defined semantic statement about this entity.}
+\item{attributeList}{The list of attributes associated with this entity.See \code{\link[=attributeList]{attributeList()}}}
 
-\item{attributeList}{The list of attributes associated with this entity.}
+\item{constraint}{Description of any relational constraints on this entity.See \code{\link[=constraint]{constraint()}}}
 
-\item{constraint}{Description of any relational constraints on this entity.}
+\item{geometry}{Type of geometric feature(s) represented in the entity.See \code{\link[=geometry]{geometry()}}}
 
-\item{geometry}{Type of geometric feature(s) represented in the entity.}
+\item{geometricObjectCount}{Total number of the geometric objects occurring in the dataset.See \code{\link[=geometricObjectCount]{geometricObjectCount()}}}
 
-\item{geometricObjectCount}{Total number of the geometric objects occurring in the dataset.}
+\item{topologyLevel}{Code which identifies the degree of complexity.See \code{\link[=topologyLevel]{topologyLevel()}}}
 
-\item{topologyLevel}{Code which identifies the degree of complexity.}
+\item{horizontalAccuracy}{Horizontal positional accuracy of the dataSee \code{\link[=horizontalAccuracy]{horizontalAccuracy()}}}
 
-\item{spatialReference}{(def not found)}
+\item{verticalAccuracy}{Vertical positional accuracy of the dataSee \code{\link[=verticalAccuracy]{verticalAccuracy()}}}
 
-\item{horizontalAccuracy}{Horizontal positional accuracy of the data}
+\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
 
-\item{verticalAccuracy}{Vertical positional accuracy of the data}
+\item{id}{A unique identifier for this additional metadata that can
+be used to reference it elsewhere. This is a formal field in that
+it is an error to provide a value for the id attribute that is not
+unique within the document's set of id attributes. This is designed
+to allow other portions of the metadata to reference this section formally.}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.}
+\item{system}{The data management system within which an identifier
+is in scope and therefore unique. This is typically a URL
+(Uniform Resource Locator) that indicates a data management system.
+All identifiers that share a system must be unique. In other words,
+if the same identifier is used in two locations with identical
+systems, then by definition the objects at which they point are
+in fact the same object.}
 
-\item{inheritParams}{node_template}
+\item{scope}{The scope of the identifier. Scope is generally set
+to either "system", meaning that it is scoped according to the
+"system" attribute, or "document" if it is only to be in scope
+within this single document instance. In this particular use
+of scope, it is FIXED to be "system" because the packageId
+is required and always has the scope of the required "system".}
 }
 \value{
 a spatialVector list object

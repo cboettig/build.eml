@@ -8,13 +8,11 @@ studyAreaDescription(descriptor = NULL, citation = NULL,
   coverage = NULL)
 }
 \arguments{
-\item{descriptor}{Description of non-coverage characteristics of the study area such as climate, geology, disturbances}
+\item{descriptor}{Description of non-coverage characteristics of the study area such as climate, geology, disturbancesSee \code{\link[=descriptor]{descriptor()}}}
 
-\item{citation}{The citation for this descriptor.}
+\item{citation}{The citation for this descriptor.See \code{\link[=citation]{citation()}}}
 
-\item{coverage}{The coverage of this descriptor.}
-
-\item{inheritParams}{node_template}
+\item{coverage}{The coverage of this descriptor.See \code{\link[=coverage]{coverage()}}}
 }
 \value{
 a studyAreaDescription list object

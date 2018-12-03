@@ -7,9 +7,7 @@
 referencedKey(attributeReference = NULL)
 }
 \arguments{
-\item{attributeReference}{The identifier of an attribute found in the identified entity}
-
-\item{inheritParams}{node_template}
+\item{attributeReference}{The identifier of an attribute found in the identified entitySee \code{\link[=attributeReference]{attributeReference()}}}
 }
 \value{
 a referencedKey list object

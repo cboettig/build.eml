@@ -7,9 +7,7 @@
 size(unit = NULL)
 }
 \arguments{
-\item{unit}{Unit of measurement for the entity size, by default byte}
-
-\item{inheritParams}{node_template}
+\item{unit}{Unit of measurement for the entity size, by default byteSee \code{\link[=unit]{unit()}}}
 }
 \value{
 a size list object

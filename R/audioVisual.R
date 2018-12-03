@@ -3,11 +3,11 @@
 #' audioVisual 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param publisher Organization which actually distributes the video, film, the broadcaster etc...
-#' @param publicationPlace The location at which the work was published.
-#' @param performer The performers in the audio visual production
-#' @param ISBN The unique Internation Standard Book Number
+#' @inheritParams common_attributes 
+#' @param publisher Organization which actually distributes the video, film, the broadcaster etc...See [publisher()]
+#' @param publicationPlace The location at which the work was published.See [publicationPlace()]
+#' @param performer The performers in the audio visual productionSee [performer()]
+#' @param ISBN The unique Internation Standard Book NumberSee [ISBN()]
 #'
 #' @return a audioVisual list object
 #'

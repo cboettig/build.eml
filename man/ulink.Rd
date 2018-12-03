@@ -7,11 +7,9 @@
 ulink(citetitle = NULL, url = NULL)
 }
 \arguments{
-\item{citetitle}{the title of the cited work}
+\item{citetitle}{the title of the cited workSee \code{\link[=citetitle]{citetitle()}}}
 
-\item{url}{the Uniform Resource Locator for the cited work}
-
-\item{inheritParams}{node_template}
+\item{url}{the Uniform Resource Locator for the cited workSee \code{\link[=url]{url()}}}
 }
 \value{
 a ulink list object

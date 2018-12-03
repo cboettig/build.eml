@@ -3,9 +3,9 @@
 #' literatureCited 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param citation A citation within a list of citations.
-#' @param bibtex List of citations in Bibtex format.
+#' @inheritParams common_attributes 
+#' @param citation A citation within a list of citations.See [citation()]
+#' @param bibtex List of citations in Bibtex format.See [bibtex()]
 #'
 #' @return a literatureCited list object
 #'

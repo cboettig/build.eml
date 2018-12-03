@@ -8,13 +8,11 @@ externalCodeSet(codesetName = NULL, citation = NULL,
   codesetURL = NULL)
 }
 \arguments{
-\item{codesetName}{The name of an externally defined code set}
+\item{codesetName}{The name of an externally defined code setSee \code{\link[=codesetName]{codesetName()}}}
 
-\item{citation}{A citation for the code set reference}
+\item{citation}{A citation for the code set referenceSee \code{\link[=citation]{citation()}}}
 
-\item{codesetURL}{A URL for the code set reference}
-
-\item{inheritParams}{node_template}
+\item{codesetURL}{A URL for the code set referenceSee \code{\link[=codesetURL]{codesetURL()}}}
 }
 \value{
 a externalCodeSet list object

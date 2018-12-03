@@ -3,11 +3,11 @@
 #' taxonomicCoverage 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param taxonomicSystem Documentation of taxonomic sources, procedures, and treatments.
-#' @param generalTaxonomicCoverage A description of the range of taxa addressed in the data set or collection.
-#' @param taxonomicClassification Information about the range of taxa addressed in the data set or collection.
-#' @param references The id of another element in this EML document to be used to here in this context.
+#' @inheritParams common_attributes 
+#' @param taxonomicSystem Documentation of taxonomic sources, procedures, and treatments.See [taxonomicSystem()]
+#' @param generalTaxonomicCoverage A description of the range of taxa addressed in the data set or collection.See [generalTaxonomicCoverage()]
+#' @param taxonomicClassification Information about the range of taxa addressed in the data set or collection.See [taxonomicClassification()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
 #'
 #' @return a taxonomicCoverage list object
 #'

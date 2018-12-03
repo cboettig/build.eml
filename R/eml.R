@@ -3,15 +3,14 @@
 #' eml 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param access Access control rules for the entire resource, which can be overridden by access rules in distribution trees
-#' @param dataset A resource that describes a data set, which can include one or more data entities such as data tables.
-#' @param citation A resource that describes a literature citation that one might find in a bibliography.
-#' @param software A resource that describes a software package, which can include commercial and non-commercial software as well as data processing programs.
-#' @param protocol A resource that describes a scientific protocol, which can include one or more descriptions of methods and procedures.
-#' @param additionalMetadata A flexible field for including any other relevant metadata that pertains to the resource being described.
-#' @param packageId A unique identifier for this entire EML metadata document that can be used to reference it elsewhere.
-#' @param lang (def not found)
+#' @inheritParams common_attributes 
+#' @param access Access control rules for the entire resource, which can be overridden by access rules in distribution treesSee [access()]
+#' @param dataset A resource that describes a data set, which can include one or more data entities such as data tables.See [dataset()]
+#' @param citation A resource that describes a literature citation that one might find in a bibliography.See [citation()]
+#' @param software A resource that describes a software package, which can include commercial and non-commercial software as well as data processing programs.See [software()]
+#' @param protocol A resource that describes a scientific protocol, which can include one or more descriptions of methods and procedures.See [protocol()]
+#' @param additionalMetadata A flexible field for including any other relevant metadata that pertains to the resource being described.See [additionalMetadata()]
+#' @param packageId A unique identifier for this entire EML metadata document that can be used to reference it elsewhere.See [packageId()]
 #'
 #' @return a eml list object
 #'

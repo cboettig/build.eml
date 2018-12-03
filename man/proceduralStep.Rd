@@ -8,19 +8,15 @@ proceduralStep(description = NULL, citation = NULL, protocol = NULL,
   instrumentation = NULL, software = NULL, subStep = NULL)
 }
 \arguments{
-\item{description}{Description of the methods employed in collecting or generating a data set or other resource or in quality control and assurance.}
+\item{description}{Description of the methods employed in collecting or generating a data set or other resource or in quality control and assurance.See \code{\link[=description]{description()}}}
 
-\item{citation}{Literature citation relating to the methods used.}
+\item{citation}{Literature citation relating to the methods used.See \code{\link[=citation]{citation()}}}
 
-\item{protocol}{Protocol description relating to the methods used.}
+\item{protocol}{Protocol description relating to the methods used.See \code{\link[=protocol]{protocol()}}}
 
-\item{instrumentation}{Instruments used for measurement and recording data.}
+\item{instrumentation}{Instruments used for measurement and recording data.See \code{\link[=instrumentation]{instrumentation()}}}
 
-\item{software}{Software used in the processing of data.}
-
-\item{subStep}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{software}{Software used in the processing of data.See \code{\link[=software]{software()}}}
 }
 \value{
 a proceduralStep list object

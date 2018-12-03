@@ -3,9 +3,9 @@
 #' horizontalAccuracy 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param accuracyReport A qualitative statement about the accuracy of the data.
-#' @param quantitativeAccuracyReport A quantitative assessment of the data quality.
+#' @inheritParams common_attributes 
+#' @param accuracyReport A qualitative statement about the accuracy of the data.See [accuracyReport()]
+#' @param quantitativeAccuracyReport A quantitative assessment of the data quality.See [quantitativeAccuracyReport()]
 #'
 #' @return a horizontalAccuracy list object
 #'

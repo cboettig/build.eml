@@ -3,8 +3,8 @@
 #' phone 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param phonetype The type of the phone to which this number applies
+#' @inheritParams common_attributes 
+#' @param phonetype The type of the phone to which this number appliesSee [phonetype()]
 #'
 #' @return a phone list object
 #'

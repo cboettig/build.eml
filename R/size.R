@@ -3,8 +3,8 @@
 #' size 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param unit Unit of measurement for the entity size, by default byte
+#' @inheritParams common_attributes 
+#' @param unit Unit of measurement for the entity size, by default byteSee [unit()]
 #'
 #' @return a size list object
 #'

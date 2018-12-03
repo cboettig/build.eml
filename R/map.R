@@ -3,11 +3,11 @@
 #' map 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param publisher Organization that actually publishes the map
-#' @param edition The edition of the map being described.
-#' @param geographicCoverage Description of the geographic area which the map covers
-#' @param scale The Map's scale
+#' @inheritParams common_attributes 
+#' @param publisher Organization that actually publishes the mapSee [publisher()]
+#' @param edition The edition of the map being described.See [edition()]
+#' @param geographicCoverage Description of the geographic area which the map coversSee [geographicCoverage()]
+#' @param scale The Map's scaleSee [scale()]
 #'
 #' @return a map list object
 #'

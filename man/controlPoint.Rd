@@ -8,17 +8,15 @@ controlPoint(column = NULL, row = NULL, xCoordinate = NULL,
   yCoordinate = NULL, pointInPixel = NULL)
 }
 \arguments{
-\item{column}{Column location of the georeferencing point in the grid.}
+\item{column}{Column location of the georeferencing point in the grid.See \code{\link[=column]{column()}}}
 
-\item{row}{Row location of the georeferencing point in the grid.}
+\item{row}{Row location of the georeferencing point in the grid.See \code{\link[=row]{row()}}}
 
-\item{xCoordinate}{X Location of the georeferencing point in the X diminsion of the coordinate system.}
+\item{xCoordinate}{X Location of the georeferencing point in the X diminsion of the coordinate system.See \code{\link[=xCoordinate]{xCoordinate()}}}
 
-\item{yCoordinate}{Location of the georeferencing point in the Y dimension of the coordinate system.}
+\item{yCoordinate}{Location of the georeferencing point in the Y dimension of the coordinate system.See \code{\link[=yCoordinate]{yCoordinate()}}}
 
-\item{pointInPixel}{Location within the pixel of the georeferencing point.}
-
-\item{inheritParams}{node_template}
+\item{pointInPixel}{Location within the pixel of the georeferencing point.See \code{\link[=pointInPixel]{pointInPixel()}}}
 }
 \value{
 a controlPoint list object

@@ -8,15 +8,13 @@ map(publisher = NULL, edition = NULL, geographicCoverage = NULL,
   scale = NULL)
 }
 \arguments{
-\item{publisher}{Organization that actually publishes the map}
+\item{publisher}{Organization that actually publishes the mapSee \code{\link[=publisher]{publisher()}}}
 
-\item{edition}{The edition of the map being described.}
+\item{edition}{The edition of the map being described.See \code{\link[=edition]{edition()}}}
 
-\item{geographicCoverage}{Description of the geographic area which the map covers}
+\item{geographicCoverage}{Description of the geographic area which the map coversSee \code{\link[=geographicCoverage]{geographicCoverage()}}}
 
-\item{scale}{The Map's scale}
-
-\item{inheritParams}{node_template}
+\item{scale}{The Map's scaleSee \code{\link[=scale]{scale()}}}
 }
 \value{
 a map list object

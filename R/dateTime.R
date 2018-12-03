@@ -3,10 +3,10 @@
 #' dateTime 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param formatString A format string that describes the format for a date-time value from the Gregorian calendar.
-#' @param dateTimePrecision An indication of the precision of a date or time value
-#' @param dateTimeDomain See the summary for the type: DateTimeDomainType
+#' @inheritParams common_attributes 
+#' @param formatString A format string that describes the format for a date-time value from the Gregorian calendar.See [formatString()]
+#' @param dateTimePrecision An indication of the precision of a date or time valueSee [dateTimePrecision()]
+#' @param dateTimeDomain See the summary for the type: DateTimeDomainTypeSee [dateTimeDomain()]
 #'
 #' @return a dateTime list object
 #'

@@ -8,15 +8,13 @@ gettingStarted(section = NULL, para = NULL, markdown = NULL,
   lang = NULL)
 }
 \arguments{
-\item{section}{A section of related text.}
+\item{section}{A section of related text.See \code{\link[=section]{section()}}}
 
-\item{para}{A simple paragraph of text.}
+\item{para}{A simple paragraph of text.See \code{\link[=para]{para()}}}
 
-\item{markdown}{A block of text formatted with Markdown directives.}
+\item{markdown}{A block of text formatted with Markdown directives.See \code{\link[=markdown]{markdown()}}}
 
-\item{lang}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 }
 \value{
 a gettingStarted list object

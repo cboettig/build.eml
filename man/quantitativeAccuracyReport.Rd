@@ -8,11 +8,9 @@ quantitativeAccuracyReport(quantitativeAccuracyValue = NULL,
   quantitativeAccuracyMethod = NULL)
 }
 \arguments{
-\item{quantitativeAccuracyValue}{The value resulting from the accuracy test.}
+\item{quantitativeAccuracyValue}{The value resulting from the accuracy test.See \code{\link[=quantitativeAccuracyValue]{quantitativeAccuracyValue()}}}
 
-\item{quantitativeAccuracyMethod}{The method used to calculate the accuracy value.}
-
-\item{inheritParams}{node_template}
+\item{quantitativeAccuracyMethod}{The method used to calculate the accuracy value.See \code{\link[=quantitativeAccuracyMethod]{quantitativeAccuracyMethod()}}}
 }
 \value{
 a quantitativeAccuracyReport list object

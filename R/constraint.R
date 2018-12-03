@@ -3,13 +3,13 @@
 #' constraint 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param primaryKey The primary key in the entity
-#' @param uniqueKey A unique key in the entity
-#' @param checkConstraint A constraint which checks a conditional clause within an entity.
-#' @param foreignKey A foreign key relationship among entities
-#' @param joinCondition A non primary/foreign key join
-#' @param notNullConstraint A constraint that indicates that no null values should be present for an attribute.
+#' @inheritParams common_attributes 
+#' @param primaryKey The primary key in the entitySee [primaryKey()]
+#' @param uniqueKey A unique key in the entitySee [uniqueKey()]
+#' @param checkConstraint A constraint which checks a conditional clause within an entity.See [checkConstraint()]
+#' @param foreignKey A foreign key relationship among entitiesSee [foreignKey()]
+#' @param joinCondition A non primary/foreign key joinSee [joinCondition()]
+#' @param notNullConstraint A constraint that indicates that no null values should be present for an attribute.See [notNullConstraint()]
 #'
 #' @return a constraint list object
 #'

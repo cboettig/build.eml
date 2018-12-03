@@ -3,12 +3,12 @@
 #' bandDescription 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param sequenceIdentifier Number that uniquely identifies instances of bands of wavelengths on which a sensor operates.
-#' @param highWavelength Highest wavelength that the sensor is capable of collecting within a designated band in metres.
-#' @param lowWaveLength Lowest wavelength that the sensor is capable of collecting within a designated band in metres.
-#' @param waveLengthUnits Units in which the sensor wavelegths are expressed.
-#' @param peakResponse Wavelength at which the response is the highest.
+#' @inheritParams common_attributes 
+#' @param sequenceIdentifier Number that uniquely identifies instances of bands of wavelengths on which a sensor operates.See [sequenceIdentifier()]
+#' @param highWavelength Highest wavelength that the sensor is capable of collecting within a designated band in metres.See [highWavelength()]
+#' @param lowWaveLength Lowest wavelength that the sensor is capable of collecting within a designated band in metres.See [lowWaveLength()]
+#' @param waveLengthUnits Units in which the sensor wavelegths are expressed.See [waveLengthUnits()]
+#' @param peakResponse Wavelength at which the response is the highest.See [peakResponse()]
 #'
 #' @return a bandDescription list object
 #'

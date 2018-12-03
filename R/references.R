@@ -3,7 +3,7 @@
 #' references 
 #'
 #'
-#' @param inheritParams node_template 
+#' @inheritParams common_attributes 
 
 #'
 #' @return a references list object

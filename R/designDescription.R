@@ -3,9 +3,9 @@
 #' designDescription 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param description Textual description of research design.
-#' @param citation Citation that describes the research design.
+#' @inheritParams common_attributes 
+#' @param description Textual description of research design.See [description()]
+#' @param citation Citation that describes the research design.See [citation()]
 #'
 #' @return a designDescription list object
 #'

@@ -7,11 +7,9 @@
 projCoordSys(geogCoordSys = NULL, projection = NULL)
 }
 \arguments{
-\item{geogCoordSys}{The coodinate system used to express the geographic coordinates.}
+\item{geogCoordSys}{The coodinate system used to express the geographic coordinates.See \code{\link[=geogCoordSys]{geogCoordSys()}}}
 
-\item{projection}{The method used to tranform between geographic and planar coordinates.}
-
-\item{inheritParams}{node_template}
+\item{projection}{The method used to tranform between geographic and planar coordinates.See \code{\link[=projection]{projection()}}}
 }
 \value{
 a projCoordSys list object

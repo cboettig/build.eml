@@ -3,10 +3,10 @@
 #' studyAreaDescription 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param descriptor Description of non-coverage characteristics of the study area such as climate, geology, disturbances
-#' @param citation The citation for this descriptor.
-#' @param coverage The coverage of this descriptor.
+#' @inheritParams common_attributes 
+#' @param descriptor Description of non-coverage characteristics of the study area such as climate, geology, disturbancesSee [descriptor()]
+#' @param citation The citation for this descriptor.See [citation()]
+#' @param coverage The coverage of this descriptor.See [coverage()]
 #'
 #' @return a studyAreaDescription list object
 #'

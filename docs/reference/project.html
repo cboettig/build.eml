@@ -64,7 +64,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">build.eml</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.99.0</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
       </span>
     </div>
 
@@ -121,43 +121,66 @@
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>title</th>
-      <td><p>Title of the project.</p></td>
+      <td><p>Title of the project.See <code><a href='title.html'>title()</a></code></p></td>
     </tr>
     <tr>
       <th>personnel</th>
-      <td><p>Contact and role information for people involved in the research project.</p></td>
+      <td><p>Contact and role information for people involved in the research project.See <code><a href='personnel.html'>personnel()</a></code></p></td>
     </tr>
     <tr>
       <th>abstract</th>
-      <td><p>Project Abstract.</p></td>
+      <td><p>Project Abstract.See <code><a href='abstract.html'>abstract()</a></code></p></td>
     </tr>
     <tr>
       <th>funding</th>
-      <td><p>Funding information.</p></td>
+      <td><p>Funding information.See <code><a href='funding.html'>funding()</a></code></p></td>
     </tr>
     <tr>
       <th>award</th>
-      <td><p>Award information.</p></td>
+      <td><p>Award information.See <code><a href='award.html'>award()</a></code></p></td>
     </tr>
     <tr>
       <th>studyAreaDescription</th>
-      <td><p>Description of the physical area associated with the research project, potentially including coverage, climate, geology, disturbances, etc.</p></td>
+      <td><p>Description of the physical area associated with the research project, potentially including coverage, climate, geology, disturbances, etc.See <code><a href='studyAreaDescription.html'>studyAreaDescription()</a></code></p></td>
     </tr>
     <tr>
       <th>designDescription</th>
-      <td><p>Description of the design of the research project</p></td>
+      <td><p>Description of the design of the research projectSee <code><a href='designDescription.html'>designDescription()</a></code></p></td>
     </tr>
     <tr>
       <th>relatedProject</th>
-      <td><p>This field is a recursive link to another project.</p></td>
+      <td><p>This field is a recursive link to another project.See <code><a href='relatedProject.html'>relatedProject()</a></code></p></td>
     </tr>
     <tr>
       <th>references</th>
-      <td><p>The id of another element in this EML document to be used to here in this context.</p></td>
+      <td><p>The id of another element in this EML document to be used to here in this context.See <code><a href='references.html'>references()</a></code></p></td>
     </tr>
     <tr>
-      <th>inheritParams</th>
-      <td><p>node_template</p></td>
+      <th>id</th>
+      <td><p>A unique identifier for this additional metadata that can
+be used to reference it elsewhere. This is a formal field in that
+it is an error to provide a value for the id attribute that is not
+unique within the document's set of id attributes. This is designed
+to allow other portions of the metadata to reference this section formally.</p></td>
+    </tr>
+    <tr>
+      <th>system</th>
+      <td><p>The data management system within which an identifier
+is in scope and therefore unique. This is typically a URL
+(Uniform Resource Locator) that indicates a data management system.
+All identifiers that share a system must be unique. In other words,
+if the same identifier is used in two locations with identical
+systems, then by definition the objects at which they point are
+in fact the same object.</p></td>
+    </tr>
+    <tr>
+      <th>scope</th>
+      <td><p>The scope of the identifier. Scope is generally set
+to either "system", meaning that it is scoped according to the
+"system" attribute, or "document" if it is only to be in scope
+within this single document instance. In this particular use
+of scope, it is FIXED to be "system" because the packageId
+is required and always has the scope of the required "system".</p></td>
     </tr>
     </table>
     

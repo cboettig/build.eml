@@ -3,10 +3,8 @@
 #' keyword 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param value (def not found)
-#' @param lang (def not found)
-#' @param keywordType The type of each keyword.
+#' @inheritParams common_attributes 
+#' @param keywordType The type of each keyword.See [keywordType()]
 #'
 #' @return a keyword list object
 #'

@@ -8,21 +8,13 @@ online(onlineDescription = NULL, url = NULL, connection = NULL,
   connectionDefinition = NULL)
 }
 \arguments{
-\item{onlineDescription}{onlineDescription}
+\item{onlineDescription}{onlineDescriptionSee \code{\link[=onlineDescription]{onlineDescription()}}}
 
-\item{url}{url}
+\item{url}{urlSee \code{\link[=url]{url()}}}
 
-\item{connection}{connection}
+\item{connection}{connectionSee \code{\link[=connection]{connection()}}}
 
-\item{connectionDefinition}{The definition of a connection that will be used in another location in the EML document}
-
-\item{inheritParams}{node_template}
-
-\item{onlineDescription}{Brief description of the the content of online}
-
-\item{url}{A URL or this resource.}
-
-\item{connection}{A connection to a data service}
+\item{connectionDefinition}{The definition of a connection that will be used in another location in the EML documentSee \code{\link[=connectionDefinition]{connectionDefinition()}}}
 }
 \value{
 a online list object

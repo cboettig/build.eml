@@ -6,11 +6,6 @@
 \usage{
 nominal(nonNumericDomain = NULL)
 }
-\arguments{
-\item{nonNumericDomain}{(def not found)}
-
-\item{inheritParams}{node_template}
-}
 \value{
 a nominal list object
 }

@@ -6,13 +6,6 @@
 \usage{
 vouchers(specimen = NULL, repository = NULL)
 }
-\arguments{
-\item{specimen}{(def not found)}
-
-\item{repository}{(def not found)}
-
-\item{inheritParams}{node_template}
-}
 \value{
 a vouchers list object
 }

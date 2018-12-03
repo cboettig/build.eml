@@ -3,8 +3,8 @@
 #' userId 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param directory The directory system within which the directoryId can be retrieved.
+#' @inheritParams common_attributes 
+#' @param directory The directory system within which the directoryId can be retrieved.See [directory()]
 #'
 #' @return a userId list object
 #'

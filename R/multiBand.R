@@ -3,9 +3,9 @@
 #' multiBand 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param nbands The number of spectral bands in the image.
-#' @param layout The organization of the bands in the image file.
+#' @inheritParams common_attributes 
+#' @param nbands The number of spectral bands in the image.See [nbands()]
+#' @param layout The organization of the bands in the image file.See [layout()]
 #'
 #' @return a multiBand list object
 #'

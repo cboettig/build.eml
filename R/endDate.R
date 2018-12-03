@@ -3,10 +3,10 @@
 #' endDate 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param calendarDate The calendar date for an event.
-#' @param time The time of day for an event.
-#' @param alternativeTimeScale A name, code, or date describing an event or period in an alternative time scale, such as one of the geologic time scales.
+#' @inheritParams common_attributes 
+#' @param calendarDate The calendar date for an event.See [calendarDate()]
+#' @param time The time of day for an event.See [time()]
+#' @param alternativeTimeScale A name, code, or date describing an event or period in an alternative time scale, such as one of the geologic time scales.See [alternativeTimeScale()]
 #'
 #' @return a endDate list object
 #'

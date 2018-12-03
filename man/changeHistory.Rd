@@ -8,15 +8,13 @@ changeHistory(changeScope = NULL, oldValue = NULL, changeDate = NULL,
   comment = NULL)
 }
 \arguments{
-\item{changeScope}{An expression describing the scope to which the documented change was applied.}
+\item{changeScope}{An expression describing the scope to which the documented change was applied.See \code{\link[=changeScope]{changeScope()}}}
 
-\item{oldValue}{The previous value of the data prior to the change.}
+\item{oldValue}{The previous value of the data prior to the change.See \code{\link[=oldValue]{oldValue()}}}
 
-\item{changeDate}{The date the changes were applied.}
+\item{changeDate}{The date the changes were applied.See \code{\link[=changeDate]{changeDate()}}}
 
-\item{comment}{Explanation or justification for the change made to the data.}
-
-\item{inheritParams}{node_template}
+\item{comment}{Explanation or justification for the change made to the data.See \code{\link[=comment]{comment()}}}
 }
 \value{
 a changeHistory list object

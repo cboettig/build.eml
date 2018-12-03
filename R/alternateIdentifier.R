@@ -3,7 +3,7 @@
 #' alternateIdentifier 
 #'
 #'
-#' @param inheritParams node_template 
+#' @inheritParams common_attributes 
 
 #'
 #' @return a alternateIdentifier list object

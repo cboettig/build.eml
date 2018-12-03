@@ -3,9 +3,9 @@
 #' rangeOfDates 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param beginDate A single time stamp signifying the beginning of some time period
-#' @param endDate A single time stamp signifying the end of some time period
+#' @inheritParams common_attributes 
+#' @param beginDate A single time stamp signifying the beginning of some time periodSee [beginDate()]
+#' @param endDate A single time stamp signifying the end of some time periodSee [endDate()]
 #'
 #' @return a rangeOfDates list object
 #'

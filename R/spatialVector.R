@@ -3,24 +3,22 @@
 #' spatialVector 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param alternateIdentifier A secondary identifier for this entity
-#' @param entityName The name of the entity name
-#' @param entityDescription General description of the entity and its contents
-#' @param physical Description of the physical format of the entity
-#' @param coverage Information on the geographic, spatial and temporal coverages used in this entity.
-#' @param methods (def not found)
-#' @param additionalInfo Any extra information pertitent to the entity.
-#' @param annotation A precisely-defined semantic statement about this entity.
-#' @param attributeList The list of attributes associated with this entity.
-#' @param constraint Description of any relational constraints on this entity.
-#' @param geometry Type of geometric feature(s) represented in the entity.
-#' @param geometricObjectCount Total number of the geometric objects occurring in the dataset.
-#' @param topologyLevel Code which identifies the degree of complexity.
-#' @param spatialReference (def not found)
-#' @param horizontalAccuracy Horizontal positional accuracy of the data
-#' @param verticalAccuracy Vertical positional accuracy of the data
-#' @param references The id of another element in this EML document to be used to here in this context.
+#' @inheritParams common_attributes 
+#' @param alternateIdentifier A secondary identifier for this entitySee [alternateIdentifier()]
+#' @param entityName The name of the entity nameSee [entityName()]
+#' @param entityDescription General description of the entity and its contentsSee [entityDescription()]
+#' @param physical Description of the physical format of the entitySee [physical()]
+#' @param coverage Information on the geographic, spatial and temporal coverages used in this entity.See [coverage()]
+#' @param additionalInfo Any extra information pertitent to the entity.See [additionalInfo()]
+#' @param annotation A precisely-defined semantic statement about this entity.See [annotation()]
+#' @param attributeList The list of attributes associated with this entity.See [attributeList()]
+#' @param constraint Description of any relational constraints on this entity.See [constraint()]
+#' @param geometry Type of geometric feature(s) represented in the entity.See [geometry()]
+#' @param geometricObjectCount Total number of the geometric objects occurring in the dataset.See [geometricObjectCount()]
+#' @param topologyLevel Code which identifies the degree of complexity.See [topologyLevel()]
+#' @param horizontalAccuracy Horizontal positional accuracy of the dataSee [horizontalAccuracy()]
+#' @param verticalAccuracy Vertical positional accuracy of the dataSee [verticalAccuracy()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
 #'
 #' @return a spatialVector list object
 #'

@@ -3,16 +3,16 @@
 #' physical 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param objectName The name of the data object.
-#' @param size Describes the physical size of the data object.
-#' @param authentication A value, typically a checksum, used to authenticate that the bitstream delivered to the user is identical to the original.
-#' @param compressionMethod Name of a compression method applied
-#' @param encodingMethod Name of a encoding method applied
-#' @param characterEncoding Contains the name of the character encoding used for the data.
-#' @param dataFormat Describes the internal physical format of a data object.
-#' @param distribution Information on how the resource is distributed online and offline
-#' @param references The id of another element in this EML document to be used to here in this context.
+#' @inheritParams common_attributes 
+#' @param objectName The name of the data object.See [objectName()]
+#' @param size Describes the physical size of the data object.See [size()]
+#' @param authentication A value, typically a checksum, used to authenticate that the bitstream delivered to the user is identical to the original.See [authentication()]
+#' @param compressionMethod Name of a compression method appliedSee [compressionMethod()]
+#' @param encodingMethod Name of a encoding method appliedSee [encodingMethod()]
+#' @param characterEncoding Contains the name of the character encoding used for the data.See [characterEncoding()]
+#' @param dataFormat Describes the internal physical format of a data object.See [dataFormat()]
+#' @param distribution Information on how the resource is distributed online and offlineSee [distribution()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
 #'
 #' @return a physical list object
 #'

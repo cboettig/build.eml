@@ -3,8 +3,8 @@
 #' key 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param attributeReference The identifier of an attribute found in the identified entity
+#' @inheritParams common_attributes 
+#' @param attributeReference The identifier of an attribute found in the identified entitySee [attributeReference()]
 #'
 #' @return a key list object
 #'

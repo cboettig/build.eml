@@ -3,11 +3,9 @@
 #' language 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param value (def not found)
-#' @param lang (def not found)
-#' @param LanguageValue The actual value for the language or a code for the language.
-#' @param LanguageCodeStandard The International Language Code being used in the field languageValue.
+#' @inheritParams common_attributes 
+#' @param LanguageValue The actual value for the language or a code for the language.See [LanguageValue()]
+#' @param LanguageCodeStandard The International Language Code being used in the field languageValue.See [LanguageCodeStandard()]
 #'
 #' @return a language list object
 #'

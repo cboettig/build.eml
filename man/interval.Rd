@@ -6,15 +6,6 @@
 \usage{
 interval(unit = NULL, precision = NULL, numericDomain = NULL)
 }
-\arguments{
-\item{unit}{(def not found)}
-
-\item{precision}{(def not found)}
-
-\item{numericDomain}{(def not found)}
-
-\item{inheritParams}{node_template}
-}
 \value{
 a interval list object
 }

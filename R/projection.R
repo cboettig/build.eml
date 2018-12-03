@@ -3,10 +3,10 @@
 #' projection 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param parameter A parameter required by the projection method.
-#' @param unit The unit of measure coordinates are expressed in.
-#' @param name The name of the projection method.
+#' @inheritParams common_attributes 
+#' @param parameter A parameter required by the projection method.See [parameter()]
+#' @param unit The unit of measure coordinates are expressed in.See [unit()]
+#' @param name The name of the projection method.See [name()]
 #'
 #' @return a projection list object
 #'

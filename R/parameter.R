@@ -3,16 +3,14 @@
 #' parameter 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param name Name of the parameter to be used to make this connection.
-#' @param value The value of the parameter to be used to make this connection.
-#' @param name The name of the parameter.
-#' @param description A description of the Parameter.
-#' @param value The value supplied for the parameter
-#' @param name The name of the parameter.
-#' @param domainDescription A description of domain of valid values for the parameter.
-#' @param required Whether or not the parameter is required.
-#' @param repeats Whether or not the parameter repeats.
+#' @inheritParams common_attributes 
+#' @param name The name of the parameter.See [name()]
+#' @param description A description of the Parameter.See [description()]
+#' @param value The value supplied for the parameterSee [value()]
+#' @param name The name of the parameter.See [name()]
+#' @param domainDescription A description of domain of valid values for the parameter.See [domainDescription()]
+#' @param required Whether or not the parameter is required.See [required()]
+#' @param repeats Whether or not the parameter repeats.See [repeats()]
 #'
 #' @return a parameter list object
 #'

@@ -3,15 +3,12 @@
 #' distribution 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param online online
-#' @param offline offline
-#' @param inline inline
-#' @param access access
-#' @param references The id of another element in this EML document to be used to here in this context.
-#' @param online Online distribution information
-#' @param offline data are available offline
-#' @param inline data distributed inline in the metadata.
+#' @inheritParams common_attributes 
+#' @param online onlineSee [online()]
+#' @param offline offlineSee [offline()]
+#' @param inline inlineSee [inline()]
+#' @param access accessSee [access()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
 #'
 #' @return a distribution list object
 #'

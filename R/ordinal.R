@@ -3,8 +3,8 @@
 #' ordinal 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param nonNumericDomain (def not found)
+#' @inheritParams common_attributes 
+
 #'
 #' @return a ordinal list object
 #'

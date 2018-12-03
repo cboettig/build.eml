@@ -3,8 +3,8 @@
 #' repository 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param originator A person or organization asociated with this resource.
+#' @inheritParams common_attributes 
+#' @param originator A person or organization asociated with this resource.See [originator()]
 #'
 #' @return a repository list object
 #'

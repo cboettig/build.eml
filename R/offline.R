@@ -3,13 +3,13 @@
 #' offline 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param mediumName Name of the medium that for this resource distribution
-#' @param mediumDensity the density of the digital medium if this is relevant.
-#' @param mediumDensityUnits a numerical density's units
-#' @param mediumVolume total volume of the storage medium
-#' @param mediumFormat format of the medium on which the resource is shipped.
-#' @param mediumNote note about the media
+#' @inheritParams common_attributes 
+#' @param mediumName Name of the medium that for this resource distributionSee [mediumName()]
+#' @param mediumDensity the density of the digital medium if this is relevant.See [mediumDensity()]
+#' @param mediumDensityUnits a numerical density's unitsSee [mediumDensityUnits()]
+#' @param mediumVolume total volume of the storage mediumSee [mediumVolume()]
+#' @param mediumFormat format of the medium on which the resource is shipped.See [mediumFormat()]
+#' @param mediumNote note about the mediaSee [mediumNote()]
 #'
 #' @return a offline list object
 #'

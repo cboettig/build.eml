@@ -1,16 +1,16 @@
-#' url
+#' url 
 #'
-#' url
+#' url 
 #'
 #'
-#' @param inheritParams node_template
-#' @param fun download function
+#' @inheritParams common_attributes 
+
 #'
 #' @return a url list object
 #'
 #' @export
 
- url <- function(fun = NULL){
+ url <- function(func = NULL){ 
 Filter(Negate(is.null),
  list(
-"function" = fun))}
+'function' = func))}

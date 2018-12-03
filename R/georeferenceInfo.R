@@ -3,10 +3,10 @@
 #' georeferenceInfo 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param cornerPoint Location of a corner on a rectified grid within the coordinate system.
-#' @param controlPoint A point defined in both grid cell and georeferenced coordinates that is used to position the raster grid within the coordinate system defined in the spatialReference modoule.
-#' @param bilinearFit Terms of a bilinear model to fit the grid to the coordinate system.
+#' @inheritParams common_attributes 
+#' @param cornerPoint Location of a corner on a rectified grid within the coordinate system.See [cornerPoint()]
+#' @param controlPoint A point defined in both grid cell and georeferenced coordinates that is used to position the raster grid within the coordinate system defined in the spatialReference modoule.See [controlPoint()]
+#' @param bilinearFit Terms of a bilinear model to fit the grid to the coordinate system.See [bilinearFit()]
 #'
 #' @return a georeferenceInfo list object
 #'

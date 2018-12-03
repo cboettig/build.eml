@@ -3,20 +3,18 @@
 #' dataTable 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param alternateIdentifier A secondary identifier for this entity
-#' @param entityName The name of the entity name
-#' @param entityDescription General description of the entity and its contents
-#' @param physical Description of the physical format of the entity
-#' @param coverage Information on the geographic, spatial and temporal coverages used in this entity.
-#' @param methods (def not found)
-#' @param additionalInfo Any extra information pertitent to the entity.
-#' @param annotation A precisely-defined semantic statement about this entity.
-#' @param attributeList The list of attributes associated with this entity.
-#' @param constraint (def not found)
-#' @param caseSensitive Specification of text case sensitivity in the dataTable.
-#' @param numberOfRecords The integer count of the number of records in the dataTable.
-#' @param references The id of another element in this EML document to be used to here in this context.
+#' @inheritParams common_attributes 
+#' @param alternateIdentifier A secondary identifier for this entitySee [alternateIdentifier()]
+#' @param entityName The name of the entity nameSee [entityName()]
+#' @param entityDescription General description of the entity and its contentsSee [entityDescription()]
+#' @param physical Description of the physical format of the entitySee [physical()]
+#' @param coverage Information on the geographic, spatial and temporal coverages used in this entity.See [coverage()]
+#' @param additionalInfo Any extra information pertitent to the entity.See [additionalInfo()]
+#' @param annotation A precisely-defined semantic statement about this entity.See [annotation()]
+#' @param attributeList The list of attributes associated with this entity.See [attributeList()]
+#' @param caseSensitive Specification of text case sensitivity in the dataTable.See [caseSensitive()]
+#' @param numberOfRecords The integer count of the number of records in the dataTable.See [numberOfRecords()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
 #'
 #' @return a dataTable list object
 #'

@@ -8,15 +8,13 @@ bilinearFit(xIntercept = NULL, xSlope = NULL, yIntercept = NULL,
   ySlope = NULL)
 }
 \arguments{
-\item{xIntercept}{Location of the rasterOrigin point on the x axis of the the coordinate system.}
+\item{xIntercept}{Location of the rasterOrigin point on the x axis of the the coordinate system.See \code{\link[=xIntercept]{xIntercept()}}}
 
-\item{xSlope}{Slope describing transformation of grid cell distances into x coordinates.}
+\item{xSlope}{Slope describing transformation of grid cell distances into x coordinates.See \code{\link[=xSlope]{xSlope()}}}
 
-\item{yIntercept}{Location of the rasterOrigin point on the y axis of the the coordinate system.}
+\item{yIntercept}{Location of the rasterOrigin point on the y axis of the the coordinate system.See \code{\link[=yIntercept]{yIntercept()}}}
 
-\item{ySlope}{Slope describing transformation of grid cell distances into y axis coordinates.}
-
-\item{inheritParams}{node_template}
+\item{ySlope}{Slope describing transformation of grid cell distances into y axis coordinates.See \code{\link[=ySlope]{ySlope()}}}
 }
 \value{
 a bilinearFit list object

@@ -7,9 +7,7 @@
 authentication(method = NULL)
 }
 \arguments{
-\item{method}{The method used to calculate an authentication checksum.}
-
-\item{inheritParams}{node_template}
+\item{method}{The method used to calculate an authentication checksum.See \code{\link[=method]{method()}}}
 }
 \value{
 a authentication list object

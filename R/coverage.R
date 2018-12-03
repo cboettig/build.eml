@@ -3,14 +3,14 @@
 #' coverage 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param geographicCoverage Geographic coverage information.
-#' @param temporalCoverage Temporal coverage information.
-#' @param taxonomicCoverage Taxonomic coverage information.
-#' @param references The id of another element in this EML document to be used to here in this context.
-#' @param geographicDescription Short text description of the geographic areal domain of the data set.
-#' @param boundingCoordinates The four margins (N, S, E, W) of a bounding box on the earth's surface, or when considered in lat-lon pairs, the corners of the box. To define a single point, use the same value in each lat or lon pair. These elements are meant to convey general information and are not for accurate mapping. More specific information may be included by using the elements in the spatialReference schema.
-#' @param datasetGPolygon This construct creates a spatial ring with a hollow center.
+#' @inheritParams common_attributes 
+#' @param geographicCoverage Geographic coverage information.See [geographicCoverage()]
+#' @param temporalCoverage Temporal coverage information.See [temporalCoverage()]
+#' @param taxonomicCoverage Taxonomic coverage information.See [taxonomicCoverage()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
+#' @param geographicDescription Short text description of the geographic areal domain of the data set.See [geographicDescription()]
+#' @param boundingCoordinates The four margins (N, S, E, W) of a bounding box on the earth's surface, or when considered in lat-lon pairs, the corners of the box. To define a single point, use the same value in each lat or lon pair. These elements are meant to convey general information and are not for accurate mapping. More specific information may be included by using the elements in the spatialReference schema.See [boundingCoordinates()]
+#' @param datasetGPolygon This construct creates a spatial ring with a hollow center.See [datasetGPolygon()]
 #'
 #' @return a coverage list object
 #'

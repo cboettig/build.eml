@@ -3,11 +3,11 @@
 #' entityCodeList 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param entityReference A reference to the id of the entity in which the code list has been defined
-#' @param valueAttributeReference A reference to the id of the attribute that contains the list of codes
-#' @param definitionAttributeReference A reference to the id of the attribute that contains the definition of codes
-#' @param orderAttributeReference A reference to the id of the attribute that contains the order of codes
+#' @inheritParams common_attributes 
+#' @param entityReference A reference to the id of the entity in which the code list has been definedSee [entityReference()]
+#' @param valueAttributeReference A reference to the id of the attribute that contains the list of codesSee [valueAttributeReference()]
+#' @param definitionAttributeReference A reference to the id of the attribute that contains the definition of codesSee [definitionAttributeReference()]
+#' @param orderAttributeReference A reference to the id of the attribute that contains the order of codesSee [orderAttributeReference()]
 #'
 #' @return a entityCodeList list object
 #'

@@ -64,7 +64,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">build.eml</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.99.0</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
       </span>
     </div>
 
@@ -119,19 +119,23 @@
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>enumeratedDomain</th>
-      <td><p>Description of any coded values associated with the attribute.</p></td>
+      <td><p>Description of any coded values associated with the attribute.See <code><a href='enumeratedDomain.html'>enumeratedDomain()</a></code></p></td>
     </tr>
     <tr>
       <th>textDomain</th>
-      <td><p>Description of a free-text domain pattern for the attribute</p></td>
+      <td><p>Description of a free-text domain pattern for the attributeSee <code><a href='textDomain.html'>textDomain()</a></code></p></td>
     </tr>
     <tr>
       <th>references</th>
-      <td><p>The id of another element in this EML document to be used to here in this context.</p></td>
+      <td><p>The id of another element in this EML document to be used to here in this context.See <code><a href='references.html'>references()</a></code></p></td>
     </tr>
     <tr>
-      <th>inheritParams</th>
-      <td><p>node_template</p></td>
+      <th>id</th>
+      <td><p>A unique identifier for this additional metadata that can
+be used to reference it elsewhere. This is a formal field in that
+it is an error to provide a value for the id attribute that is not
+unique within the document's set of id attributes. This is designed
+to allow other portions of the metadata to reference this section formally.</p></td>
     </tr>
     </table>
     

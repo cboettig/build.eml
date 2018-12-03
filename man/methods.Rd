@@ -7,13 +7,11 @@
 methods(methodStep = NULL, sampling = NULL, qualityControl = NULL)
 }
 \arguments{
-\item{methodStep}{Information about the methods employed in collecting or generating a data set or other resource.}
+\item{methodStep}{Information about the methods employed in collecting or generating a data set or other resource.See \code{\link[=methodStep]{methodStep()}}}
 
-\item{sampling}{Description of sampling procedures including the geographic, temporal and taxonomic coverage of the study.}
+\item{sampling}{Description of sampling procedures including the geographic, temporal and taxonomic coverage of the study.See \code{\link[=sampling]{sampling()}}}
 
-\item{qualityControl}{Information on possible errors or on the quality of a data set.}
-
-\item{inheritParams}{node_template}
+\item{qualityControl}{Information on possible errors or on the quality of a data set.See \code{\link[=qualityControl]{qualityControl()}}}
 }
 \value{
 a methods list object

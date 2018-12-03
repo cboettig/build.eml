@@ -11,29 +11,48 @@ attribute(attributeName = NULL, attributeLabel = NULL,
   references = NULL, id = NULL, system = NULL, scope = NULL)
 }
 \arguments{
-\item{attributeName}{The name of the attribute}
+\item{attributeName}{The name of the attributeSee \code{\link[=attributeName]{attributeName()}}}
 
-\item{attributeLabel}{A label for displaying an attribute name.}
+\item{attributeLabel}{A label for displaying an attribute name.See \code{\link[=attributeLabel]{attributeLabel()}}}
 
-\item{attributeDefinition}{Precise definition of the attribute}
+\item{attributeDefinition}{Precise definition of the attributeSee \code{\link[=attributeDefinition]{attributeDefinition()}}}
 
-\item{storageType}{Storage type hint for this field}
+\item{storageType}{Storage type hint for this fieldSee \code{\link[=storageType]{storageType()}}}
 
-\item{measurementScale}{The measurement scale for the attribute.}
+\item{measurementScale}{The measurement scale for the attribute.See \code{\link[=measurementScale]{measurementScale()}}}
 
-\item{missingValueCode}{Character for missing value in the data of the field}
+\item{missingValueCode}{Character for missing value in the data of the fieldSee \code{\link[=missingValueCode]{missingValueCode()}}}
 
-\item{accuracy}{The accuracy of the attribute. This information should describe any accuracy information that is known about the collection of this data attribute.}
+\item{accuracy}{The accuracy of the attribute. This information should describe any accuracy information that is known about the collection of this data attribute.See \code{\link[=accuracy]{accuracy()}}}
 
-\item{coverage}{An explanation of the coverage of the attribute.}
+\item{coverage}{An explanation of the coverage of the attribute.See \code{\link[=coverage]{coverage()}}}
 
-\item{methods}{An explanation of the methods involved in the collection of this attribute.}
+\item{methods}{An explanation of the methods involved in the collection of this attribute.See \code{\link[=methods]{methods()}}}
 
-\item{annotation}{A precisely-defined semantic statement for this attribute.}
+\item{annotation}{A precisely-defined semantic statement for this attribute.See \code{\link[=annotation]{annotation()}}}
 
-\item{references}{The id of another element in this EML document to be used to here in this context.}
+\item{references}{The id of another element in this EML document to be used to here in this context.See \code{\link[=references]{references()}}}
 
-\item{inheritParams}{node_template}
+\item{id}{A unique identifier for this additional metadata that can
+be used to reference it elsewhere. This is a formal field in that
+it is an error to provide a value for the id attribute that is not
+unique within the document's set of id attributes. This is designed
+to allow other portions of the metadata to reference this section formally.}
+
+\item{system}{The data management system within which an identifier
+is in scope and therefore unique. This is typically a URL
+(Uniform Resource Locator) that indicates a data management system.
+All identifiers that share a system must be unique. In other words,
+if the same identifier is used in two locations with identical
+systems, then by definition the objects at which they point are
+in fact the same object.}
+
+\item{scope}{The scope of the identifier. Scope is generally set
+to either "system", meaning that it is scoped according to the
+"system" attribute, or "document" if it is only to be in scope
+within this single document instance. In this particular use
+of scope, it is FIXED to be "system" because the packageId
+is required and always has the scope of the required "system".}
 }
 \value{
 a attribute list object

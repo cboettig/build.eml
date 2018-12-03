@@ -7,9 +7,8 @@
 literalLayout(value = NULL)
 }
 \arguments{
-\item{value}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{value}{The text value (e.g. when given text is devined for
+multiple languages.)}
 }
 \value{
 a literalLayout list object

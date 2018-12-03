@@ -3,11 +3,8 @@
 #' moduleDocs 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param moduleName (def not found)
-#' @param moduleDescription (def not found)
-#' @param recommendedUsage (def not found)
-#' @param standAlone (def not found)
+#' @inheritParams common_attributes 
+
 #'
 #' @return a moduleDocs list object
 #'

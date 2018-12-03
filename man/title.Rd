@@ -7,13 +7,10 @@
 title(value = NULL, lang = NULL)
 }
 \arguments{
-\item{value}{(def not found)}
+\item{value}{The text value (e.g. when given text is devined for
+multiple languages.)}
 
-\item{lang}{(def not found)}
-
-\item{inheritParams}{node_template}
-
-\item{lang}{language code for element content}
+\item{lang}{language code for element contentSee \code{\link[=lang]{lang()}}}
 }
 \value{
 a title list object

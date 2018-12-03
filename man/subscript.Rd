@@ -8,15 +8,13 @@ subscript(value = NULL, subscript = NULL, superscript = NULL,
   lang = NULL)
 }
 \arguments{
-\item{value}{Language translation for the sub/superscript}
+\item{value}{Language translation for the sub/superscriptSee \code{\link[=value]{value()}}}
 
-\item{subscript}{A subscript in a text paragraph.}
+\item{subscript}{A subscript in a text paragraph.See \code{\link[=subscript]{subscript()}}}
 
-\item{superscript}{A superscript in a text paragraph.}
+\item{superscript}{A superscript in a text paragraph.See \code{\link[=superscript]{superscript()}}}
 
-\item{lang}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 }
 \value{
 a subscript list object

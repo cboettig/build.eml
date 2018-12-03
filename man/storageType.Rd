@@ -7,9 +7,7 @@
 storageType(typeSystem = NULL)
 }
 \arguments{
-\item{typeSystem}{The system used to define the storage types. This should be an identifier of a well known and published typing system.}
-
-\item{inheritParams}{node_template}
+\item{typeSystem}{The system used to define the storage types. This should be an identifier of a well known and published typing system.See \code{\link[=typeSystem]{typeSystem()}}}
 }
 \value{
 a storageType list object

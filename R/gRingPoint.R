@@ -3,9 +3,8 @@
 #' gRingPoint 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param gRingLatitude The latitude of a point of the g-ring.
-#' @param gRingLongitude (def not found)
+#' @inheritParams common_attributes 
+#' @param gRingLatitude The latitude of a point of the g-ring.See [gRingLatitude()]
 #'
 #' @return a gRingPoint list object
 #'

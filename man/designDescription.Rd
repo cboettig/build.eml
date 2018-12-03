@@ -7,11 +7,9 @@
 designDescription(description = NULL, citation = NULL)
 }
 \arguments{
-\item{description}{Textual description of research design.}
+\item{description}{Textual description of research design.See \code{\link[=description]{description()}}}
 
-\item{citation}{Citation that describes the research design.}
-
-\item{inheritParams}{node_template}
+\item{citation}{Citation that describes the research design.See \code{\link[=citation]{citation()}}}
 }
 \value{
 a designDescription list object

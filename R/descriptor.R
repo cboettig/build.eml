@@ -3,11 +3,11 @@
 #' descriptor 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param descriptorValue Description of some aspect of the study area.
-#' @param citation A citation for this descriptor.
-#' @param name The name of the descriptor system.
-#' @param citableClassificationSystem This boolean attribute defines whether this descriptor comes from a citable classification system or not.
+#' @inheritParams common_attributes 
+#' @param descriptorValue Description of some aspect of the study area.See [descriptorValue()]
+#' @param citation A citation for this descriptor.See [citation()]
+#' @param name The name of the descriptor system.See [name()]
+#' @param citableClassificationSystem This boolean attribute defines whether this descriptor comes from a citable classification system or not.See [citableClassificationSystem()]
 #'
 #' @return a descriptor list object
 #'

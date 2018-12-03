@@ -7,11 +7,7 @@
 datasetGPolygonExclusionGRing(gRingPoint = NULL, gRing = NULL)
 }
 \arguments{
-\item{gRingPoint}{A single geographic location}
-
-\item{gRing}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{gRingPoint}{A single geographic locationSee \code{\link[=gRingPoint]{gRingPoint()}}}
 }
 \value{
 a datasetGPolygonExclusionGRing list object

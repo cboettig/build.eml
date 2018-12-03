@@ -3,9 +3,9 @@
 #' missingValueCode 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param code The missing value code itself.
-#' @param codeExplanation An explanation of what the missing value code means.
+#' @inheritParams common_attributes 
+#' @param code The missing value code itself.See [code()]
+#' @param codeExplanation An explanation of what the missing value code means.See [codeExplanation()]
 #'
 #' @return a missingValueCode list object
 #'

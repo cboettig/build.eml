@@ -9,21 +9,19 @@ article(journal = NULL, volume = NULL, issue = NULL,
   ISSN = NULL)
 }
 \arguments{
-\item{journal}{The name of the journal, magazine, newspaper, zine, etc... in which the article was published.}
+\item{journal}{The name of the journal, magazine, newspaper, zine, etc... in which the article was published.See \code{\link[=journal]{journal()}}}
 
-\item{volume}{The volume of the journal in which the article appears}
+\item{volume}{The volume of the journal in which the article appearsSee \code{\link[=volume]{volume()}}}
 
-\item{issue}{The issue of the journal in which the article appears}
+\item{issue}{The issue of the journal in which the article appearsSee \code{\link[=issue]{issue()}}}
 
-\item{pageRange}{The beginning and end page numbers of the journal article}
+\item{pageRange}{The beginning and end page numbers of the journal articleSee \code{\link[=pageRange]{pageRange()}}}
 
-\item{publisher}{Organization that actually publishes the article}
+\item{publisher}{Organization that actually publishes the articleSee \code{\link[=publisher]{publisher()}}}
 
-\item{publicationPlace}{The location at which the work was published.}
+\item{publicationPlace}{The location at which the work was published.See \code{\link[=publicationPlace]{publicationPlace()}}}
 
-\item{ISSN}{The unique Internation Standard Serial Number}
-
-\item{inheritParams}{node_template}
+\item{ISSN}{The unique Internation Standard Serial NumberSee \code{\link[=ISSN]{ISSN()}}}
 }
 \value{
 a article list object

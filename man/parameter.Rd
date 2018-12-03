@@ -8,25 +8,19 @@ parameter(name = NULL, value = NULL, description = NULL,
   domainDescription = NULL, required = NULL, repeats = NULL)
 }
 \arguments{
-\item{name}{Name of the parameter to be used to make this connection.}
+\item{name}{The name of the parameter.See \code{\link[=name]{name()}}}
 
-\item{value}{The value of the parameter to be used to make this connection.}
+\item{value}{The value supplied for the parameterSee \code{\link[=value]{value()}}}
 
-\item{description}{A description of the Parameter.}
+\item{description}{A description of the Parameter.See \code{\link[=description]{description()}}}
 
-\item{domainDescription}{A description of domain of valid values for the parameter.}
+\item{domainDescription}{A description of domain of valid values for the parameter.See \code{\link[=domainDescription]{domainDescription()}}}
 
-\item{required}{Whether or not the parameter is required.}
+\item{required}{Whether or not the parameter is required.See \code{\link[=required]{required()}}}
 
-\item{repeats}{Whether or not the parameter repeats.}
+\item{repeats}{Whether or not the parameter repeats.See \code{\link[=repeats]{repeats()}}}
 
-\item{inheritParams}{node_template}
-
-\item{name}{The name of the parameter.}
-
-\item{value}{The value supplied for the parameter}
-
-\item{name}{The name of the parameter.}
+\item{name}{The name of the parameter.See \code{\link[=name]{name()}}}
 }
 \value{
 a parameter list object

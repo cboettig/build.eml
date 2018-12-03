@@ -3,13 +3,13 @@
 #' address 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param deliveryPoint The location for postal deliveries.
-#' @param city The name of the city for the contact.
-#' @param administrativeArea The political area of a country.
-#' @param postalCode The postal code used for routing to an address.
-#' @param country The name of the country for the contact's address.
-#' @param references The id of another element in this EML document to be used to here in this context.
+#' @inheritParams common_attributes 
+#' @param deliveryPoint The location for postal deliveries.See [deliveryPoint()]
+#' @param city The name of the city for the contact.See [city()]
+#' @param administrativeArea The political area of a country.See [administrativeArea()]
+#' @param postalCode The postal code used for routing to an address.See [postalCode()]
+#' @param country The name of the country for the contact's address.See [country()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
 #'
 #' @return a address list object
 #'

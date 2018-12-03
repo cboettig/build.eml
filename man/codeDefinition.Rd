@@ -8,15 +8,13 @@ codeDefinition(code = NULL, definition = NULL, source = NULL,
   order = NULL)
 }
 \arguments{
-\item{code}{Code value allowed in the domain}
+\item{code}{Code value allowed in the domainSee \code{\link[=code]{code()}}}
 
-\item{definition}{Definition of the associated code}
+\item{definition}{Definition of the associated codeSee \code{\link[=definition]{definition()}}}
 
-\item{source}{The name of the source for this code and its definition}
+\item{source}{The name of the source for this code and its definitionSee \code{\link[=source]{source()}}}
 
-\item{order}{Mechanism for specifying what the order of the code-definitions included should be}
-
-\item{inheritParams}{node_template}
+\item{order}{Mechanism for specifying what the order of the code-definitions included should beSee \code{\link[=order]{order()}}}
 }
 \value{
 a codeDefinition list object

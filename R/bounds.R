@@ -3,11 +3,9 @@
 #' bounds 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param minimum Minimum numeric bound of attribute
-#' @param maximum Maximum numeric bound of attribute
-#' @param minimum Minimum date bound of attribute
-#' @param maximum Maximum date bound of attribute
+#' @inheritParams common_attributes 
+#' @param minimum Minimum numeric bound of attributeSee [minimum()]
+#' @param maximum Maximum numeric bound of attributeSee [maximum()]
 #'
 #' @return a bounds list object
 #'

@@ -8,17 +8,11 @@ geogCoordSys(datum = NULL, spheroid = NULL, primeMeridian = NULL,
   unit = NULL, name = NULL)
 }
 \arguments{
-\item{datum}{The point on the earth representing the origin for the geographic coordinates to which the coorinate system is related to.}
+\item{datum}{The point on the earth representing the origin for the geographic coordinates to which the coorinate system is related to.See \code{\link[=datum]{datum()}}}
 
-\item{spheroid}{An ellipse that is used to model the earth's surface.}
+\item{spheroid}{An ellipse that is used to model the earth's surface.See \code{\link[=spheroid]{spheroid()}}}
 
-\item{primeMeridian}{(def not found)}
-
-\item{unit}{The unit of angle by which coordinates are expressed.}
-
-\item{name}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{unit}{The unit of angle by which coordinates are expressed.See \code{\link[=unit]{unit()}}}
 }
 \value{
 a geogCoordSys list object

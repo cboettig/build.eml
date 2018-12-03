@@ -8,15 +8,13 @@ sampling(studyExtent = NULL, samplingDescription = NULL,
   spatialSamplingUnits = NULL, citation = NULL)
 }
 \arguments{
-\item{studyExtent}{A description of the geographic area sampled (geographic coverage), the sampling frequency (temporal coverage), and living organisms sampled (taxonomic coverage.}
+\item{studyExtent}{A description of the geographic area sampled (geographic coverage), the sampling frequency (temporal coverage), and living organisms sampled (taxonomic coverage.See \code{\link[=studyExtent]{studyExtent()}}}
 
-\item{samplingDescription}{A description of sampling methods and procedures}
+\item{samplingDescription}{A description of sampling methods and proceduresSee \code{\link[=samplingDescription]{samplingDescription()}}}
 
-\item{spatialSamplingUnits}{Spatial sampling units represent the plots sampled.}
+\item{spatialSamplingUnits}{Spatial sampling units represent the plots sampled.See \code{\link[=spatialSamplingUnits]{spatialSamplingUnits()}}}
 
-\item{citation}{Literature citation relating to the sampling procedures used.}
-
-\item{inheritParams}{node_template}
+\item{citation}{Literature citation relating to the sampling procedures used.See \code{\link[=citation]{citation()}}}
 }
 \value{
 a sampling list object

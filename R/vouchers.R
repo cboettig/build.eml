@@ -3,9 +3,8 @@
 #' vouchers 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param specimen (def not found)
-#' @param repository (def not found)
+#' @inheritParams common_attributes 
+
 #'
 #' @return a vouchers list object
 #'

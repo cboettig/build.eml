@@ -8,15 +8,13 @@ report(reportNumber = NULL, publisher = NULL,
   publicationPlace = NULL, totalPages = NULL)
 }
 \arguments{
-\item{reportNumber}{The unique identification number assigned to the report.}
+\item{reportNumber}{The unique identification number assigned to the report.See \code{\link[=reportNumber]{reportNumber()}}}
 
-\item{publisher}{Organization that actually publishes the report}
+\item{publisher}{Organization that actually publishes the reportSee \code{\link[=publisher]{publisher()}}}
 
-\item{publicationPlace}{The location at which the work was published.}
+\item{publicationPlace}{The location at which the work was published.See \code{\link[=publicationPlace]{publicationPlace()}}}
 
-\item{totalPages}{The total number of pages in the report.}
-
-\item{inheritParams}{node_template}
+\item{totalPages}{The total number of pages in the report.See \code{\link[=totalPages]{totalPages()}}}
 }
 \value{
 a report list object

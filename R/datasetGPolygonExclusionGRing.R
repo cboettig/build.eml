@@ -3,9 +3,8 @@
 #' datasetGPolygonExclusionGRing 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param gRingPoint A single geographic location
-#' @param gRing (def not found)
+#' @inheritParams common_attributes 
+#' @param gRingPoint A single geographic locationSee [gRingPoint()]
 #'
 #' @return a datasetGPolygonExclusionGRing list object
 #'

@@ -3,9 +3,9 @@
 #' manuscript 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param institution The address and contact information needed to request a manuscript.
-#' @param totalPages The total number of pages in the manuscript.
+#' @inheritParams common_attributes 
+#' @param institution The address and contact information needed to request a manuscript.See [institution()]
+#' @param totalPages The total number of pages in the manuscript.See [totalPages()]
 #'
 #' @return a manuscript list object
 #'

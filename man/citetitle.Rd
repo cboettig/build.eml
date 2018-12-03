@@ -7,9 +7,7 @@
 citetitle(lang = NULL)
 }
 \arguments{
-\item{lang}{language code for element content}
-
-\item{inheritParams}{node_template}
+\item{lang}{language code for element contentSee \code{\link[=lang]{lang()}}}
 }
 \value{
 a citetitle list object

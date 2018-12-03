@@ -1,2 +1,6 @@
+^data-raw$
+^LICENSE\.md$
 ^docs$
 ^_pkgdown\.yml$
+^.*\.Rproj$
+^\.Rproj\.user$

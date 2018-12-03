@@ -6,11 +6,6 @@
 \usage{
 datum(name = NULL)
 }
-\arguments{
-\item{name}{(def not found)}
-
-\item{inheritParams}{node_template}
-}
 \value{
 a datum list object
 }

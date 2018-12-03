@@ -3,12 +3,10 @@
 #' geogCoordSys 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param datum The point on the earth representing the origin for the geographic coordinates to which the coorinate system is related to.
-#' @param spheroid An ellipse that is used to model the earth's surface.
-#' @param primeMeridian (def not found)
-#' @param unit The unit of angle by which coordinates are expressed.
-#' @param name (def not found)
+#' @inheritParams common_attributes 
+#' @param datum The point on the earth representing the origin for the geographic coordinates to which the coorinate system is related to.See [datum()]
+#' @param spheroid An ellipse that is used to model the earth's surface.See [spheroid()]
+#' @param unit The unit of angle by which coordinates are expressed.See [unit()]
 #'
 #' @return a geogCoordSys list object
 #'

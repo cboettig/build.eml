@@ -3,8 +3,8 @@
 #' literalLayout 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param value (def not found)
+#' @inheritParams common_attributes 
+
 #'
 #' @return a literalLayout list object
 #'

@@ -8,13 +8,11 @@ dataFormat(textFormat = NULL, externallyDefinedFormat = NULL,
   binaryRasterFormat = NULL)
 }
 \arguments{
-\item{textFormat}{Description of a text formatted object}
+\item{textFormat}{Description of a text formatted objectSee \code{\link[=textFormat]{textFormat()}}}
 
-\item{externallyDefinedFormat}{Information about a non-text or proprietary formatted object.}
+\item{externallyDefinedFormat}{Information about a non-text or proprietary formatted object.See \code{\link[=externallyDefinedFormat]{externallyDefinedFormat()}}}
 
-\item{binaryRasterFormat}{Contains binary raster data header parameters}
-
-\item{inheritParams}{node_template}
+\item{binaryRasterFormat}{Contains binary raster data header parametersSee \code{\link[=binaryRasterFormat]{binaryRasterFormat()}}}
 }
 \value{
 a dataFormat list object

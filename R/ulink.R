@@ -3,9 +3,9 @@
 #' ulink 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param citetitle the title of the cited work
-#' @param url the Uniform Resource Locator for the cited work
+#' @inheritParams common_attributes 
+#' @param citetitle the title of the cited workSee [citetitle()]
+#' @param url the Uniform Resource Locator for the cited workSee [url()]
 #'
 #' @return a ulink list object
 #'

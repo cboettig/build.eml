@@ -3,10 +3,10 @@
 #' textDomain 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param definition Definition of what this text domain represents
-#' @param pattern Regular expression pattern constraining the attribute
-#' @param source The name of the source for this text domain.
+#' @inheritParams common_attributes 
+#' @param definition Definition of what this text domain representsSee [definition()]
+#' @param pattern Regular expression pattern constraining the attributeSee [pattern()]
+#' @param source The name of the source for this text domain.See [source()]
 #'
 #' @return a textDomain list object
 #'

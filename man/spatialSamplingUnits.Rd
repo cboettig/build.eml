@@ -7,11 +7,9 @@
 spatialSamplingUnits(referencedEntityId = NULL, coverage = NULL)
 }
 \arguments{
-\item{referencedEntityId}{The identifier of an entity described in the entity module. This is usually a GIS layer.}
+\item{referencedEntityId}{The identifier of an entity described in the entity module. This is usually a GIS layer.See \code{\link[=referencedEntityId]{referencedEntityId()}}}
 
-\item{coverage}{Structured description of each sampling unit location}
-
-\item{inheritParams}{node_template}
+\item{coverage}{Structured description of each sampling unit locationSee \code{\link[=coverage]{coverage()}}}
 }
 \value{
 a spatialSamplingUnits list object

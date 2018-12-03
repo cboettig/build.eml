@@ -3,10 +3,9 @@
 #' spheroid 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param name The name of the spheroid.
-#' @param semiAxisMajor The larger of two orthogonal axes that define the ellipse
-#' @param denomFlatRatio (def not found)
+#' @inheritParams common_attributes 
+#' @param name The name of the spheroid.See [name()]
+#' @param semiAxisMajor The larger of two orthogonal axes that define the ellipseSee [semiAxisMajor()]
 #'
 #' @return a spheroid list object
 #'

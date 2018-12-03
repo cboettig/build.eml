@@ -3,10 +3,10 @@
 #' individualName 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param salutation The salutation used to address an individual
-#' @param givenName The given name of the individual.
-#' @param surName The last name of the individual.
+#' @inheritParams common_attributes 
+#' @param salutation The salutation used to address an individualSee [salutation()]
+#' @param givenName The given name of the individual.See [givenName()]
+#' @param surName The last name of the individual.See [surName()]
 #'
 #' @return a individualName list object
 #'

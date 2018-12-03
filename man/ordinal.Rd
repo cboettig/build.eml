@@ -6,11 +6,6 @@
 \usage{
 ordinal(nonNumericDomain = NULL)
 }
-\arguments{
-\item{nonNumericDomain}{(def not found)}
-
-\item{inheritParams}{node_template}
-}
 \value{
 a ordinal list object
 }

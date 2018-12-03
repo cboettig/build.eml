@@ -3,10 +3,9 @@
 #' horizCoordSysDef 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param geogCoordSys The coodinate system used to express the geographic coordinates.
-#' @param projCoordSys The coodinate system used to express planar coordinates.
-#' @param name (def not found)
+#' @inheritParams common_attributes 
+#' @param geogCoordSys The coodinate system used to express the geographic coordinates.See [geogCoordSys()]
+#' @param projCoordSys The coodinate system used to express planar coordinates.See [projCoordSys()]
 #'
 #' @return a horizCoordSysDef list object
 #'

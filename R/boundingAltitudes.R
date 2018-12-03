@@ -3,10 +3,10 @@
 #' boundingAltitudes 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param altitudeMinimum The minimum altitude extent of coverage.
-#' @param altitudeMaximum The maximum altitude extent of coverage.
-#' @param altitudeUnits The unit of altitude
+#' @inheritParams common_attributes 
+#' @param altitudeMinimum The minimum altitude extent of coverage.See [altitudeMinimum()]
+#' @param altitudeMaximum The maximum altitude extent of coverage.See [altitudeMaximum()]
+#' @param altitudeUnits The unit of altitudeSee [altitudeUnits()]
 #'
 #' @return a boundingAltitudes list object
 #'

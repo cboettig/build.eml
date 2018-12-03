@@ -3,11 +3,11 @@
 #' spatialReference 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param horizCoordSysName The name of a predefined coordinate system
-#' @param horizCoordSysDef The definition of a coordinate system
-#' @param vertCoordSys The reference frame or system from which vertical distances (altitudes or depths) are measured.
-#' @param references The id of another element in this EML document to be used to here in this context.
+#' @inheritParams common_attributes 
+#' @param horizCoordSysName The name of a predefined coordinate systemSee [horizCoordSysName()]
+#' @param horizCoordSysDef The definition of a coordinate systemSee [horizCoordSysDef()]
+#' @param vertCoordSys The reference frame or system from which vertical distances (altitudes or depths) are measured.See [vertCoordSys()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
 #'
 #' @return a spatialReference list object
 #'

@@ -8,15 +8,13 @@ foreignKey(key = NULL, entityReference = NULL,
   relationshipType = NULL, cardinality = NULL)
 }
 \arguments{
-\item{key}{The set of attributes to which this constraint applies.}
+\item{key}{The set of attributes to which this constraint applies.See \code{\link[=key]{key()}}}
 
-\item{entityReference}{The id of the parent-entity in a foreign key constraint.}
+\item{entityReference}{The id of the parent-entity in a foreign key constraint.See \code{\link[=entityReference]{entityReference()}}}
 
-\item{relationshipType}{Relationship type: Identifying or non-identifying}
+\item{relationshipType}{Relationship type: Identifying or non-identifyingSee \code{\link[=relationshipType]{relationshipType()}}}
 
-\item{cardinality}{Cardinality of the relationship between a parent entity and a child entity.}
-
-\item{inheritParams}{node_template}
+\item{cardinality}{Cardinality of the relationship between a parent entity and a child entity.See \code{\link[=cardinality]{cardinality()}}}
 }
 \value{
 a foreignKey list object

@@ -3,12 +3,11 @@
 #' alternativeTimeScale 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param timeScaleName Name of a recognized alternative time scale.
-#' @param timeScaleAgeEstimate (def not found)
-#' @param timeScaleAgeUncertainty The error estimate for the alternative time scale.
-#' @param timeScaleAgeExplanation The name and/or description of the method used to calculate the time scale age estimate.
-#' @param timeScaleCitation Citation for works providing detailed information about any element of the time scale age.
+#' @inheritParams common_attributes 
+#' @param timeScaleName Name of a recognized alternative time scale.See [timeScaleName()]
+#' @param timeScaleAgeUncertainty The error estimate for the alternative time scale.See [timeScaleAgeUncertainty()]
+#' @param timeScaleAgeExplanation The name and/or description of the method used to calculate the time scale age estimate.See [timeScaleAgeExplanation()]
+#' @param timeScaleCitation Citation for works providing detailed information about any element of the time scale age.See [timeScaleCitation()]
 #'
 #' @return a alternativeTimeScale list object
 #'

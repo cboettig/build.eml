@@ -3,9 +3,8 @@
 #' postalCode 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param value (def not found)
-#' @param lang (def not found)
+#' @inheritParams common_attributes 
+
 #'
 #' @return a postalCode list object
 #'

@@ -8,15 +8,13 @@ personalCommunication(publisher = NULL, publicationPlace = NULL,
   communicationType = NULL, recipient = NULL)
 }
 \arguments{
-\item{publisher}{Organization that actually publishes the communication}
+\item{publisher}{Organization that actually publishes the communicationSee \code{\link[=publisher]{publisher()}}}
 
-\item{publicationPlace}{The location at which the work was published.}
+\item{publicationPlace}{The location at which the work was published.See \code{\link[=publicationPlace]{publicationPlace()}}}
 
-\item{communicationType}{The type of personal communication.}
+\item{communicationType}{The type of personal communication.See \code{\link[=communicationType]{communicationType()}}}
 
-\item{recipient}{Recipient of the communication}
-
-\item{inheritParams}{node_template}
+\item{recipient}{Recipient of the communicationSee \code{\link[=recipient]{recipient()}}}
 }
 \value{
 a personalCommunication list object

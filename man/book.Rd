@@ -9,25 +9,23 @@ book(publisher = NULL, publicationPlace = NULL, edition = NULL,
   totalFigures = NULL, totalTables = NULL, ISBN = NULL)
 }
 \arguments{
-\item{publisher}{Organization that actually publishes the book}
+\item{publisher}{Organization that actually publishes the bookSee \code{\link[=publisher]{publisher()}}}
 
-\item{publicationPlace}{The location at which the work was published.}
+\item{publicationPlace}{The location at which the work was published.See \code{\link[=publicationPlace]{publicationPlace()}}}
 
-\item{edition}{The edition of the book being described.}
+\item{edition}{The edition of the book being described.See \code{\link[=edition]{edition()}}}
 
-\item{volume}{The volume of the book that is part of a series.}
+\item{volume}{The volume of the book that is part of a series.See \code{\link[=volume]{volume()}}}
 
-\item{numberOfVolumes}{Number of volumes in a collection}
+\item{numberOfVolumes}{Number of volumes in a collectionSee \code{\link[=numberOfVolumes]{numberOfVolumes()}}}
 
-\item{totalPages}{The total number of pages in the book.}
+\item{totalPages}{The total number of pages in the book.See \code{\link[=totalPages]{totalPages()}}}
 
-\item{totalFigures}{The total number of figures in the book.}
+\item{totalFigures}{The total number of figures in the book.See \code{\link[=totalFigures]{totalFigures()}}}
 
-\item{totalTables}{The total number of tables in a book.}
+\item{totalTables}{The total number of tables in a book.See \code{\link[=totalTables]{totalTables()}}}
 
-\item{ISBN}{The unique Internation Standard Book Number}
-
-\item{inheritParams}{node_template}
+\item{ISBN}{The unique Internation Standard Book NumberSee \code{\link[=ISBN]{ISBN()}}}
 }
 \value{
 a book list object

@@ -7,15 +7,9 @@
 bounds(minimum = NULL, maximum = NULL)
 }
 \arguments{
-\item{minimum}{Minimum numeric bound of attribute}
+\item{minimum}{Minimum numeric bound of attributeSee \code{\link[=minimum]{minimum()}}}
 
-\item{maximum}{Maximum numeric bound of attribute}
-
-\item{inheritParams}{node_template}
-
-\item{minimum}{Minimum date bound of attribute}
-
-\item{maximum}{Maximum date bound of attribute}
+\item{maximum}{Maximum numeric bound of attributeSee \code{\link[=maximum]{maximum()}}}
 }
 \value{
 a bounds list object

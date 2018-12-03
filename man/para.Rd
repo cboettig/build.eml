@@ -9,25 +9,23 @@ para(value = NULL, itemizedlist = NULL, orderedlist = NULL,
   literalLayout = NULL, ulink = NULL, lang = NULL)
 }
 \arguments{
-\item{value}{Language translation for the paragraph}
+\item{value}{Language translation for the paragraphSee \code{\link[=value]{value()}}}
 
-\item{itemizedlist}{A list of items in a text paragraph.}
+\item{itemizedlist}{A list of items in a text paragraph.See \code{\link[=itemizedlist]{itemizedlist()}}}
 
-\item{orderedlist}{An ordered list of items in a text paragraph.}
+\item{orderedlist}{An ordered list of items in a text paragraph.See \code{\link[=orderedlist]{orderedlist()}}}
 
-\item{emphasis}{A span of emphasized text in a paragraph.}
+\item{emphasis}{A span of emphasized text in a paragraph.See \code{\link[=emphasis]{emphasis()}}}
 
-\item{subscript}{A subscript in a text paragraph.}
+\item{subscript}{A subscript in a text paragraph.See \code{\link[=subscript]{subscript()}}}
 
-\item{superscript}{A superscript in a text paragraph.}
+\item{superscript}{A superscript in a text paragraph.See \code{\link[=superscript]{superscript()}}}
 
-\item{literalLayout}{The equivalent to <pre> in html.}
+\item{literalLayout}{The equivalent to <pre> in html.See \code{\link[=literalLayout]{literalLayout()}}}
 
-\item{ulink}{a link that addresses its target by means of a URL}
+\item{ulink}{a link that addresses its target by means of a URLSee \code{\link[=ulink]{ulink()}}}
 
-\item{lang}{(def not found)}
-
-\item{inheritParams}{node_template}
+\item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 }
 \value{
 a para list object

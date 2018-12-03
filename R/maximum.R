@@ -3,8 +3,8 @@
 #' maximum 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param exclusive Exclusive bounds flag
+#' @inheritParams common_attributes 
+#' @param exclusive Exclusive bounds flagSee [exclusive()]
 #'
 #' @return a maximum list object
 #'

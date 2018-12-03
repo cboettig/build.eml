@@ -3,9 +3,9 @@
 #' projCoordSys 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param geogCoordSys The coodinate system used to express the geographic coordinates.
-#' @param projection The method used to tranform between geographic and planar coordinates.
+#' @inheritParams common_attributes 
+#' @param geogCoordSys The coodinate system used to express the geographic coordinates.See [geogCoordSys()]
+#' @param projection The method used to tranform between geographic and planar coordinates.See [projection()]
 #'
 #' @return a projCoordSys list object
 #'

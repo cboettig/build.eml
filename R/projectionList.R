@@ -3,8 +3,8 @@
 #' projectionList 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param horizCoordSysDef The definition of a coordinate system
+#' @inheritParams common_attributes 
+#' @param horizCoordSysDef The definition of a coordinate systemSee [horizCoordSysDef()]
 #'
 #' @return a projectionList list object
 #'

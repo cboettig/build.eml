@@ -9,23 +9,36 @@ eml(access = NULL, dataset = NULL, citation = NULL,
   packageId = NULL, system = NULL, scope = NULL, lang = NULL)
 }
 \arguments{
-\item{access}{Access control rules for the entire resource, which can be overridden by access rules in distribution trees}
+\item{access}{Access control rules for the entire resource, which can be overridden by access rules in distribution treesSee \code{\link[=access]{access()}}}
 
-\item{dataset}{A resource that describes a data set, which can include one or more data entities such as data tables.}
+\item{dataset}{A resource that describes a data set, which can include one or more data entities such as data tables.See \code{\link[=dataset]{dataset()}}}
 
-\item{citation}{A resource that describes a literature citation that one might find in a bibliography.}
+\item{citation}{A resource that describes a literature citation that one might find in a bibliography.See \code{\link[=citation]{citation()}}}
 
-\item{software}{A resource that describes a software package, which can include commercial and non-commercial software as well as data processing programs.}
+\item{software}{A resource that describes a software package, which can include commercial and non-commercial software as well as data processing programs.See \code{\link[=software]{software()}}}
 
-\item{protocol}{A resource that describes a scientific protocol, which can include one or more descriptions of methods and procedures.}
+\item{protocol}{A resource that describes a scientific protocol, which can include one or more descriptions of methods and procedures.See \code{\link[=protocol]{protocol()}}}
 
-\item{additionalMetadata}{A flexible field for including any other relevant metadata that pertains to the resource being described.}
+\item{additionalMetadata}{A flexible field for including any other relevant metadata that pertains to the resource being described.See \code{\link[=additionalMetadata]{additionalMetadata()}}}
 
-\item{packageId}{A unique identifier for this entire EML metadata document that can be used to reference it elsewhere.}
+\item{packageId}{A unique identifier for this entire EML metadata document that can be used to reference it elsewhere.See \code{\link[=packageId]{packageId()}}}
 
-\item{lang}{(def not found)}
+\item{system}{The data management system within which an identifier
+is in scope and therefore unique. This is typically a URL
+(Uniform Resource Locator) that indicates a data management system.
+All identifiers that share a system must be unique. In other words,
+if the same identifier is used in two locations with identical
+systems, then by definition the objects at which they point are
+in fact the same object.}
 
-\item{inheritParams}{node_template}
+\item{scope}{The scope of the identifier. Scope is generally set
+to either "system", meaning that it is scoped according to the
+"system" attribute, or "document" if it is only to be in scope
+within this single document instance. In this particular use
+of scope, it is FIXED to be "system" because the packageId
+is required and always has the scope of the required "system".}
+
+\item{lang}{Language (an \code{xml:lang} attribute) of the provided text.}
 }
 \value{
 a eml list object

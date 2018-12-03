@@ -15,35 +15,33 @@ imageDescription(illuminationElevationAngle = NULL,
   lensDistortionInformationAvailability = NULL, bandDescription = NULL)
 }
 \arguments{
-\item{illuminationElevationAngle}{Illumination elevation measured in degrees clockwise from the target plane at intersection of the optical line of sight with the earth's surface.}
+\item{illuminationElevationAngle}{Illumination elevation measured in degrees clockwise from the target plane at intersection of the optical line of sight with the earth's surface.See \code{\link[=illuminationElevationAngle]{illuminationElevationAngle()}}}
 
-\item{illuminationAzimuthAngle}{Illumination azimuth measured in degrees clockwise from true north at the time the image is taken.}
+\item{illuminationAzimuthAngle}{Illumination azimuth measured in degrees clockwise from true north at the time the image is taken.See \code{\link[=illuminationAzimuthAngle]{illuminationAzimuthAngle()}}}
 
-\item{imageOrientationAngle}{Angle from the first row of the image to true north in degrees, clockwise.}
+\item{imageOrientationAngle}{Angle from the first row of the image to true north in degrees, clockwise.See \code{\link[=imageOrientationAngle]{imageOrientationAngle()}}}
 
-\item{imagingCondition}{Code which indicates conditions which affect the quality of the image.}
+\item{imagingCondition}{Code which indicates conditions which affect the quality of the image.See \code{\link[=imagingCondition]{imagingCondition()}}}
 
-\item{imageQualityCode}{Specifies the image quality.}
+\item{imageQualityCode}{Specifies the image quality.See \code{\link[=imageQualityCode]{imageQualityCode()}}}
 
-\item{cloudCoverPercentage}{Area of the dataset obscured by clouds, expressed as a percentage of the spatial extent.}
+\item{cloudCoverPercentage}{Area of the dataset obscured by clouds, expressed as a percentage of the spatial extent.See \code{\link[=cloudCoverPercentage]{cloudCoverPercentage()}}}
 
-\item{preProcessingTypeCode}{Image distributor's code that identifies the level of radiometric and geometric processing applied against the image.}
+\item{preProcessingTypeCode}{Image distributor's code that identifies the level of radiometric and geometric processing applied against the image.See \code{\link[=preProcessingTypeCode]{preProcessingTypeCode()}}}
 
-\item{compressionGenerationQuality}{Counts the number of lossy compression cycles performed on the image.}
+\item{compressionGenerationQuality}{Counts the number of lossy compression cycles performed on the image.See \code{\link[=compressionGenerationQuality]{compressionGenerationQuality()}}}
 
-\item{triangulationIndicator}{Code which indicates whether or not triangulation has been performed upon the image.}
+\item{triangulationIndicator}{Code which indicates whether or not triangulation has been performed upon the image.See \code{\link[=triangulationIndicator]{triangulationIndicator()}}}
 
-\item{radiometricDataAvailability}{Code which indicates whether or not Standard Radiometric Product data is available.}
+\item{radiometricDataAvailability}{Code which indicates whether or not Standard Radiometric Product data is available.See \code{\link[=radiometricDataAvailability]{radiometricDataAvailability()}}}
 
-\item{cameraCalibrationInformationAvailability}{Code which indicates whether or not constants are available which allow for camera calibration corrections.}
+\item{cameraCalibrationInformationAvailability}{Code which indicates whether or not constants are available which allow for camera calibration corrections.See \code{\link[=cameraCalibrationInformationAvailability]{cameraCalibrationInformationAvailability()}}}
 
-\item{filmDistortionInformationAvailability}{Code which indicates whether or not Calibration Reseau information is available}
+\item{filmDistortionInformationAvailability}{Code which indicates whether or not Calibration Reseau information is availableSee \code{\link[=filmDistortionInformationAvailability]{filmDistortionInformationAvailability()}}}
 
-\item{lensDistortionInformationAvailability}{Code which indicates whether or not lens aberration correction information is available}
+\item{lensDistortionInformationAvailability}{Code which indicates whether or not lens aberration correction information is availableSee \code{\link[=lensDistortionInformationAvailability]{lensDistortionInformationAvailability()}}}
 
-\item{bandDescription}{Description of the wavelength domain that the sensor operates in.}
-
-\item{inheritParams}{node_template}
+\item{bandDescription}{Description of the wavelength domain that the sensor operates in.See \code{\link[=bandDescription]{bandDescription()}}}
 }
 \value{
 a imageDescription list object

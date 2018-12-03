@@ -7,9 +7,7 @@
 phone(phonetype = NULL)
 }
 \arguments{
-\item{phonetype}{The type of the phone to which this number applies}
-
-\item{inheritParams}{node_template}
+\item{phonetype}{The type of the phone to which this number appliesSee \code{\link[=phonetype]{phonetype()}}}
 }
 \value{
 a phone list object

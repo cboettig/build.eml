@@ -3,10 +3,10 @@
 #' temporalCoverage 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param singleDateTime Means of encoding a single date and time
-#' @param rangeOfDates Means of encoding a range of dates and times.
-#' @param references The id of another element in this EML document to be used to here in this context.
+#' @inheritParams common_attributes 
+#' @param singleDateTime Means of encoding a single date and timeSee [singleDateTime()]
+#' @param rangeOfDates Means of encoding a range of dates and times.See [rangeOfDates()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
 #'
 #' @return a temporalCoverage list object
 #'

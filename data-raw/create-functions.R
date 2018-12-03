@@ -1,17 +1,22 @@
+## start with clean slate
+#fs::file_delete(fs::dir_ls("R/"))
+#fs::file_delete(fs::dir_ls("man/"))
 
 library(dplyr)
 library(readr)
 library(stringr)
 
-defs <- readr::read_tsv("https://github.com/cboettig/emld/raw/master/data-raw/eml-2.2.0.tsv")
+defs <- readr::read_tsv(
+"https://github.com/cboettig/emld/raw/master/data-raw/eml-2.2.0.tsv")
 
 ## test on a subset
-#fs::file_delete(fs::dir_ls("R/"))
+
 #types <- unique(defs$parent)
 #defs <- defs %>% filter(parent %in% types[1:89])
 
 
-defs <- defs %>% mutate(names = str_remove(names, "^xml:")) %>% distinct()
+defs <- defs %>% mutate(names = str_remove(names, "^xml:")) %>%
+  distinct()
 function_constructor <- function(type) {
 
   df <- defs[defs$parent == type, ]
@@ -21,17 +26,21 @@ function_constructor <- function(type) {
   #                        "attribute")])
   docs_df <- df[!(df$names %in% c("system", "scope", "id")), ]
 
+  docs_df <- docs_df %>% group_by(names) %>% top_n(1, wt = summary)
+
   params <- ""
   if(length(docs_df$names > 0))
   params <- paste0("#' @param ", docs_df$names, " ",
-         safe_txt(docs_df$summary, "(def not found)"), collapse = "\n")
+                   safe_txt(docs_df$summary, "(def not found)"),
+                   "See [", docs_df$names, "()]",
+                   collapse = "\n")
 
   docs <-
     paste0(
       ## FIXME!! We need the top-level description, not just par descriptions
       paste("#'", type, "\n#'\n#'",
             safe_txt(type), "\n#'\n#'\n"),
-      paste0("#' @param inheritParams node_template \n"),
+      paste0("#' @inheritParams common_attributes \n"),
       params,
       paste0("\n#'\n#' @return a ", type, " list object"),
       paste0("\n#'\n#' @export\n"),
@@ -68,6 +77,19 @@ safe_txt <- function(x, if_missing = ""){
 }
 
 lapply(unique(defs$parent), function_constructor)
-# fix url, cannot have argument "function"
- devtools::document()
 
+file.copy("data-raw/common_attributes.R", "R/common_attributes.R")
+
+# fix url, cannot have argument "function"
+url_def <- readLines("R/url.R")
+url_def <- gsub("function = function", "'function' = func", url_def)
+url_def <- gsub("@param function", "@param func", url_def)
+url_def <- gsub("function\\(function", "function\\(func", url_def)
+writeLines(url_def, "R/url.R")
+
+## Create Documentation
+devtools::document()
+
+## create online documentation
+devtools::install()
+pkgdown::build_site()

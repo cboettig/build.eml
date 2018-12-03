@@ -3,40 +3,40 @@
 #' identificationReference 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param alternateIdentifier A secondary identifier for this entity
-#' @param shortName A short name that describes the resource, sometimes a filename.
-#' @param title A brief description of the resource, providing enough detail to differentiate it from other similar resources.
-#' @param creator The people or organizations who created this resource.
-#' @param metadataProvider The people or organizations who created provided documentation and other metadata for this resource.
-#' @param associatedParty Other people or organizations who should be associated with this resource.
-#' @param pubDate The publication date of the resource.
-#' @param language The language in which the resource is written.
-#' @param series The series from which the resource came.
-#' @param abstract A brief overview of the resource.
-#' @param keywordSet Keyword information that describes the resource.
-#' @param additionalInfo Any extra information pertitent to the resource.
-#' @param intellectualRights Intellectual property rights regarding usage and licensing of this resource.
-#' @param licensed Information identifying a well-known license for the metadata and data
-#' @param distribution Information on how the resource is distributed online and offline
-#' @param coverage Extent of the coverage of the resource.
-#' @param annotation A precisely-defined semantic statement about this resource.
-#' @param contact An optional contact individual for this citation
-#' @param article Information for full citation of a journal article or other periodical article.
-#' @param book Information for full citation of a book
-#' @param chapter Information for citation of a chapter in a book
-#' @param editedBook Information for full citation of an edited book
-#' @param manuscript Information about an unpublished manuscript
-#' @param report Information about a report published by an institution.
-#' @param thesis Information about a thesis that has been written as part of a degree requirement and is frequently published in small numbers by the degree awarding institution.
-#' @param conferenceProceedings The published notes, papers, presentations etc... of a conference.
-#' @param personalCommunication A personal communication that has been saved online or as hard-copy.
-#' @param map This element describes the map that is being cited or cataloged.
-#' @param generic This reference type was created for references that do not fit in to the other existing reference types
-#' @param audioVisual This reference type is meant to cover all forms of audio and visual media.
-#' @param presentation An unpublished presentation from a conference, workshop, workgroup, symposium etc.
-#' @param bibtex Citation in Bibtex format.
-#' @param references The id of another element in this EML document to be used to here in this context.
+#' @inheritParams common_attributes 
+#' @param alternateIdentifier A secondary identifier for this entitySee [alternateIdentifier()]
+#' @param shortName A short name that describes the resource, sometimes a filename.See [shortName()]
+#' @param title A brief description of the resource, providing enough detail to differentiate it from other similar resources.See [title()]
+#' @param creator The people or organizations who created this resource.See [creator()]
+#' @param metadataProvider The people or organizations who created provided documentation and other metadata for this resource.See [metadataProvider()]
+#' @param associatedParty Other people or organizations who should be associated with this resource.See [associatedParty()]
+#' @param pubDate The publication date of the resource.See [pubDate()]
+#' @param language The language in which the resource is written.See [language()]
+#' @param series The series from which the resource came.See [series()]
+#' @param abstract A brief overview of the resource.See [abstract()]
+#' @param keywordSet Keyword information that describes the resource.See [keywordSet()]
+#' @param additionalInfo Any extra information pertitent to the resource.See [additionalInfo()]
+#' @param intellectualRights Intellectual property rights regarding usage and licensing of this resource.See [intellectualRights()]
+#' @param licensed Information identifying a well-known license for the metadata and dataSee [licensed()]
+#' @param distribution Information on how the resource is distributed online and offlineSee [distribution()]
+#' @param coverage Extent of the coverage of the resource.See [coverage()]
+#' @param annotation A precisely-defined semantic statement about this resource.See [annotation()]
+#' @param contact An optional contact individual for this citationSee [contact()]
+#' @param article Information for full citation of a journal article or other periodical article.See [article()]
+#' @param book Information for full citation of a bookSee [book()]
+#' @param chapter Information for citation of a chapter in a bookSee [chapter()]
+#' @param editedBook Information for full citation of an edited bookSee [editedBook()]
+#' @param manuscript Information about an unpublished manuscriptSee [manuscript()]
+#' @param report Information about a report published by an institution.See [report()]
+#' @param thesis Information about a thesis that has been written as part of a degree requirement and is frequently published in small numbers by the degree awarding institution.See [thesis()]
+#' @param conferenceProceedings The published notes, papers, presentations etc... of a conference.See [conferenceProceedings()]
+#' @param personalCommunication A personal communication that has been saved online or as hard-copy.See [personalCommunication()]
+#' @param map This element describes the map that is being cited or cataloged.See [map()]
+#' @param generic This reference type was created for references that do not fit in to the other existing reference typesSee [generic()]
+#' @param audioVisual This reference type is meant to cover all forms of audio and visual media.See [audioVisual()]
+#' @param presentation An unpublished presentation from a conference, workshop, workgroup, symposium etc.See [presentation()]
+#' @param bibtex Citation in Bibtex format.See [bibtex()]
+#' @param references The id of another element in this EML document to be used to here in this context.See [references()]
 #'
 #' @return a identificationReference list object
 #'

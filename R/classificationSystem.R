@@ -3,9 +3,8 @@
 #' classificationSystem 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param classificationSystemCitation (def not found)
-#' @param classificationSystemModifications (def not found)
+#' @inheritParams common_attributes 
+
 #'
 #' @return a classificationSystem list object
 #'

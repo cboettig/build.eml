@@ -3,8 +3,8 @@
 #' citetitle 
 #'
 #'
-#' @param inheritParams node_template 
-#' @param lang language code for element content
+#' @inheritParams common_attributes 
+#' @param lang language code for element contentSee [lang()]
 #'
 #' @return a citetitle list object
 #'
